@@ -2,27 +2,21 @@
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Autofac;
+using FakeItEasy;
 using Microsoft.Extensions.Logging;
 using PodApp.Data.Collection.Readers;
-using PodApp.Data.Model.Services;
-using PodApp.Service.DependencyInjection.Autofac;
 using PodApp.Tests.Model.TestHelpers;
 using Xunit;
 
 namespace PodApp.Tests.Model.Collection.Readers
 {
-    public class PodcastFeedReaderTests : IDisposable
+    public class PodcastFeedReaderTests
     {
-        private readonly IContainer _container;
-        private readonly ILifetimeScope _scope;
         private readonly ILogger<PodcastFeedReader> _logger;
 
         public PodcastFeedReaderTests()
         {
-            _container = ContainerInitialiser.BuildUnitTestContainer();
-            _scope = _container.BeginLifetimeScope();
-            _logger = _scope.Resolve<ILoggingService>();
+            _logger = A.Fake<ILogger<PodcastFeedReader>>();
         }
 
         [Fact]
@@ -1615,11 +1609,6 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
                 await podcastReader.GetShowXmlAsync();
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.GetNextEpisodeXmlAsync());
             }
-        }
-
-        public void Dispose()
-        {
-            _scope.Dispose();
         }
     }
 }
