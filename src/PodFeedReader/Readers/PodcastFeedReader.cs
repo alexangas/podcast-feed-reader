@@ -5,10 +5,8 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
-using PodApp.Data.Collection.Helpers;
 using PodApp.Data.Collection.Helpers.Xml;
 using PodApp.Data.Model.Helpers;
-using PodApp.Data.Model.Services;
 
 namespace PodApp.Data.Collection.Readers
 {
