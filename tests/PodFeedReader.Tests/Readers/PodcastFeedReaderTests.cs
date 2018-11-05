@@ -16,13 +16,13 @@ namespace PodApp.Tests.Model.Collection.Readers
     {
         private readonly IContainer _container;
         private readonly ILifetimeScope _scope;
-        private readonly ILogger<PodcastFeedReader> _loggingService;
+        private readonly ILogger<PodcastFeedReader> _logger;
 
         public PodcastFeedReaderTests()
         {
             _container = ContainerInitialiser.BuildUnitTestContainer();
             _scope = _container.BeginLifetimeScope();
-            _loggingService = _scope.Resolve<ILoggingService>();
+            _logger = _scope.Resolve<ILoggingService>();
         }
 
         [Fact]
@@ -34,7 +34,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
             }
         }
@@ -48,7 +48,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
             }
         }
@@ -62,7 +62,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
             }
         }
@@ -76,7 +76,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
             }
         }
@@ -90,7 +90,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
             }
         }
@@ -104,7 +104,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
             }
         }
@@ -118,7 +118,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
             }
         }
@@ -132,7 +132,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
             }
         }
@@ -146,7 +146,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
             }
         }
@@ -160,7 +160,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
             }
@@ -175,7 +175,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
             }
@@ -190,7 +190,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
             }
@@ -205,7 +205,7 @@ namespace PodApp.Tests.Model.Collection.Readers
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 Assert.Throws<InvalidPodcastFeedException>(() => podcastReader.ReadDocumentHeader());
             }
@@ -259,7 +259,7 @@ asfafadsfgfjdhjdgj
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
@@ -314,7 +314,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _loggingService);
+                var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 xml = await podcastReader.GetShowXmlAsync();
@@ -380,7 +380,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
@@ -474,7 +474,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.GetShowXmlAsync());
@@ -529,7 +529,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _loggingService);
+                var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 xml = await podcastReader.GetShowXmlAsync();
@@ -584,7 +584,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _loggingService);
+                var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 xml = await podcastReader.GetShowXmlAsync();
@@ -639,7 +639,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _loggingService);
+                var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 xml = await podcastReader.GetShowXmlAsync();
@@ -798,7 +798,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
@@ -1044,7 +1044,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
@@ -1206,7 +1206,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
@@ -1609,7 +1609,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
             using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _loggingService);
+                podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();

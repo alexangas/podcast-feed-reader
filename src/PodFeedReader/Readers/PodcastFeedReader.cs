@@ -21,7 +21,7 @@ namespace PodApp.Data.Collection.Readers
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
         private readonly StreamReader _baseReader;
-        private readonly ILogger<PodcastFeedReader> _loggerService;
+        private readonly ILogger<PodcastFeedReader> _logger;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
         private StringBuilder _contentBuilder;
@@ -31,14 +31,15 @@ namespace PodApp.Data.Collection.Readers
         private string _stringBuffer;
         private string _header;
 
-        public PodcastFeedReader(StreamReader baseReader, ILogger<PodcastFeedReader> loggingService)
+        public PodcastFeedReader(StreamReader baseReader, ILogger<PodcastFeedReader> logger)
         {
             if (baseReader == null)
                 throw new ArgumentNullException(nameof(baseReader));
-            if (loggingService == null)
-                throw new ArgumentNullException(nameof(loggingService));
+            if (logger == null)
+                throw new ArgumentNullException(nameof(logger));
 
             _baseReader = baseReader;
+            _logger = logger;
 
             _streamBuffer = new char[BufferSize];
 
@@ -137,7 +138,7 @@ namespace PodApp.Data.Collection.Readers
         public async Task<XDocument> GetNextEpisodeXmlAsync()
         {
             var stringBufferStartIndex = Math.Max(_streamProcessedIndex, _posEpisodeItemEndIndex);
-            _loggerService.LogTrace($"Getting next episode from index {stringBufferStartIndex}");
+            _logger.LogTrace($"Getting next episode from index {stringBufferStartIndex}");
             _stringBuffer = _stringBuffer.Substring(stringBufferStartIndex);    // Chooses first ep after show content or next ep after last ep
             var totalBytesRead = 0;
             _bufferBuilder.Capacity = Math.Max(_bufferBuilder.Capacity, BufferSize);
@@ -182,7 +183,7 @@ namespace PodApp.Data.Collection.Readers
         private async Task<int> ReadFromStream()
         {
             Array.Clear(_streamBuffer, 0, _streamBuffer.Length);
-            _loggerService.LogTrace($"Reading from stream");
+            _logger.LogTrace($"Reading from stream");
             var bytesRead = await _baseReader.ReadBlockAsync(_streamBuffer, 0, BufferSize);
             if (bytesRead > 0)
             {
