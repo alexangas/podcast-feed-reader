@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text;
-using PodApp.Data.Collection.Helpers;
+﻿using System.Text;
 using PodApp.Data.Model.Helpers;
 using Xunit;
 

@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -38,27 +36,6 @@ namespace PodApp.Data.Collection.Helpers.Xml
             }
 
             return xDocument;
-        }
-
-        // From https://stackoverflow.com/a/9335141/6651
-        public static IEnumerable<XElement> ElementsCaseInsensitive(this XContainer source, XName name)
-        {
-            foreach (XElement e in source.Elements())
-            {
-                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
-                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
-                    yield return e;
-            }
-        }
-
-        public static IEnumerable<XElement> DescendantsCaseInsensitive(this XContainer source, XName name)
-        {
-            foreach (XElement e in source.Descendants())
-            {
-                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
-                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
-                    yield return e;
-            }
         }
     }
 }
