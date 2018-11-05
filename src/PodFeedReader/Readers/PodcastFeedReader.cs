@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using Microsoft.Extensions.Logging;
 using PodApp.Data.Collection.Helpers;
 using PodApp.Data.Collection.Helpers.Xml;
 using PodApp.Data.Model.Helpers;
@@ -20,7 +21,7 @@ namespace PodApp.Data.Collection.Readers
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
         private readonly StreamReader _baseReader;
-        private readonly ILoggerService _loggerService;
+        private readonly ILogger<PodcastFeedReader> _loggerService;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
         private StringBuilder _contentBuilder;
@@ -30,7 +31,7 @@ namespace PodApp.Data.Collection.Readers
         private string _stringBuffer;
         private string _header;
 
-        public PodcastFeedReader(StreamReader baseReader, ILoggingService loggingService)
+        public PodcastFeedReader(StreamReader baseReader, ILogger<PodcastFeedReader> loggingService)
         {
             if (baseReader == null)
                 throw new ArgumentNullException(nameof(baseReader));
@@ -38,7 +39,6 @@ namespace PodApp.Data.Collection.Readers
                 throw new ArgumentNullException(nameof(loggingService));
 
             _baseReader = baseReader;
-            _loggerService = loggingService.CreateLogger(typeof(PodcastFeedReader).FullName);
 
             _streamBuffer = new char[BufferSize];
 
@@ -137,7 +137,7 @@ namespace PodApp.Data.Collection.Readers
         public async Task<XDocument> GetNextEpisodeXmlAsync()
         {
             var stringBufferStartIndex = Math.Max(_streamProcessedIndex, _posEpisodeItemEndIndex);
-            _loggerService.Trace($"Getting next episode from index {stringBufferStartIndex}");
+            _loggerService.LogTrace($"Getting next episode from index {stringBufferStartIndex}");
             _stringBuffer = _stringBuffer.Substring(stringBufferStartIndex);    // Chooses first ep after show content or next ep after last ep
             var totalBytesRead = 0;
             _bufferBuilder.Capacity = Math.Max(_bufferBuilder.Capacity, BufferSize);
@@ -182,7 +182,7 @@ namespace PodApp.Data.Collection.Readers
         private async Task<int> ReadFromStream()
         {
             Array.Clear(_streamBuffer, 0, _streamBuffer.Length);
-            _loggerService.Trace($"Reading from stream");
+            _loggerService.LogTrace($"Reading from stream");
             var bytesRead = await _baseReader.ReadBlockAsync(_streamBuffer, 0, BufferSize);
             if (bytesRead > 0)
             {

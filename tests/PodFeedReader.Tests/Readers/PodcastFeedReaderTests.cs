@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Autofac;
+using Microsoft.Extensions.Logging;
 using PodApp.Data.Collection.Readers;
 using PodApp.Data.Model.Services;
 using PodApp.Service.DependencyInjection.Autofac;
@@ -15,7 +16,7 @@ namespace PodApp.Tests.Model.Collection.Readers
     {
         private readonly IContainer _container;
         private readonly ILifetimeScope _scope;
-        private readonly ILoggingService _loggingService;
+        private readonly ILogger<PodcastFeedReader> _loggingService;
 
         public PodcastFeedReaderTests()
         {
