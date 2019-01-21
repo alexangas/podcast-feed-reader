@@ -22,4 +22,8 @@
     <ProjectReference Include="..\..\src\PodFeedReader\PodFeedReader.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestInfrastructure\" />
+  </ItemGroup>
+
 </Project>

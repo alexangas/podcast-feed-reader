@@ -1,10 +1,10 @@
 ﻿using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using FakeItEasy;
 using Microsoft.Extensions.Logging;
 using PodFeedReader.Readers;
-using PodFeedReader.Tests.TestInfrastructure;
 using Xunit;
 
 namespace PodFeedReader.Tests.Readers
@@ -24,7 +24,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -38,7 +38,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "".PadRight(12, 'z');
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -52,7 +52,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -66,7 +66,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -80,7 +80,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "".PadRight(10000, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -94,7 +94,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<html>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -108,7 +108,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -122,7 +122,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -136,7 +136,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -150,7 +150,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -165,7 +165,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "".PadRight(3, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -180,7 +180,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<?xml ￾version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -195,7 +195,7 @@ namespace PodFeedReader.Tests.Readers
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<flannel>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -249,7 +249,7 @@ asfafadsfgfjdhjdgj
 		<title>EP 16: Rubbing The Desk</title>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -304,7 +304,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 		<title>EP 16: Rubbing The Desk</title>";
 
             XDocument xml;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 var podcastReader = new PodcastFeedReader(reader, _logger);
@@ -370,7 +370,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
 		<title>EP 16: Rubbing The Desk</title>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -464,7 +464,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
 		<title>EP 16: Rubbing The Desk</title>";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -519,7 +519,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 		<title>EP 16: Rubbing The Desk</title>";
 
             XDocument xml;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 var podcastReader = new PodcastFeedReader(reader, _logger);
@@ -574,7 +574,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 		<title>EP 16: Rubbing The Desk</title>";
 
             XDocument xml;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 var podcastReader = new PodcastFeedReader(reader, _logger);
@@ -629,7 +629,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 		<title>EP 16: Rubbing The Desk</title>";
 
             XDocument xml;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 var podcastReader = new PodcastFeedReader(reader, _logger);
@@ -788,7 +788,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 ";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -1034,7 +1034,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 ";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -1196,7 +1196,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 ";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
@@ -1599,7 +1599,7 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
 ";
 
             PodcastFeedReader podcastReader;
-            using (var stream = DotNetTestHelpers.GenerateStreamFromString(input))
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
