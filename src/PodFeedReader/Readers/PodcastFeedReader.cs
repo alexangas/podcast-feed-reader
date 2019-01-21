@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
-using PodApp.Data.Collection.Helpers.Xml;
-using PodApp.Data.Model.Helpers;
+using PodFeedReader.Helpers;
 
-namespace PodApp.Data.Collection.Readers
+namespace PodFeedReader.Readers
 {
     public class PodcastFeedReader
     {

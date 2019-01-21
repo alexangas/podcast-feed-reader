@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace PodApp.Tests.Model.TestHelpers
+namespace PodFeedReader.Tests.TestInfrastructure
 {
     public static class DotNetTestHelpers
     {

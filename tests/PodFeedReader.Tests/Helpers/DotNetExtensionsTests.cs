@@ -1,8 +1,8 @@
 ﻿using System.Text;
-using PodApp.Data.Model.Helpers;
+using PodFeedReader.Helpers;
 using Xunit;
 
-namespace PodApp.Tests.Model.Helpers
+namespace PodFeedReader.Tests.Helpers
 {
     public class DotNetExtensionsTests
     {

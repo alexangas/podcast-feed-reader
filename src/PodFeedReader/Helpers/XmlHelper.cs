@@ -3,7 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace PodApp.Data.Collection.Helpers.Xml
+namespace PodFeedReader.Helpers
 {
     public static class XmlHelper
     {

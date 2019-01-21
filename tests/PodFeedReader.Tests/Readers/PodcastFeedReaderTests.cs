@@ -1,14 +1,13 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using FakeItEasy;
 using Microsoft.Extensions.Logging;
-using PodApp.Data.Collection.Readers;
-using PodApp.Tests.Model.TestHelpers;
+using PodFeedReader.Readers;
+using PodFeedReader.Tests.TestInfrastructure;
 using Xunit;
 
-namespace PodApp.Tests.Model.Collection.Readers
+namespace PodFeedReader.Tests.Readers
 {
     public class PodcastFeedReaderTests
     {

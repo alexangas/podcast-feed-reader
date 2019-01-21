@@ -1,6 +1,6 @@
 using System;
 
-namespace PodApp.Data.Collection.Readers
+namespace PodFeedReader.Readers
 {
     public class InvalidPodcastFeedException : Exception
     {
