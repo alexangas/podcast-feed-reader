@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>SCOTUSblog Podcast</title>
+		<language>en-us</language>
+		<link>http://www.scotusblog.com/</link>
+		<itunes:subtitle>Tom Goldstein podcasts on various legal topics related to the Supreme Court of the United States</itunes:subtitle>
+		<itunes:author>Tom Goldstein</itunes:author>
+		<itunes:summary><![CDATA[Podcasts originally published on SCOTUSblog, a blog written by lawyers, students, and journalists devoted to coverage of the Supreme Court of the United States]]></itunes:summary>
+		<itunes:new-feed-url>http://scotusblog.com/wp-content/podcast.rss</itunes:new-feed-url>
+		<itunes:owner>
+			<itunes:name>Tom Goldstein</itunes:name>
+			<itunes:email>scotusblog.feedback@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/09/scotusblog-logo.png" />
+		<itunes:category text="News &amp; Politics"/>
+		<itunes:category text="Government &amp; Organizations">
+			<itunes:category text="National"/>
+		</itunes:category>
+		<itunes:keywords>justices, scalia, roberts, legal, law, judicial, ginsburg, sotomayor, oral argument, alito</itunes:keywords>
+<item>
+			<title>Shaping America podcast with Ed Mannino</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>SCOTUSblog interviews Ed Mannino, author of Shaping America: The Supreme Court and American Society.</itunes:subtitle>
+			<itunes:summary><![CDATA[SCOTUSblog interviews trial lawyer and legal historian Ed Mannino about his book, Shaping America: The Supreme Court and American Society, a comprehensive history of the Supreme Court.
+]]></itunes:summary>
+			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/09/Mannino-podcast.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/09/Mannino-podcast.mp3</guid>
+		<pubDate>Thurs., 30 Sept. 2010 15:21:00 GMT</pubDate>
+			<itunes:duration>00:14:24</itunes:duration>
+		</item>
+<item>
+			<title>Snyder v. Phelps: Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Stephen R. McAllister, Solicitor General of Kansas, representing amici Kansas, forty-seven other states, and the District of Columbia.</itunes:subtitle>
+			<itunes:summary><![CDATA[Stephen R. McAllister presents the arguments for the petitioner. Mr. McAllister is the Solicitor General of Kansas and represents amici Kansas, forty-seven other states, and the District of Columbia in support of the petitioner.]]></itunes:summary>
+			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Snyder-v.-Phelps-Podcast-Argument-for-Petitioner.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Snyder-v.-Phelps-Podcast-Argument-for-Petitioner.mp3</guid>
+		<pubDate>Thurs., 06 Oct. 2010 16:00:00 GMT</pubDate>
+			<itunes:duration>00:04:56</itunes:duration>
+		</item>	
+<item>
+			<title>Snyder v. Phelps: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Margie Phelps, arguing counsel for Respondent.</itunes:subtitle>
+			<itunes:summary><![CDATA[Margie J. Phelps presents the arguments for respondent. Ms. Phelps is also arguing counsel for respondent.]]></itunes:summary>			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Snyder-v.-Phelps-Podcast-Argument-for-Respondent.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Snyder-v.-Phelps-Podcast-Argument-for-Respondent.mp3</guid>
+		<pubDate>Thurs., 06 Oct. 2010 16:00:00 GMT</pubDate>
+			<itunes:duration>00:05:05</itunes:duration>
+		</item>
+<item>
+			<title>Schwarzenegger v. Entertainment Merchants : Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>S. Kyle Duncan, Appellate Chief, Louisiana Department of Justice presents the arguments for petitioner</itunes:subtitle>
+			<itunes:summary><![CDATA[S. Kyle Duncan, Appellate Chief, Louisiana Department of Justice presents the arguments for petitioner.  Mr. Duncan represents amici Lousiana et al. in support of petitioner]]></itunes:summary>			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Schwarzenegger-v.-EMA-Argument-for-Petitioners.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Schwarzenegger-v.-EMA-Argument-for-Petitioners.mp3</guid>
+		<pubDate>Tues., 02 Nov. 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:07:27</itunes:duration>
+		</item>	
+<item>
+			<title>Schwarzenegger v. Entertainment Merchants : Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Paul M. Smith, Jenner & Block, presents arguments for respondent</itunes:subtitle>
+			<itunes:summary><![CDATA[Paul M. Smith, Jenner & Block, presents arguments for respondent. Mr. Smith is also arguing counsel for respondent]]></itunes:summary>			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Schwarzenegger-v.-EMA-Argument-for-Respondents.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Schwarzenegger-v.-EMA-Argument-for-Respondents.mp3</guid>
+		<pubDate>Tues., 02 Nov. 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:08:07</itunes:duration>
+		</item>	
+<item>
+			<title>Arizona Christian School Tuition Organization v. Winn: Arguments for Petitioners</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>David A. Cortman, Alliance Defense Fund, presents arguments for petitioners</itunes:subtitle>
+			<itunes:summary><![CDATA[David A. Cortman, Alliance Defense Fund, presents arguments for petitioner. Mr. Cortman is lead counsel for petitioner Arizona Christian School Tuition Organization]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Cortman-ACSTO-Talk-5-min.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Cortman-ACSTO-Talk-5-min.mp3 </guid>
+		<pubDate>Tues., 03 Nov. 2010 10:35:00 GMT</pubDate>
+			<itunes:duration>00:05:46</itunes:duration>
+		</item>	
+<item>
+			<title>Arizona Christian School Tuition Organization v. Winn: Arguments for Respondents</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Francisco M. Negrón, Associate Executive Director & General Counsel, National School Boards Association, presents arguments for respondents</itunes:subtitle>
+			<itunes:summary><![CDATA[Francisco M. Negrón, Associate Executive Director & General Counsel, National School Boards Association, presents arguments for respondents. The National School Boards Association filed an amicus brief in the case.]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/SCOTUSBLOG-NSBA-Commentary.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/SCOTUSBLOG-NSBA-Commentary.mp3</guid>
+		<pubDate>Tues., 03 Nov. 2010 10:35:00 GMT</pubDate>
+			<itunes:duration>00:05:10</itunes:duration>
+		</item>	
+<item>
+			<title>Schwarzenegger v. Plata: Arguments for appellees</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Paul D. Clement, King & Spalding LLP</itunes:subtitle>
+			<itunes:summary><![CDATA[Paul D. Clement, King & Spalding LLP, presents arguments for appellees.  Mr. Clement is counsel to appellee Ralph Coleman.]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Clement-Plata-Final.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Clement-Plata-Final.mp3</guid>
+		<pubDate>Tues., 30 Nov. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:09:59</itunes:duration>
+		</item>	
+<item>
+			<title>Schwarzenegger v. Plata: Arguments for appellants</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Carter G. Phillips, Sidley Austin LLP, presents arguments for appellants.</itunes:subtitle>
+			<itunes:summary><![CDATA[Carter G. Phillips, Sidley Austin LLP, presents arguments for appellants. Mr. Phillips is counsel to appellant Arnold Schwarzenegger]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Phillips_Plata_Final.m4a" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/11/Phillips_Plata_Final.m4a</guid>
+		<pubDate>Tues., 30 Nov. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:08:36</itunes:duration>
+		</item>	
+<item>
+			<title>Thompson v. North American Stainless: Arguments for petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Helen Norton, University of Colorado Law School, presents arguments for petitioner.</itunes:subtitle>
+			<itunes:summary><![CDATA[Helen Norton, University of Colorado Law School, counsel to amici National Women’s Law Center et al., presents arguments for petitioner. Professor Norton is counsel to amici National Women’s Law Center et al.]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Thompson-Norton-Pet.-Amici-.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Thompson-Norton-Pet.-Amici-.mp3</guid>
+		<pubDate>Tues., 07 Dec. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:05:14</itunes:duration>
+		</item>			
+<item>
+			<title>Thompson v. North American Stainless: Arguments for respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Leigh Latherow, VanAntwerp, Monge, Jones, Edwards & McCann, LLP, presents arguments for respondent.</itunes:subtitle>
+			<itunes:summary><![CDATA[Leigh Latherow, VanAntwerp, Monge, Jones, Edwards & McCann, LLP presents arguments for respondent. Ms. Latherow is counsel to respondent North American Stainless, LP.,]]></itunes:summary>	<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Thompson-Respondent-Latherow.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Thompson-Respondent-Latherow.mp3</guid>
+		<pubDate>Tues., 07 Dec. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:05:00</itunes:duration>
+		</item>					
+		
+<item>
+			<title>Skinner v. Switzer: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Edward C. Dawson, Partner at Yetter Coleman LLP, representing respondent.</itunes:subtitle>
+			<itunes:summary><![CDATA[Edward C. Dawson presents the arguments for the respondent. Mr. Dawson is a Partner at Yetter Coleman LLP.  Note: We had also planned (and hoped) to have counsel for petitioner Henry Skinner participate in the podcast, but at the last minute he was unable to do so.  Thus, unlike earlier podcasts, this podcast features only counsel for the respondent, which we are posting without regard to her likelihood of success in the case.]]></itunes:summary>
+			<enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Skinner-v.-Switzer-podcast-Argument-for-Respondent.mp4" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/10/Skinner-v.-Switzer-podcast-Argument-for-Respondent.mp4</guid>
+		<pubDate>Thurs., 13 Oct. 2010 15:33:00 GMT</pubDate>
+			<itunes:duration>00:06:47</itunes:duration>
+		</item>	
+<item>
+			<title>Chamber of Commerce v. Whiting: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Mary R. O’Grady, Solicitor General of Arizona, representing respondent.</itunes:subtitle>
+			<itunes:summary><![CDATA[Mary R. O'Grady presents the arguments for the respondent. Ms. O'Grady is the Solicitor General of Arizona.]]></itunes:summary>    <enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Whiting-OGrady-Respondents.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Whiting-OGrady-Respondents.mp3</guid>
+		<pubDate>Wed., 08 Dec. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:07:45</itunes:duration>
+		</item>	
+<item>
+			<title>Podcast interview – Erwin Chemerinsky’s <em>The Conservative Assault on the Constitution</em></title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>A discussion with Dean Erwin Chemerinsky about his book, <em>The Conservative Assault on the Constitution.</em></itunes:subtitle>
+			<itunes:summary><![CDATA[SCOTUSblog interviews founding Dean of UC Irvine Law School and constitutional scholar Erwin Chemerinsky about his book <em>The Conservative Assault on the Constitution</em>.]]></itunes:summary>    <enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Chemerinsky-Podcastl.m4a" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Chemerinsky-Podcastl.m4a</guid>
+		<pubDate>Wed., 10 Dec. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:24:40</itunes:duration>
+		</item>			
+<item>
+			<title>Chamber of Commerce v. Whiting: Arguments for Petitioners</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Carter G. Phillips, Sidley Austin LLP, representing petitioners.</itunes:subtitle>
+			<itunes:summary><![CDATA[Carter G. Phillips presents the arguments for the petitioners. Mr. Phillips is a partner at Sidley Austin LLP.]]></itunes:summary>    <enclosure url="http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Whiting-Phillips-Petitioners.m4a" length="5000000" type="audio/mpeg" />
+			<guid>http://sblog.s3.amazonaws.com/wp-content/uploads/2010/12/Whiting-Phillips-Petitioners.m4a</guid>
+		<pubDate>Wed., 08 Dec. 2010 11:10:00 GMT</pubDate>
+			<itunes:duration>00:07:00</itunes:duration>
+		</item>	
+
+<item>
+			<title>Doe v. Reed: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Robert McKenna gives the arguments on the petitioner's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Washington Attorney General Robert McKenna, who argued before the Supreme Court, gives the arguments on the state's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/reed.mp3" length="5000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/reed.mp3</guid>
+		<pubDate>Wed, 28 Apr 2010 10:20:00 GMT</pubDate>
+			<itunes:duration>00:04:57</itunes:duration>
+		</item>
+<item>
+			<title>Doe v. Reed: Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>James Bopp gives the arguments on the petitioner's side</itunes:subtitle>
+			<itunes:summary><![CDATA[James Bopp, who argued before the Supreme Court, gives the arguments on the petition signers' side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/doe.mp3" length="8300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/doe.mp3</guid>
+		<pubDate>Wed, 28 Apr 2010 10:20:00 GMT</pubDate>
+			<itunes:duration>00:08:34</itunes:duration>
+		</item>
+<item>
+			<title>City of Ontario v. Quon: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Dieter Dammeier gives the arguments on the respondent's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Dieter Dammeier, who argued before the Supreme Court, gives the arguments on the respondent's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/quon.mp3" length="4300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/quon.mp3</guid>
+		<pubDate>Mon, 19 Apr 2010 11:05:00 GMT</pubDate>
+			<itunes:duration>00:07:11</itunes:duration>
+		</item>
+<item>
+			<title>City of Ontario v. Quon: Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Kent Richland gives the arguments on the petitioner's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Kent Richland, who argued before the Supreme Court, gives the arguments on the city's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/ontario.mp3" length="4300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/ontario.mp3</guid>
+		<pubDate>Mon, 19 Apr 2010 11:05:00 GMT</pubDate>
+			<itunes:duration>00:10:02</itunes:duration>
+		</item>
+<item>
+			<title>Christian Legal Society v. Martinez: Arguments for Respondents</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Paul Smith gives the arguments on the respondents' side</itunes:subtitle>
+			<itunes:summary><![CDATA[Paul Smith, representing the amicus party Hastings Outlaw, gives the arguments on the respondents' side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/martinez.mp3" length="4300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/martinez.mp3</guid>
+		<pubDate>Mon, 19 Apr 2010 10:10:00 GMT</pubDate>
+			<itunes:duration>00:05:01</itunes:duration>
+		</item>
+<item>
+			<title>Christian Legal Society v. Martinez: Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Michael McConnell gives the arguments on the petitioner's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Judge Michael McConnell, who argued before the Supreme Court, gives the arguments on the petitioner's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/04/cls.mp3" length="4300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/04/cls.mp3</guid>
+		<pubDate>Mon, 19 Apr 2010 10:10:00 GMT</pubDate>
+			<itunes:duration>00:05:51</itunes:duration>
+		</item>
+<item>
+			<title>Magwood v. Patterson: Arguments for Petitioner</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Prof. John Blume gives the arguments on the petitioner's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Prof. John Blume, representing the amicus party the National Association of Criminal Defense Lawyers, gives the arguments on the criminal defendant's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/03/blume.mp3" length="4300000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/03/blume.mp3</guid>
+		<pubDate>Wed, 24 March 2010 11:15:00 GMT</pubDate>
+			<itunes:duration>00:04:30</itunes:duration>
+		</item>
+<item>
+			<title>Magwood v. Patterson: Arguments for Respondent</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Alabama Solicitor General Corey Maze gives the arguments on the respondent's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Alabama Solicitor General Corey Maze gives the arguments on the state government's side.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/03/maze.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/03/maze.mp3</guid>
+			<pubDate>Wed, 24 March 2010 11:15:00 GMT</pubDate>
+			<itunes:duration>00:05:57</itunes:duration>
+		</item>
+<item>
+			<title>McDonald v. Chicago: Argument Against Gun Violence</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>The arguments of the Brady Center to Prevent Gun Violence for considering a public interest in gun regulations</itunes:subtitle>
+			<itunes:summary><![CDATA[Jon Lowy of amicus the Brady Center to Prevent Gun Violence gives arguments for considering a public interest in gun regulations, should the Second Amendment be incorporated.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3</guid>
+			<pubDate>Tues, 02 March 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:06:30</itunes:duration>
+		</item>
+<item>
+			<title>McDonald v. Chicago: Argument for Incorporation Through Due Process</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Leonard Niehoff, counsel to the amicus Anti-Defamation League, gives the arguments in favor of incorporation through the Due Process Clause.</itunes:subtitle>
+			<itunes:summary><![CDATA[Leonard Niehoff, counsel to the amicus Anti-Defamation League, gives the arguments in favor of incorporation (if any) through the Due Process Clause.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/adl.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/adl.mp3</guid>
+			<pubDate>Tues, 02 March 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:06:30</itunes:duration>
+		</item>
+<item>
+			<title>McDonald v. Chicago: Argument for Incorporation Through Privileges or Immunities</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Ilya Shapiro of the Cato Institute gives the arguments in favor of incorporation through the Privileges or Immunities Clause.</itunes:subtitle>
+			<itunes:summary><![CDATA[Ilya Shapiro of the Cato Institute gives the arguments in favor of incorporating the Second Amendment through the Privileges or Immunities Clause.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3</guid>
+			<pubDate>Tues, 02 March 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:04:00</itunes:duration>
+		</item>
+<item>
+			<title>McDonald v. Chicago: Argument Against Incorporation</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Charles Dyke, counsel for an amicus supporting the respondent, gives arguments against incorporating the Second Amendment.</itunes:subtitle>
+			<itunes:summary><![CDATA[Charles Dyke, counsel for the amicus Board of Education of Chicago et al., argues against incorporating the Second Amendment.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/dyke.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/dyke.mp3</guid>
+			<pubDate>Tues, 02 March 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:07:26</itunes:duration>
+		</item>
+<item>
+			<title>McDonald v. Chicago: Arguments for the Petitioners</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Alan Gura, counsel to McDonald, gives the arguments in favor of incorporation.</itunes:subtitle>
+			<itunes:summary><![CDATA[Alan Gura, counsel to Otis McDonald, gives the arguments in favor of incorporation of the Second Amendment.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/gura.mp3</guid>
+			<pubDate>Tues, 02 March 2010 10:15:00 GMT</pubDate>
+			<itunes:duration>00:06:30</itunes:duration>
+		</item>
+<item>
+			<title>Interview with David Stras, Former Clarence Thomas Clerk</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>SCOTUSblog interviews Prof. David Stras on his experience clerking for Justice Thomas</itunes:subtitle>
+			<itunes:summary><![CDATA[SCOTUSblog interviews Prof. David Stras on his experience clerking for Justice Thomas.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/stras.mp3" length="4000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/stras.mp3</guid>
+			<pubDate>Sun, 28 Feb 2010 16:30:00 GMT</pubDate>
+			<itunes:duration>00:17:27</itunes:duration>
+		</item>
+<item>
+			<title>Holder v. Humanitarian Law Project: Arguments for the Petitioners</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Prof. Peter Margulies gives the arguments for the Attorney General's side</itunes:subtitle>
+			<itunes:summary><![CDATA[Prof. Peter Margulies, representing the amicus party “Scholars, Attorneys, and Former Public Officials with Experience in Terrorism-Related Issues," gives the arguments for the government.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/margulies.mp3" length="5700000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/margulies.mp3</guid>
+			<pubDate>Tues, 23 Feb 2010 10:20:00 GMT</pubDate>
+			<itunes:duration>00:05:44</itunes:duration>
+		</item>
+<item>
+			<title>Jack Greenberg on Brown v. Board of Education</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Jack Greenberg discusses the experience of arguing Brown v. Board of Education</itunes:subtitle>
+			<itunes:summary><![CDATA[Jack Greenberg discusses the experience of arguing Brown v. Board of Education, and the meaning of the decision.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/jgreenberg.mp3" length="20000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/jgreenberg.mp3</guid>
+			<pubDate>Mon, 22 Feb 2010 14:30:00 GMT</pubDate>
+			<itunes:duration>00:19:05</itunes:duration>
+		</item>
+<item>
+			<title>Nina Totenberg on Brown v. Board of Education</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Nina Totenberg introduces her three-part series of recordings on the case for NPR</itunes:subtitle>
+			<itunes:summary><![CDATA[Nina Totenberg introduces her three-part series of recordings on the case for NPR.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/BHM%20Totenberg.mp3" length="3500000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/BHM%20Totenberg.mp3</guid>
+			<pubDate>Wed, 17 Feb 2010 13:00:00 GMT</pubDate>
+			<itunes:duration>00:05:00</itunes:duration>
+		</item>
+<item>
+			<title>Erwin Chemerinsky on the Supreme Court and Re-Segregation</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Erwin Chemerinsky on the Supreme Court and the re-segregation of American public schools</itunes:subtitle>
+			<itunes:summary><![CDATA[University of California, Irvine law school dean Erwin Chemerinsky discusses segregation today in American public schools and the Court's rulings on desegregation and integration programs.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/Chemerinsky.mp3" length="9000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/Chemerinsky.mp3</guid>
+			<pubDate>Tues, 16 Feb 2010 13:00:00 GMT</pubDate>
+			<itunes:duration>00:15:00</itunes:duration>
+		</item>
+<item>
+			<title>David Cecelski: The Unexpected Consequences of Brown v. Board of Education</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>SCOTUSblog interviews historian David Cecelski about the consequences of the Brown v. Board of Education decision.</itunes:subtitle>
+			<itunes:summary><![CDATA[SCOTUSblog interviews historian David Cecelski about the consequences of the Brown v. Board of Education decision.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/Cecelski%20final.mp3" length="9000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/Cecelski%20final.mp3</guid>
+			<pubDate>Mon, 15 Feb 2010 13:00:00 GMT</pubDate>
+			<itunes:duration>00:19:00</itunes:duration>
+		</item>
+<item>
+			<title>Interview with Vernon Jordan</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Tom Goldstein interviews Vernon Jordan about the impact of the Court on the black community</itunes:subtitle>
+			<itunes:summary><![CDATA[Tom Goldstein interviews Vernon Jordan about the impact of the Court on the black community.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/02/Jordan.mp3" length="9000000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/02/Jordan.mp3</guid>
+			<pubDate>Fri, 12 Feb 2010 22:00:00 GMT</pubDate>
+			<itunes:duration>00:14:20</itunes:duration>
+		</item>
+<item>
+			<title>Berghuis v. Smith: Counsel Supporting the State</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the petitioner in Berghuis v. Smith</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the petitioner in the Supreme Court case Berghuis v. Smith.  The speaker is Kent Scheidegger, representing the Criminal Justice Legal Foundation as amicus curiae.]]></itunes:summary>
+			<enclosure url="http://www.crimeandconsequences.com/crimblog/files/audio/SmithPodCast.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.crimeandconsequences.com/crimblog/files/audio/SmithPodCast.mp3</guid>
+			<pubDate>Wed, 20 Jan 2010 15:00:00 GMT</pubDate>
+			<itunes:duration>00:08:00</itunes:duration>
+		</item>
+<item>
+			<title>Berghuis v. Smith: Counsel for Respondent Smith</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the respondent in Berghuis v. Smith</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the respondent in the Supreme Court case Berghuis v. Smith.  The speaker is James Sterling Lawrence, counsel to Diapolis Smith.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2010/01/Berghuis.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2010/01/Berghuis.mp3</guid>
+			<pubDate>Wed, 20 Jan 2010 15:00:00 GMT</pubDate>
+			<itunes:duration>00:08:00</itunes:duration>
+		</item>
+<item>
+			<title>American Needle v. NFL: Counsel for American Needle</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the petitioner in American Needle v. NFL</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the petitioner in the Supreme Court case American Needle v. NFL.  The speaker is Meir Feder of Jones Day, counsel to American Needle.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp/wp-content/uploads/2010/01/American%20Needle%20podcast.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp/wp-content/uploads/2010/01/American%20Needle%20podcast.mp3</guid>
+			<pubDate>Wed, 13 Jan 2010 15:00:00 GMT</pubDate>
+			<itunes:duration>00:08:00</itunes:duration>
+		</item>
+<item>
+			<title>American Needle v. NFL: Counsel Supporting the NFL</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the respondent in American Needle v. NFL</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the respondent in American Needle v. NFL.  The speaker is Shepard Goldfein of Skadden Arps Slate Meagher & Flom, representing the National hockey League as amicus curiae.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp/wp-content/uploads/2010/01/NHL%20podcast.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp/wp-content/uploads/2010/01/NHL%20podcast.mp3</guid>
+			<pubDate>Wed, 13 Jan 2010 15:00:00 GMT</pubDate>
+			<itunes:duration>00:08:00</itunes:duration>
+		</item>
+<item>
+			<title>Free Enterprise Fund v. PCAOB: Counsel for the Free Enterprise Fund</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the petitioner in Free Enterprise Fund v. Public Company Accounting Oversight Board</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the petitioner in the Supreme Court case Free Enterprise Fund v. Public Company Accounting Oversight Board.  The speaker is Christian Vergonis of Jones Day, counsel for the Free Enterprise Fund.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2009/12/FEF_pet.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2009/12/FEF_pet.mp3</guid>
+			<pubDate>Mon, 7 Dec 2009 15:00:00 GMT</pubDate>
+			<itunes:duration>00:07:00</itunes:duration>
+		</item>
+<item>
+			<title>Free Enterprise Fund v. PCAOB: Counsel Supporting the PCAOB</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Arguments for the respondent in Free Enterprise Fund v. Public Company Accounting Oversight Board</itunes:subtitle>
+			<itunes:summary><![CDATA[Arguments for the respondent in the Supreme Court case Free Enterprise Fund v. Public Company Accounting Oversight Board.  The speaker is NYU law professor Richard Pildes, representing former chairmen of the Securities and Exchange Commission as amici curiae.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp-content/uploads/2009/12/FEF_resp.mp3" length="5600000" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp-content/uploads/2009/12/FEF_resp.mp3</guid>
+			<pubDate>Mon, 7 Dec 2009 15:00:00 GMT</pubDate>
+			<itunes:duration>00:09:00</itunes:duration>
+		</item>
+		<item>
+			<title>Biskupic Interview</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>Book interview with Joan Biskupic</itunes:subtitle>
+			<itunes:summary><![CDATA[Tom Goldstein interviews Joan Biskupic about her 2009 biography of Justice Antonin Scalia.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/wp/wp-content/uploads/2009/11/Biskupic%20interview%20full.mp3" length="11617511" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/wp/wp-content/uploads/2009/11/Biskupic%20interview%20full.mp3</guid>
+			<pubDate>Mon, 9 Nov 2009 12:08:40 GMT</pubDate>
+			<itunes:duration>00:12:06</itunes:duration>
+		</item>
+		<item>
+			<title>More on Cert. Petitions with no Split</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>More on Cert. Petitions with no Split</itunes:subtitle>
+			<itunes:summary><![CDATA[In this episode, Kevin Russell elaborates on a previous post of his regarding how to present a case to the Court when there is not circuit split.]]></itunes:summary>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/5-23-07.mp3" length="2202009" type="audio/mpeg" />
+			<guid>http://www.scotusblog.com/movabletype/archives/5-23-07.mp3</guid>
+			<!-- JOE COMMENTS:  supposedly, the keywords for idividual podcast items are no longer indexed 
+					 (only the keywords for the main podcast itself are) -->
+			<itunes:keywords>Kevin Russell, Tom Goldstein, SCOTUSblog, Supreme Court, cert, circuit split, practice pointer, SCOTUS, law, legal, lawyer</itunes:keywords>
+			<pubDate>Wed, 23 May 2007 15:00:06 GMT</pubDate>
+			<itunes:duration>00:09:01</itunes:duration>
+		</item>
+		<item>
+			<title>Applications for Stay</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Fri, 13 Apr 2007 08:33:00 GMT</pubDate>
+			<itunes:subtitle>Applications for stay at the Court, with guest Troy Cahill.</itunes:subtitle>
+			<itunes:summary><![CDATA[After a hiatus, the SCOTUSblog podcast is back.  Today, Troy Cahill, who woked as a staff attorney in the clerk's office of the Supreme Court prior to joining Akin, discusses the ins and outs of applications for stay.]]></itunes:summary>
+			<itunes:keywords>Supreme Court, SCOTUS, SCOTUSblog, applications for stay, O'Connor, Cahill, Goldstein, Howe, Russell, Tom Goldstein</itunes:keywords>
+			<itunes:duration>00:05:58</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/4-13-07.mp3" length="1436712" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/4-13-07.mp3</guid>
+		</item>
+		<item>
+			<title>Professor Charles Fried</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<itunes:subtitle>A conversation with Professor Charles Fried about his new book, Modern Liberty and the Limits of Government.</itunes:subtitle>
+			<pubDate>Wed, 20 Dec 2006 13:57:25 GMT</pubDate>
+			<itunes:summary><![CDATA[In today's episode, Tom talks with Professor Fried about his new book, Modern Liberty and the Limits of Government.]]></itunes:summary>
+			<itunes:keywords>Fried, Harvard, Supreme Court, Law, SCOTUS, SCOTUSblog, legal, Goldstein, Tom Goldstein</itunes:keywords>
+			<itunes:duration>00:12:00</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/12-20-06.mp3" length="2991767" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/12-20-06.mp3</guid>
+		</item>
+		<item>
+			<title>More Thoughts on the Docket</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Fri, 01 Dec 2006 08:49:39 GMT</pubDate>
+			<itunes:subtitle>Tom Goldstein expresses further thoughts on the Court's docket.</itunes:subtitle>
+			<itunes:summary>In today's episode, Tom elaborates on his earlier post about the state of the Court's docket, the cert. process as a whole, and the role of law clerks in screening cases.</itunes:summary>
+			<itunes:keywords>Supreme Court, docket, SCOTUS, SCOTUSblog, law, legal, judges, justice</itunes:keywords>
+			<itunes:duration>00:11:15</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/12-1-06.mp3" length="2705353" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/12-1-06.mp3</guid>
+		</item>
+		<item>
+			<title>Election Law with Rick Hasen</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Mon, 20 Nov 2006 07:33:10 GMT</pubDate>
+			<itunes:subtitle>Election Law at the Supreme Court with Rick Hasen.</itunes:subtitle>
+			<itunes:summary><![CDATA[In today's episode, we discuss Election Law at the Supreme Court with Professor Rick Hasen of the Election Law Blog and Loyala Law School in L.A.]]></itunes:summary>
+			<itunes:keywords>Election, election law, Rick Hasen, SCOTUSblog, Supreme Court, legal, law, campaign finance</itunes:keywords>
+			<itunes:duration>00:16:15</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/11-20-06.mp3" length="3910451" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/11-20-06.mp3</guid>
+		</item>
+		<item>
+			<title>Patent Law at the Supreme Court</title>
+			<itunes:author>Ken Bass</itunes:author>
+			<pubDate>Fri, 10 Nov 2006 12:01:43 GMT</pubDate>
+			<itunes:subtitle>Ken Bass discusses patent law at the Supreme Court.</itunes:subtitle>
+			<itunes:summary><![CDATA[The SCOTUSblog Podcast returns, and our episode today features a discussion of patent law at the Supreme Court with our guest Ken Bass of the firm Sterne, Kessler, Goldstein, and Fox.]]></itunes:summary>
+			<itunes:keywords>Supreme Court, patents, patent law, IP, intellectual property, law, legal, SCOTUS, SCOTUSblog, KSR, Microsoft, Ken Bass, SKGF</itunes:keywords>
+			<itunes:duration>00:11:22</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/11-10-06.mp3" length="2739528" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/11-10-06.mp3</guid>
+		</item>
+		<item>
+			<title>Practice Pointers #3: The BIO</title>
+			<itunes:author>Kevin Russell</itunes:author>
+			<pubDate>Fri, 13 Oct 2006 08:17:51 GMT</pubDate>
+			<itunes:subtitle>Today, Kevin Russell discusses how to effectively oppose certiorari.</itunes:subtitle>
+			<itunes:summary><![CDATA[In today's episode of the podcast, we return to our practice pointers series as Kevin Russell discusses how to effectively oppose cert.]]></itunes:summary>
+			<itunes:keywords>Kevin Russell, Tom Goldstein, Supreme Court, cert, brief in opposition, SCOTUSblog, law, legal</itunes:keywords>
+			<itunes:duration>00:08:30</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/10-13-06.mp3" length="2013263" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/10-13-06.mp3</guid>
+		</item>
+		<item>
+			<title>Interview with Linda Greenhouse</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Fri, 06 Oct 2006 08:09:40 GMT</pubDate>
+			<itunes:subtitle>Tom interviews Linda Greenhouse of the New York Times.</itunes:subtitle>
+			<itunes:summary><![CDATA[In today's episode, Tom talks with award-winning New York Times reporter Linda Greenhouse about her book, the two new Justices, and the controversy regarding her remarks at Radcliffe College.]]></itunes:summary>
+			<itunes:keywords>New York Times, Linda Greenhouse, Tom Goldstein, SCOTUS, SCOTUSblog, Supreme Court</itunes:keywords>
+			<itunes:duration>00:15:00</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/10-6-06.mp3" length="3582174" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/10-6-06.mp3</guid>
+		</item>
+		<item>
+			<title>Interview with Nina Totenberg</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Fri, 22 Sep 2006 11:34:56 GMT</pubDate>
+			<itunes:subtitle>Tom's interview with Nina Totenberg.</itunes:subtitle>
+			<itunes:summary><![CDATA[On this edition of the SCOTUSblog podcast, Tom interviews Nina Totenberg about the Supreme Court press corps, what happens when the Court hands down a big decision, and what Justice Ginsburg may be feeling now that she is the only woman on the Court.]]></itunes:summary>
+			<itunes:keywords>NPR, Tom Goldstein, Nina Totenberg, Supreme Court, SCOTUS, SCOTUSblog, Legal Affairs, Interview</itunes:keywords>
+			<itunes:duration>00:15:06</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/9-22-06.mp3" length="7355758" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/9-22-06.mp3</guid>
+		</item>
+		<item>
+			<title>Practice Pointers #2: What NOT To Do</title>
+			<itunes:author>Amy Howe</itunes:author>
+			<pubDate>Wed, 13 Sep 2006 10:38:53 GMT</pubDate>
+			<itunes:subtitle>How to avoid common mistakes when drafting a cert. petition.</itunes:subtitle>
+			<itunes:summary><![CDATA[In this episode of the SCOTUSblog podcast, Amy Howe of Howe &amp; Russell talks about how to avoid common mistakes when drafting a cert. petition.]]></itunes:summary>
+			<itunes:keywords>Cert., Supreme Court, Law, Legal, Amy Howe, Tom Goldstein, Petition, Court</itunes:keywords>
+			<itunes:duration>00:06:30</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/9-13-06.mp3" length="1591334" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/9-13-06.mp3</guid>
+		</item>
+		<item>
+			<title>Practice Pointers on the Cert. Criteria</title>
+			<itunes:author>Tom Goldstein</itunes:author>
+			<pubDate>Wed, 23 Aug 2006 14:19:20 GMT</pubDate>
+			<itunes:subtitle>In the premiere episode of the SCOTUSblog podcast, Tom Goldstein details the criteria that the Supreme Court uses when considering a cert. grant.</itunes:subtitle>
+			<itunes:summary><![CDATA[In the premiere episode of the SCOTUSblog podcast, Tom Goldstein details the criteria that the Supreme Court uses when considering a cert. grant.]]></itunes:summary>
+			<itunes:keywords>Supreme Court, cert., certiorari, cert. petition, Tom Goldstein, SCOTUSblog, Howe, Russell</itunes:keywords>
+			<itunes:duration>00:07:05</itunes:duration>
+			<enclosure url="http://www.scotusblog.com/movabletype/archives/8-23-06.mp3" length="6847227" type="audio/mpeg3" />
+			<guid>http://www.scotusblog.com/movabletype/archives/8-23-06.mp3</guid>
+		</item>
+	</channel>
+</rss>

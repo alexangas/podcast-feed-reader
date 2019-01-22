@@ -1,0 +1,883 @@
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd"> 
+		  <channel>
+	    <language>en-ca</language>
+	    <title>Q: The Podcast from CBC Radio</title>
+	    <image>
+	      <url>http://www.cbc.ca/radio/podcasts/images/promo-qpodcast.jpg</url>
+	      <title>Q: The Podcast from CBC Radio</title>
+	      <link>http://www.cbc.ca/podcasting</link>
+	    </image>
+	    <link>http://www.cbc.ca/podcasting</link>
+	    <description>CBC Radio's Q is Canada's liveliest arts, culture and entertainment magazine. Q covers pop culture and high arts alike, with forays into the most provocative and compelling cultural trends. Q brings you big names, big ideas, and those paving the way in Canada's cultural community. Q is your cultural intervention!</description>
+	    <itunes:owner>
+	      <itunes:name>CBC</itunes:name>
+	      <itunes:email>podcasting@cbc.ca</itunes:email>
+	    </itunes:owner>
+	    <copyright>Copyright © CBC 2016</copyright>
+	    <managingEditor>podcasting@cbc.ca</managingEditor>
+	    <itunes:category text="Arts" />
+	    <itunes:category text="Public Radio" />
+	    <itunes:explicit>no</itunes:explicit>
+	    <itunes:author>CBC Radio</itunes:author>
+	    <itunes:keywords>CBC,CBC Radio</itunes:keywords>
+	    <itunes:summary>CBC Radio's Q is Canada's liveliest arts, culture and entertainment magazine. Q covers pop culture and high arts alike, with forays into the most provocative and compelling cultural trends. Q brings you big names, big ideas, and those paving the way in Canada's cultural community. Q is your cultural intervention!</itunes:summary>
+	    <itunes:image href="http://www.cbc.ca/radio/podcasts/images/promo-qpodcast.jpg" />
+	    
+	    
+	    <item>
+	      <title>Patti Smith, k-os and DJ Skratch Bastid, journalist Mark Haskell Smith, Shirley Manson 01/01/15</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20160101_49177.mp3</guid>
+	      <description>Writer, poet, and musician Patti Smith on the power of daydream time. k-os and DJ Skratch Bastid switch it up in studio q. Journalist Mark Haskell Smith reveals the naked truth about nudism. Shirley Manson on 20 years of Garbage. </description>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 01 Jan 2016 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Writer, poet, and musician Patti Smith on the power of daydream time. k-os and DJ Skratch Bastid switch it up in studio q. Journalist Mark Haskell Smith reveals the naked truth about nudism. Shirley Manson on 20 years of Garbage. </itunes:subtitle>
+              <itunes:summary>Writer, poet, and musician Patti Smith on the power of daydream time. k-os and DJ Skratch Bastid switch it up in studio q. Journalist Mark Haskell Smith reveals the naked truth about nudism. Shirley Manson on 20 years of Garbage. </itunes:summary>
+	      <itunes:duration>5624</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20160101_49177.mp3" length="87869" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Author Elizabeth Gilbert, comic Maysoon Zayid, chef Jamie Oliver 12/31/15</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151231_32735.mp3</guid>
+	      <description>Eat Pray Love author Elizabeth Gilbert on the perils of ignoring your creative self. Pioneering comic Maysoon Zayid on defying convention and smashing stigma. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 31 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Eat Pray Love author Elizabeth Gilbert on the perils of ignoring your creative self. Pioneering comic Maysoon Zayid on defying convention and smashing stigma. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</itunes:subtitle>
+              <itunes:summary>Eat Pray Love author Elizabeth Gilbert on the perils of ignoring your creative self. Pioneering comic Maysoon Zayid on defying convention and smashing stigma. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</itunes:summary>
+	      <itunes:duration>4125</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151231_32735.mp3" length="64460" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Actor Wendell Pierce, Metric performs live, wire walker Philippe Petit 12/30/15</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151230_69065.mp3</guid>
+	      <description>The Wire actor Wendell Pierce on why art is essential in a crisis. Metric performs an intimate, stripped down set from their album Pagans in Vegas. Meet Philippe Petit, the real World Trade Center wire walker who inspired The Walk.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 30 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>The Wire actor Wendell Pierce on why art is essential in a crisis. Metric performs an intimate, stripped down set from their album Pagans in Vegas. Meet Philippe Petit, the real World Trade Center wire walker who inspired The Walk.</itunes:subtitle>
+              <itunes:summary>The Wire actor Wendell Pierce on why art is essential in a crisis. Metric performs an intimate, stripped down set from their album Pagans in Vegas. Meet Philippe Petit, the real World Trade Center wire walker who inspired The Walk.</itunes:summary>
+	      <itunes:duration>3804</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151230_69065.mp3" length="59434" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Darryl "DMC" McDaniels, Margaret Atwood, investigative journalist Alfredo Corchado 12/29/15</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151229_19296.mp3</guid>
+	      <description>Darryl "DMC" McDaniels brings rapid-fire storytelling to studio q. Canadian literary icon Margaret Atwood is back with believable dystopia. Hear investigative journalist Alfredo Corchado on getting death threats for doing his job in Mexico.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 29 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Darryl "DMC" McDaniels brings rapid-fire storytelling to studio q. Canadian literary icon Margaret Atwood is back with believable dystopia. Hear investigative journalist Alfredo Corchado on getting death threats for doing his job in Mexico.</itunes:subtitle>
+              <itunes:summary>Darryl "DMC" McDaniels brings rapid-fire storytelling to studio q. Canadian literary icon Margaret Atwood is back with believable dystopia. Hear investigative journalist Alfredo Corchado on getting death threats for doing his job in Mexico.</itunes:summary>
+	      <itunes:duration>4036</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151229_19296.mp3" length="63068" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Child Soldier author Michel Chikwanine, Sesame Street’s Sonia Manzano, Chrissie Hynde 12/28/15</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151228_85831.mp3</guid>
+	      <description>Michel Chikwanine shares the personal story behind his book, Child Soldier. Hear Sonia Manzano on the challenging childhood that came before Sesame Street. Chrissie Hynde looks back in her memoir, Reckless: My Life as a Pretender.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 28 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Michel Chikwanine shares the personal story behind his book, Child Soldier. Hear Sonia Manzano on the challenging childhood that came before Sesame Street. Chrissie Hynde looks back in her memoir, Reckless: My Life as a Pretender.</itunes:subtitle>
+              <itunes:summary>Michel Chikwanine shares the personal story behind his book, Child Soldier. Hear Sonia Manzano on the challenging childhood that came before Sesame Street. Chrissie Hynde looks back in her memoir, Reckless: My Life as a Pretender.</itunes:summary>
+	      <itunes:duration>3930</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151228_85831.mp3" length="61402" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Christmas special! DJ TLO, q pop culture panel, Jus Reign, Ronnie Hawkins and Gordon Lightfoot 12/24/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151224_53949.mp3</guid>
+	      <description>TLO mixes holiday classics and the biggest hits of 2015, the q pop culture panel looks back at the year that was, internet comic Jus Reign brings his Very Punjabi Christmas to studio q, Ronnie Hawkins and Gordon Lightfoot share their new Christmas collab.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 24 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>TLO mixes holiday classics and the biggest hits of 2015, the q pop culture panel looks back at the year that was, internet comic Jus Reign brings his Very Punjabi Christmas to studio q, Ronnie Hawkins and Gordon Lightfoot share their new Christmas collab.</itunes:subtitle>
+              <itunes:summary>TLO mixes holiday classics and the biggest hits of 2015, the q pop culture panel looks back at the year that was, internet comic Jus Reign brings his Very Punjabi Christmas to studio q, Ronnie Hawkins and Gordon Lightfoot share their new Christmas collab.</itunes:summary>
+	      <itunes:duration>4594</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151224_53949.mp3" length="71789" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>U.K. songwriter Billy Bragg, Jaco Pastorius doc, TV critic Tony Wong, q top 20 12/23/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151223_88990.mp3</guid>
+	      <description>Why songwriter Billy Bragg doesn't have time for cynics. Jaco Pastorius doc spotlights the "Jimi Hendrix of bass". TV critic Tony Wong on the best of the little screen 2015. q top 20: Empress Of takes #9. 
+</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 23 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Why songwriter Billy Bragg doesn't have time for cynics. Jaco Pastorius doc spotlights the "Jimi Hendrix of bass". TV critic Tony Wong on the best of the little screen 2015. q top 20: Empress Of takes #9. 
+</itunes:subtitle>
+              <itunes:summary>Why songwriter Billy Bragg doesn't have time for cynics. Jaco Pastorius doc spotlights the "Jimi Hendrix of bass". TV critic Tony Wong on the best of the little screen 2015. q top 20: Empress Of takes #9. 
+</itunes:summary>
+	      <itunes:duration>3553</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151223_88990.mp3" length="55509" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Milli Vanilli's Fab Morvan returns, Africa's Sex and the City, Elf on the Shelf 12/22/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151222_20992.mp3</guid>
+	      <description>Milli Vanilli's Fab Morvan teams with infamous band's real voice. 'An African City' producer Nicole Amarteifio complicates one-dimensional view of Africa. Elf on the Shelf: sweet tradition or surveillance lite? q top 20: Sufjan Stevens and Joanna Newsom.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 22 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Milli Vanilli's Fab Morvan teams with infamous band's real voice. 'An African City' producer Nicole Amarteifio complicates one-dimensional view of Africa. Elf on the Shelf: sweet tradition or surveillance lite? q top 20: Sufjan Stevens and Joanna Newsom.</itunes:subtitle>
+              <itunes:summary>Milli Vanilli's Fab Morvan teams with infamous band's real voice. 'An African City' producer Nicole Amarteifio complicates one-dimensional view of Africa. Elf on the Shelf: sweet tradition or surveillance lite? q top 20: Sufjan Stevens and Joanna Newsom.</itunes:summary>
+	      <itunes:duration>3694</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151222_20992.mp3" length="57716" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>French comic Gad Elmaleh, Guns in the Hands of Artists, Best films of 2015, Carrie-Anne Moss 12/21/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151221_60825.mp3</guid>
+	      <description>'French Seinfeld' Gad Elmaleh on courting English speakers. Jonathan Ferrara on why he gave guns to artists. Movie critic Norm Wilner on the best films of 2015. Matrix star Carrie-Anne Moss is back to defend Jessica Jones.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 21 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>'French Seinfeld' Gad Elmaleh on courting English speakers. Jonathan Ferrara on why he gave guns to artists. Movie critic Norm Wilner on the best films of 2015. Matrix star Carrie-Anne Moss is back to defend Jessica Jones.</itunes:subtitle>
+              <itunes:summary>'French Seinfeld' Gad Elmaleh on courting English speakers. Jonathan Ferrara on why he gave guns to artists. Movie critic Norm Wilner on the best films of 2015. Matrix star Carrie-Anne Moss is back to defend Jessica Jones.</itunes:summary>
+	      <itunes:duration>4084</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151221_60825.mp3" length="63818" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>The OBGMs, heritage minister Mélanie Joly, Force Awakens reviewed, q sports panel, Jermaine Fowler 12/18/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151218_94728.mp3</guid>
+	      <description>The OBGMs bring party punk to studio q. Heritage minister Mélanie Joly on why she's increasing arts funding. Star Wars superfan Sam Maggs reviews Force Awakens. Why are Sportsfans pitting Serena Williams against a horse? Meet rising comic Jermaine Fowler.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 18 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>The OBGMs bring party punk to studio q. Heritage minister Mélanie Joly on why she's increasing arts funding. Star Wars superfan Sam Maggs reviews Force Awakens. Why are Sportsfans pitting Serena Williams against a horse? Meet rising comic Jermaine Fowler.</itunes:subtitle>
+              <itunes:summary>The OBGMs bring party punk to studio q. Heritage minister Mélanie Joly on why she's increasing arts funding. Star Wars superfan Sam Maggs reviews Force Awakens. Why are Sportsfans pitting Serena Williams against a horse? Meet rising comic Jermaine Fowler.</itunes:summary>
+	      <itunes:duration>5625</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151218_94728.mp3" length="87896" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Making a Murderer, Dwayne Betts playlist, Star Wars designer Roger Christian, q top 20 12/17/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151217_81850.mp3</guid>
+	      <description>'Making a Murderer' creators on the complexity of true crime. Dwayne Betts drops a poetic Reagan-era inspired playlist. Star Wars redux: Meet Roger Christina, the man who built the first R2-D2. q top 20: Badbadnotgood, Ghostface Killah, The Weeknd.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 17 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>'Making a Murderer' creators on the complexity of true crime. Dwayne Betts drops a poetic Reagan-era inspired playlist. Star Wars redux: Meet Roger Christina, the man who built the first R2-D2. q top 20: Badbadnotgood, Ghostface Killah, The Weeknd.</itunes:subtitle>
+              <itunes:summary>'Making a Murderer' creators on the complexity of true crime. Dwayne Betts drops a poetic Reagan-era inspired playlist. Star Wars redux: Meet Roger Christina, the man who built the first R2-D2. q top 20: Badbadnotgood, Ghostface Killah, The Weeknd.</itunes:summary>
+	      <itunes:duration>3354</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151217_81850.mp3" length="52413" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>q pop culture panel, Canada Reads 2016 launch, La Guerre des Tuques 11/16/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151216_67103.mp3</guid>
+	      <description>Fashion Santa is tailor-made for the naughty list. Wab Kinew reveals Canada Reads 2016 theme and longlist. Star Wars franchise as a force for real innovation. La Guerre des Tuques takes aim at a new generation. q top 20: Vince Staples. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 16 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Fashion Santa is tailor-made for the naughty list. Wab Kinew reveals Canada Reads 2016 theme and longlist. Star Wars franchise as a force for real innovation. La Guerre des Tuques takes aim at a new generation. q top 20: Vince Staples. </itunes:subtitle>
+              <itunes:summary>Fashion Santa is tailor-made for the naughty list. Wab Kinew reveals Canada Reads 2016 theme and longlist. Star Wars franchise as a force for real innovation. La Guerre des Tuques takes aim at a new generation. q top 20: Vince Staples. </itunes:summary>
+	      <itunes:duration>3227</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151216_67103.mp3" length="50426" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Bill Burr's F is for Family, Zomba Prison Project, rapper Le1f 11/15/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151215_86781.mp3</guid>
+	      <description>Bill Burr on blunter times and things we think but don't say. Zomba prison project: Hear freeing music made by inmates. Rapper Le1f takes back the night with Riot Boi. Plus, Buffy Sainte-Marie and Alex Cuba make the q top 20.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 15 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Bill Burr on blunter times and things we think but don't say. Zomba prison project: Hear freeing music made by inmates. Rapper Le1f takes back the night with Riot Boi. Plus, Buffy Sainte-Marie and Alex Cuba make the q top 20.</itunes:subtitle>
+              <itunes:summary>Bill Burr on blunter times and things we think but don't say. Zomba prison project: Hear freeing music made by inmates. Rapper Le1f takes back the night with Riot Boi. Plus, Buffy Sainte-Marie and Alex Cuba make the q top 20.</itunes:summary>
+	      <itunes:duration>3538</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151215_86781.mp3" length="55284" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Rating 'Ridiculous Six', refugees read The Odyssey, best books of 2015, The Grindmother 12/14/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151214_93986.mp3</guid>
+	      <description>Adam Sandler's 'Ridiculous 6' reviewed by indigenous women. The Odyssey as seen through the eyes of a Syrian refugee. Emily Keeler list the best books of 2015. The Grindmother: Meet the first grandma of grindcore. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 14 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Adam Sandler's 'Ridiculous 6' reviewed by indigenous women. The Odyssey as seen through the eyes of a Syrian refugee. Emily Keeler list the best books of 2015. The Grindmother: Meet the first grandma of grindcore. </itunes:subtitle>
+              <itunes:summary>Adam Sandler's 'Ridiculous 6' reviewed by indigenous women. The Odyssey as seen through the eyes of a Syrian refugee. Emily Keeler list the best books of 2015. The Grindmother: Meet the first grandma of grindcore. </itunes:summary>
+	      <itunes:duration>4001</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151214_93986.mp3" length="62513" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Violinist Lara St. John, actress Lena Waithe, magician David Ben, Trump impersonator John Di Domenico 12/11/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151211_55101.mp3</guid>
+	      <description>Violinist Lara St. John shreds strings in studio q. Master of None's Lena Waithe on how not to play a lesbian on TV. Magician David Ben on art and craft. q top 20 countdown. The rise of athleisure. Donald Trump impersonator on the new weight of the wig.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 11 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Violinist Lara St. John shreds strings in studio q. Master of None's Lena Waithe on how not to play a lesbian on TV. Magician David Ben on art and craft. q top 20 countdown. The rise of athleisure. Donald Trump impersonator on the new weight of the wig.</itunes:subtitle>
+              <itunes:summary>Violinist Lara St. John shreds strings in studio q. Master of None's Lena Waithe on how not to play a lesbian on TV. Magician David Ben on art and craft. q top 20 countdown. The rise of athleisure. Donald Trump impersonator on the new weight of the wig.</itunes:summary>
+	      <itunes:duration>5711</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151211_55101.mp3" length="89227" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Julie Taymor, Dee Snider, Dame Harriet Walter and q top 20 12/10/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151210_84529.mp3</guid>
+	      <description>Today on q: (1) Theatre and film director Julie Taymor. (2) Dee Snider's Christmas playlist. (3) Titus Andronicus on q's top 20 countdown. (4) Dame Harriet Walter on the all-female production of Shakespeare's King Henry IV.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 10 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) Theatre and film director Julie Taymor. (2) Dee Snider's Christmas playlist. (3) Titus Andronicus on q's top 20 countdown. (4) Dame Harriet Walter on the all-female production of Shakespeare's King Henry IV.</itunes:subtitle>
+              <itunes:summary>Today on q: (1) Theatre and film director Julie Taymor. (2) Dee Snider's Christmas playlist. (3) Titus Andronicus on q's top 20 countdown. (4) Dame Harriet Walter on the all-female production of Shakespeare's King Henry IV.</itunes:summary>
+	      <itunes:duration>4349</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151210_84529.mp3" length="67951" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>q pop culture panel, Maira Kalman's Beloved Dog, q top 20, "Punk poet of gaming" Nina Freeman 12/09/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151209_45291.mp3</guid>
+	      <description>Maira Kalman on Beloved Dog any why you should take yourself for a walk. Intimate video game 'Cibele' explores a woman's budding sexuality. q top 20: Tobias Jesso Jr. Chi-raq controversy and the enduring 'sex strike' narrative.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 09 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Maira Kalman on Beloved Dog any why you should take yourself for a walk. Intimate video game 'Cibele' explores a woman's budding sexuality. q top 20: Tobias Jesso Jr. Chi-raq controversy and the enduring 'sex strike' narrative.</itunes:subtitle>
+              <itunes:summary>Maira Kalman on Beloved Dog any why you should take yourself for a walk. Intimate video game 'Cibele' explores a woman's budding sexuality. q top 20: Tobias Jesso Jr. Chi-raq controversy and the enduring 'sex strike' narrative.</itunes:summary>
+	      <itunes:duration>3220</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151209_45291.mp3" length="50314" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Sarah Silverman's dark side, U.K. comedian Dawn French, q top 20, Yo-Yo Ma 12/08/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151208_95952.mp3</guid>
+	      <description>Sarah Silverman on I Smile Back, and why her serious side is deeply rooted. U.K. comedian Dawn French on developing resilience through humour. q's top 20 countdown begins. Plus, Yo-Yo Ma has crafted a soundtrack for your whole life. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 08 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Sarah Silverman on I Smile Back, and why her serious side is deeply rooted. U.K. comedian Dawn French on developing resilience through humour. q's top 20 countdown begins. Plus, Yo-Yo Ma has crafted a soundtrack for your whole life. </itunes:subtitle>
+              <itunes:summary>Sarah Silverman on I Smile Back, and why her serious side is deeply rooted. U.K. comedian Dawn French on developing resilience through humour. q's top 20 countdown begins. Plus, Yo-Yo Ma has crafted a soundtrack for your whole life. </itunes:summary>
+	      <itunes:duration>3846</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151208_95952.mp3" length="60092" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Homme Less on being secret poverty, Sheldon Cohen's heart attack, Grammy nominees 12/07/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151207_25666.mp3</guid>
+	      <description>Former homeless model Mark Reay on Homme Less and keeping up appearances. Animator Sheldon Cohen on his life-altering heart attack. Grammy nominations 2016: the surprises, snubs and shoo-ins. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 07 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Former homeless model Mark Reay on Homme Less and keeping up appearances. Animator Sheldon Cohen on his life-altering heart attack. Grammy nominations 2016: the surprises, snubs and shoo-ins. </itunes:subtitle>
+              <itunes:summary>Former homeless model Mark Reay on Homme Less and keeping up appearances. Animator Sheldon Cohen on his life-altering heart attack. Grammy nominations 2016: the surprises, snubs and shoo-ins. </itunes:summary>
+	      <itunes:duration>3527</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151207_25666.mp3" length="55117" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Ben Caplan performs, q pop culture panel, Gloria Steinem, q sports panel, comic Gina Yeshare 12/04/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151204_10018.mp3</guid>
+	      <description>Ben Caplan soars through q with 'Birds with Broken Wings'. Pirelli's nude calendar breaks form. Gloria Steinem's lessons from the road. q sports panel on Kobe Bryant's exit. Gina Yashere on laughing in the face of bigotry</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 07 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Ben Caplan soars through q with 'Birds with Broken Wings'. Pirelli's nude calendar breaks form. Gloria Steinem's lessons from the road. q sports panel on Kobe Bryant's exit. Gina Yashere on laughing in the face of bigotry</itunes:subtitle>
+              <itunes:summary>Ben Caplan soars through q with 'Birds with Broken Wings'. Pirelli's nude calendar breaks form. Gloria Steinem's lessons from the road. q sports panel on Kobe Bryant's exit. Gina Yashere on laughing in the face of bigotry</itunes:summary>
+	      <itunes:duration>6384</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151204_10018.mp3" length="99746" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Music for cats, the roots of radicalization, James Deen allegations, Bombay Black's Kawa Ada 12/03/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151203_19707.mp3</guid>
+	      <description>Cat classics: Exploring the musical preferences of felines. Boonaa Mohammed's Tug of War takes frank look at radicalization. Porn star James Deen and the problem with projecting feminism. Bombay Black remount casts male actor as female dancer.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 03 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Cat classics: Exploring the musical preferences of felines. Boonaa Mohammed's Tug of War takes frank look at radicalization. Porn star James Deen and the problem with projecting feminism. Bombay Black remount casts male actor as female dancer.</itunes:subtitle>
+              <itunes:summary>Cat classics: Exploring the musical preferences of felines. Boonaa Mohammed's Tug of War takes frank look at radicalization. Porn star James Deen and the problem with projecting feminism. Bombay Black remount casts male actor as female dancer.</itunes:summary>
+	      <itunes:duration>4587</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151203_19707.mp3" length="71669" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Carrie Brownstein's memoir, Kevin Powell on redefining manhood, comedy pop album, celebrating weird facts 12/01/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151201_21726.mp3</guid>
+	      <description>Sleater-Kinner's Carrie Brownstein on becoming visible. Kevin Powell on redefining manhood and unlearning misogyny. Tim Gilbert's comedy pop album is surprisingly delightful. 'Findings' columnist Rafil Kroll-Zaidi on the wonders of weird facts.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 01 Dec 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Sleater-Kinner's Carrie Brownstein on becoming visible. Kevin Powell on redefining manhood and unlearning misogyny. Tim Gilbert's comedy pop album is surprisingly delightful. 'Findings' columnist Rafil Kroll-Zaidi on the wonders of weird facts.</itunes:subtitle>
+              <itunes:summary>Sleater-Kinner's Carrie Brownstein on becoming visible. Kevin Powell on redefining manhood and unlearning misogyny. Tim Gilbert's comedy pop album is surprisingly delightful. 'Findings' columnist Rafil Kroll-Zaidi on the wonders of weird facts.</itunes:summary>
+	      <itunes:duration>4271</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151201_21726.mp3" length="66742" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Sir Tom Jones, cartoonist Riad Sattouf, internet comedian The Fat Jewish 11/30/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151130_21112.mp3</guid>
+	      <description>Legendary singer Tom Jones on why he's over being 'over the top'​. Former Charlie Hebdo cartoonist Riad Sattouf on The Arab of the Future. Instagram juggernaut 'The Fat Jewish' responds to joke theft allegations. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 30 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Legendary singer Tom Jones on why he's over being 'over the top'​. Former Charlie Hebdo cartoonist Riad Sattouf on The Arab of the Future. Instagram juggernaut 'The Fat Jewish' responds to joke theft allegations. </itunes:subtitle>
+              <itunes:summary>Legendary singer Tom Jones on why he's over being 'over the top'​. Former Charlie Hebdo cartoonist Riad Sattouf on The Arab of the Future. Instagram juggernaut 'The Fat Jewish' responds to joke theft allegations. </itunes:summary>
+	      <itunes:duration>4297</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151130_21112.mp3" length="67134" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Adele interview, Dilly Dally performs, Canadian James Bond &amp; q sports panel 2015-11-27</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151127_77679.mp3</guid>
+	      <description>Today on q: (1) A feature interview with Adele. (2) Toronto rockers Dilly Dally live in studio q. (3) Bringing James Bond to Ottawa. (4) The q sports panel on John Furlong, #DrakeNight and more.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 27 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) A feature interview with Adele. (2) Toronto rockers Dilly Dally live in studio q. (3) Bringing James Bond to Ottawa. (4) The q sports panel on John Furlong, #DrakeNight and more.</itunes:subtitle>
+              <itunes:summary>Today on q: (1) A feature interview with Adele. (2) Toronto rockers Dilly Dally live in studio q. (3) Bringing James Bond to Ottawa. (4) The q sports panel on John Furlong, #DrakeNight and more.</itunes:summary>
+	      <itunes:duration>6084</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151127_77679.mp3" length="95058" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Rod Stewart, Nalo Hopkinson, 16th century selfies, sketching at the museum 2015/11/26</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151126_17123.mp3</guid>
+	      <description>Today on q: (1) Rod Stewart's new album Another Country. (2) Author Nalo Hopkinson's short story collection Falling in Love with Hominids. (3) Fashion and "selfies" in the 16th century. (4) An Amsterdam museum says no to smartphones.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 26 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) Rod Stewart's new album Another Country. (2) Author Nalo Hopkinson's short story collection Falling in Love with Hominids. (3) Fashion and "selfies" in the 16th century. (4) An Amsterdam museum says no to smartphones.</itunes:subtitle>
+              <itunes:summary>Today on q: (1) Rod Stewart's new album Another Country. (2) Author Nalo Hopkinson's short story collection Falling in Love with Hominids. (3) Fashion and "selfies" in the 16th century. (4) An Amsterdam museum says no to smartphones.</itunes:summary>
+	      <itunes:duration>3940</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151126_17123.mp3" length="61560" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>John Mulaney, Sanjay Patel, q pop culture panel and artist-in-residence Adrienne Wong 2015/11/25</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151125_79332.mp3</guid>
+	      <description>Today on q: (1) The q pop culture panel on Marvel's Jessica Jones, Star Wars and more. (2) Comedian John Mulaney's comeback. (3) Filmmaker Sanjay Patel's new animated short Sanjay's Super Team. (4) q's artist in residence reflects on the Paris attacks.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 26 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) The q pop culture panel on Marvel's Jessica Jones, Star Wars and more. (2) Comedian John Mulaney's comeback. (3) Filmmaker Sanjay Patel's new animated short Sanjay's Super Team. (4) q's artist in residence reflects on the Paris attacks.</itunes:subtitle>
+              <itunes:summary>Today on q: (1) The q pop culture panel on Marvel's Jessica Jones, Star Wars and more. (2) Comedian John Mulaney's comeback. (3) Filmmaker Sanjay Patel's new animated short Sanjay's Super Team. (4) q's artist in residence reflects on the Paris attacks.</itunes:summary>
+	      <itunes:duration>3518</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151125_79332.mp3" length="54974" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Ethan Hawke, Mitch Albom and ISIS's official magazine 11/24/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151124_96147.mp3</guid>
+	      <description>Today on q: (1) Actor and writer Ethan Hawke's book, Rules for a Knight. (2) Kim Pittaway and Graeme Wood on Dabiq, the ISIS magazine. (3) The music behind Mitch Albom's new book, The Magic Strings of Frankie Presto.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 26 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) Actor and writer Ethan Hawke's book, Rules for a Knight. (2) Kim Pittaway and Graeme Wood on Dabiq, the ISIS magazine. (3) The music behind Mitch Albom's new book, The Magic Strings of Frankie Presto.</itunes:subtitle>
+              <itunes:summary>Today on q: (1) Actor and writer Ethan Hawke's book, Rules for a Knight. (2) Kim Pittaway and Graeme Wood on Dabiq, the ISIS magazine. (3) The music behind Mitch Albom's new book, The Magic Strings of Frankie Presto.</itunes:summary>
+	      <itunes:duration>4004</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151124_96147.mp3" length="62557" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Jim Gaffigan, Alessia Cara and diversity debate 11/23/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151123_97282.mp3</guid>
+	      <description>Today on q: (1) Jim Gaffigan on family, faith and keeping comedy clean (2) Canadian singer-songwriter Alessia Cara (3) is "diversity" a useful cultural term?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 26 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Today on q: (1) Jim Gaffigan on family, faith and keeping comedy clean (2) Canadian singer-songwriter Alessia Cara (3) is "diversity" a useful cultural term?</itunes:subtitle>
+              <itunes:summary>Today on q: (1) Jim Gaffigan on family, faith and keeping comedy clean (2) Canadian singer-songwriter Alessia Cara (3) is "diversity" a useful cultural term?</itunes:summary>
+	      <itunes:duration>3981</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151123_97282.mp3" length="62201" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Yukon Blonde, Joshua Jackson, Paris myths, FL Bieber, q sports panel, Phil Collins debate 11/20/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151120_81351.mp3</guid>
+	      <description>Friday Live performance from Yukon Blonde. Actor Joshua Jackson on The Affair. Samira Ouadi and Piu Marie Eatwell on Paris mythology. Florida retail manager Justin Bieber. q sports panel on fan safety and Ronda Rousey. Phil Collins: good or bad?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 20 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Friday Live performance from Yukon Blonde. Actor Joshua Jackson on The Affair. Samira Ouadi and Piu Marie Eatwell on Paris mythology. Florida retail manager Justin Bieber. q sports panel on fan safety and Ronda Rousey. Phil Collins: good or bad?</itunes:subtitle>
+              <itunes:summary>Friday Live performance from Yukon Blonde. Actor Joshua Jackson on The Affair. Samira Ouadi and Piu Marie Eatwell on Paris mythology. Florida retail manager Justin Bieber. q sports panel on fan safety and Ronda Rousey. Phil Collins: good or bad?</itunes:summary>
+	      <itunes:duration>6256</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151120_81351.mp3" length="97751" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>The quotable Cheryl Strayed, poet Saul Williams, the real von Trapps 11/19/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151119_86940.mp3</guid>
+	      <description>Wild author Cheryl Strayed on the life-changing power of quotations. Poet and performer Saul Williams on how to 'give your life' while you're alive. The next generation of von Trapps: The hills are alive with the sound of indie rock. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 19 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Wild author Cheryl Strayed on the life-changing power of quotations. Poet and performer Saul Williams on how to 'give your life' while you're alive. The next generation of von Trapps: The hills are alive with the sound of indie rock. </itunes:subtitle>
+              <itunes:summary>Wild author Cheryl Strayed on the life-changing power of quotations. Poet and performer Saul Williams on how to 'give your life' while you're alive. The next generation of von Trapps: The hills are alive with the sound of indie rock. </itunes:summary>
+	      <itunes:duration>3891</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151119_86940.mp3" length="60803" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>El Vy performs, Chilly Gonzales, Rainn Wilson, stand-up desk debate, platonic matchmaking 11/17/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151117_18443.mp3</guid>
+	      <description>El Vy brings Return to the Moon to studio q. Chilly Gonzales on why he won't cancel his Paris show. The Office's Rainn Wilson is sick of this "anti-religious" thing. Good or Bad: Standing desk on trial. Plus, would you try a friendship matchmaker?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 17 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>El Vy brings Return to the Moon to studio q. Chilly Gonzales on why he won't cancel his Paris show. The Office's Rainn Wilson is sick of this "anti-religious" thing. Good or Bad: Standing desk on trial. Plus, would you try a friendship matchmaker?</itunes:subtitle>
+              <itunes:summary>El Vy brings Return to the Moon to studio q. Chilly Gonzales on why he won't cancel his Paris show. The Office's Rainn Wilson is sick of this "anti-religious" thing. Good or Bad: Standing desk on trial. Plus, would you try a friendship matchmaker?</itunes:summary>
+	      <itunes:duration>4031</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151117_18443.mp3" length="62985" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Artists respond to Paris attacks, film writer David Thomson, Anna and Jane McGarrigle 11/16/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151116_99292.mp3</guid>
+	      <description>Artists offer peaceful responses to Paris attacks. Celebrated film critic David Thomson on why we shouldn't watch movies to 'escape' harsh realities. Anna and Jane McGarrigle on music and sisterhood.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 16 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Artists offer peaceful responses to Paris attacks. Celebrated film critic David Thomson on why we shouldn't watch movies to 'escape' harsh realities. Anna and Jane McGarrigle on music and sisterhood.</itunes:subtitle>
+              <itunes:summary>Artists offer peaceful responses to Paris attacks. Celebrated film critic David Thomson on why we shouldn't watch movies to 'escape' harsh realities. Anna and Jane McGarrigle on music and sisterhood.</itunes:summary>
+	      <itunes:duration>2875</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151116_99292.mp3" length="44926" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Beirut performs, Neil Hamburger, stealing Cosby jokes, q sports panel, Mavis Staples excerpt 11/13/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151113_87702.mp3</guid>
+	      <description>Brooklyn's Beirut has us saying hell yes to 'No No No'. Neil Hamburger's uncomfortable comedy. Cosby jokes without Cosby: Can the humour be redeemed? q sports panel on doping and the culture of cheating. Mavis Staples excerpt.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 13 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Brooklyn's Beirut has us saying hell yes to 'No No No'. Neil Hamburger's uncomfortable comedy. Cosby jokes without Cosby: Can the humour be redeemed? q sports panel on doping and the culture of cheating. Mavis Staples excerpt.</itunes:subtitle>
+              <itunes:summary>Brooklyn's Beirut has us saying hell yes to 'No No No'. Neil Hamburger's uncomfortable comedy. Cosby jokes without Cosby: Can the humour be redeemed? q sports panel on doping and the culture of cheating. Mavis Staples excerpt.</itunes:summary>
+	      <itunes:duration>5529</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151113_87702.mp3" length="86387" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Cindy Crawford, Garance Dore, the Paparazzi's decline 11/12/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151112_95937.mp3</guid>
+	      <description>Cindy Crawford says she wants to wake up looking like Cindy Crawford. Style influencer Garance Dore on curating the self. Virtual reality journalism will change the way you see the news. Will the infamous Paparazzi soon be forgotten?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 12 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Cindy Crawford says she wants to wake up looking like Cindy Crawford. Style influencer Garance Dore on curating the self. Virtual reality journalism will change the way you see the news. Will the infamous Paparazzi soon be forgotten?</itunes:subtitle>
+              <itunes:summary>Cindy Crawford says she wants to wake up looking like Cindy Crawford. Style influencer Garance Dore on curating the self. Virtual reality journalism will change the way you see the news. Will the infamous Paparazzi soon be forgotten?</itunes:summary>
+	      <itunes:duration>3681</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151112_95937.mp3" length="57517" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Essayist Ta-Nehisi Coates, UK singer-songwriter Laura Marling,  filmmaker Josh Oppenheimer 11/10/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151111_84600.mp3</guid>
+	      <description>Ta-Nehisi Coates on why racism is a physical experience for black people. Laura Marling shares director's cut of 'Short Movie' album. The Look of Silence: Joshua Oppenheimer examines open wounds of injustice.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 11 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Ta-Nehisi Coates on why racism is a physical experience for black people. Laura Marling shares director's cut of 'Short Movie' album. The Look of Silence: Joshua Oppenheimer examines open wounds of injustice.</itunes:subtitle>
+              <itunes:summary>Ta-Nehisi Coates on why racism is a physical experience for black people. Laura Marling shares director's cut of 'Short Movie' album. The Look of Silence: Joshua Oppenheimer examines open wounds of injustice.</itunes:summary>
+	      <itunes:duration>4304</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151111_84600.mp3" length="67254" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>q pop culture panel, Hasan Minaj, artist in residence revealed, Meet the Patels 11/10/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151110_33963.mp3</guid>
+	      <description>q pop culture panel: Bond brand, Trump on SNL, Aziz Ansari's new show. Hasan Minhaj on Homecoming King and surviving humiliation. q's first artist in residence revealed today. 'Meet the Patels' tells true story of dating between cultures.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 10 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>q pop culture panel: Bond brand, Trump on SNL, Aziz Ansari's new show. Hasan Minhaj on Homecoming King and surviving humiliation. q's first artist in residence revealed today. 'Meet the Patels' tells true story of dating between cultures.</itunes:subtitle>
+              <itunes:summary>q pop culture panel: Bond brand, Trump on SNL, Aziz Ansari's new show. Hasan Minhaj on Homecoming King and surviving humiliation. q's first artist in residence revealed today. 'Meet the Patels' tells true story of dating between cultures.</itunes:summary>
+	      <itunes:duration>4009</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151110_33963.mp3" length="62638" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>True North cuisine, Trevor Paglen's surveillance art, poet Renée Sarojini Saklikar 11/09/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151109_90586.mp3</guid>
+	      <description>True North cookbook offers fresh take on "Canadian cuisine". Photographer Trevor Paglen on learning to see surveillance. Air India [Redacted]: poet Renée Sarojini Saklikar on how we remember, and forget, terror.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 09 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>True North cookbook offers fresh take on "Canadian cuisine". Photographer Trevor Paglen on learning to see surveillance. Air India [Redacted]: poet Renée Sarojini Saklikar on how we remember, and forget, terror.</itunes:subtitle>
+              <itunes:summary>True North cookbook offers fresh take on "Canadian cuisine". Photographer Trevor Paglen on learning to see surveillance. Air India [Redacted]: poet Renée Sarojini Saklikar on how we remember, and forget, terror.</itunes:summary>
+	      <itunes:duration>3745</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151109_90586.mp3" length="58509" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Rah Rah performs, Cristela Alonzo, q sports panel, Stretch and Bobbito, Trudeau throat singers 11/05/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151106_24260.mp3</guid>
+	      <description>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 06 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round.</itunes:subtitle>
+              <itunes:summary>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round.</itunes:summary>
+	      <itunes:duration>5803</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151106_24260.mp3" length="90677" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>A Ballerina's Tale, plus-size male model Zach Miko, robot actors, final round of Artist-in-Residence 11/05/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151105_43507.mp3</guid>
+	      <description>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 05 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round. </itunes:subtitle>
+              <itunes:summary>Nelson George on ballet 'pop star' Misty Copeland. Plus-size model Zach Miko on big, tall men and body image. Japanese disaster movie casts realistic robot in lead role. q artist in residence: finalists face off in final round. </itunes:summary>
+	      <itunes:duration>3455</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151105_43507.mp3" length="53981" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>q pop culture panel, Kardinal Offishall's playlist, War Toys hijacked 11/04/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151104_59342.mp3</guid>
+	      <description>Sandra Bullock to lead gender-swapped Ocean's Eleven — q pop culture panel on this and more. q playlist: Kardinal Offishall shares music that hits him hard. Plus, What do you do when ISIS hijacks your art? Photographer Brian McCarty shares his story.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 04 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Sandra Bullock to lead gender-swapped Ocean's Eleven — q pop culture panel on this and more. q playlist: Kardinal Offishall shares music that hits him hard. Plus, What do you do when ISIS hijacks your art? Photographer Brian McCarty shares his story.</itunes:subtitle>
+              <itunes:summary>Sandra Bullock to lead gender-swapped Ocean's Eleven — q pop culture panel on this and more. q playlist: Kardinal Offishall shares music that hits him hard. Plus, What do you do when ISIS hijacks your art? Photographer Brian McCarty shares his story.</itunes:summary>
+	      <itunes:duration>4015</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151104_59342.mp3" length="62731" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Elvis Costello, Amsterdam's night mayor, Brie Larson on Room, q Artist-in-Residence round three 11/03/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151103_16626.mp3</guid>
+	      <description>Elvis Costello draws back the curtain in new memoir. Amsterdam's night mayor says city leadership shouldn't sleep. Excerpt: Brie Larson says Room broke her in half. q artist in residence round three: Humble the Poet vs. Katherena Vermette.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 04 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Elvis Costello draws back the curtain in new memoir. Amsterdam's night mayor says city leadership shouldn't sleep. Excerpt: Brie Larson says Room broke her in half. q artist in residence round three: Humble the Poet vs. Katherena Vermette.</itunes:subtitle>
+              <itunes:summary>Elvis Costello draws back the curtain in new memoir. Amsterdam's night mayor says city leadership shouldn't sleep. Excerpt: Brie Larson says Room broke her in half. q artist in residence round three: Humble the Poet vs. Katherena Vermette.</itunes:summary>
+	      <itunes:duration>3593</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151103_16626.mp3" length="56143" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Feel-good feminism critiqued, Satan Lives doc, the poetics of athletics, q sports panel, Laurie Anderson, Rhythm Express 10/30/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151030_54689.mp3</guid>
+	      <description>Bitch magazine's Andi Zeisler calls out feel-good Feminism. Satan Lives film stares down the devil himself. The poetry of pro athletes. q sports panel reconvenes. Laurie Anderson on Heart of a Dog. Rhythm Express performs.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 02 Nov 2015 05:00:00 GMT</pubDate>
+	      <itunes:subtitle>Bitch magazine's Andi Zeisler calls out feel-good Feminism. Satan Lives film stares down the devil himself. The poetry of pro athletes. q sports panel reconvenes. Laurie Anderson on Heart of a Dog. Rhythm Express performs.</itunes:subtitle>
+              <itunes:summary>Bitch magazine's Andi Zeisler calls out feel-good Feminism. Satan Lives film stares down the devil himself. The poetry of pro athletes. q sports panel reconvenes. Laurie Anderson on Heart of a Dog. Rhythm Express performs.</itunes:summary>
+	      <itunes:duration>5939</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151030_54689.mp3" length="92791" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Garbage's Shirley Manson, Madhur Jaffrey, hover board dreams, round 2 of Artist-in-Residence 10/</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151029_37426.mp3</guid>
+	      <description>Shirley Manson on 20 years of Garbage. Madhur Jaffrey on how Indian cuisine won Western taste buds. An update on the latest in hover board technology. q artist in residence, round two: Amiel Gladstone vs. Drew Hayden Taylor.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 29 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Shirley Manson on 20 years of Garbage. Madhur Jaffrey on how Indian cuisine won Western taste buds. An update on the latest in hover board technology. q artist in residence, round two: Amiel Gladstone vs. Drew Hayden Taylor.</itunes:subtitle>
+              <itunes:summary>Shirley Manson on 20 years of Garbage. Madhur Jaffrey on how Indian cuisine won Western taste buds. An update on the latest in hover board technology. q artist in residence, round two: Amiel Gladstone vs. Drew Hayden Taylor.</itunes:summary>
+	      <itunes:duration>3852</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151029_37426.mp3" length="60180" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Comedian Maysoon Zayid, q pop culture panel, Jamie Oliver vs. sugar 10/28/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151028_69766.mp3</guid>
+	      <description>Disabled comic Maysoon Zayid on defying convention and smashing stigma. q pop culture panel on competence porn, Canada's cultural moment, and Steve Jobs box office flop. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 28 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Disabled comic Maysoon Zayid on defying convention and smashing stigma. q pop culture panel on competence porn, Canada's cultural moment, and Steve Jobs box office flop. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</itunes:subtitle>
+              <itunes:summary>Disabled comic Maysoon Zayid on defying convention and smashing stigma. q pop culture panel on competence porn, Canada's cultural moment, and Steve Jobs box office flop. British chef and activist Jamie Oliver challenges our mindless consumption of sugar.</itunes:summary>
+	      <itunes:duration>4411</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151028_69766.mp3" length="68922" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Chef Yotam Ottolenghi, Man Booker Prize winner Marlon James, q's Artist-in-Residence round one 10/27/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151027_49688.mp3</guid>
+	      <description>Chef Yotam Ottolenghi on living and cooking boldly. Man Booker Prize winner Marlon James on the music that moves him. q artist in residence, round one: Musician Tamara Lindeman vs. Theatre artist Adrienne Wong.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 27 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Chef Yotam Ottolenghi on living and cooking boldly. Man Booker Prize winner Marlon James on the music that moves him. q artist in residence, round one: Musician Tamara Lindeman vs. Theatre artist Adrienne Wong.</itunes:subtitle>
+              <itunes:summary>Chef Yotam Ottolenghi on living and cooking boldly. Man Booker Prize winner Marlon James on the music that moves him. q artist in residence, round one: Musician Tamara Lindeman vs. Theatre artist Adrienne Wong.</itunes:summary>
+	      <itunes:duration>3433</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151027_49688.mp3" length="53643" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Emily Flake's Mama Tried, Gregory Maguire's After Alice, porn stars on TV 10/26/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151026_29676.mp3</guid>
+	      <description>Cartoonist Emily Flake on gross humour for moms and the seamy underbelly of modern parenting. Wicked author Gregory Maguire goes down the rabbit hole in After Alice. Plus, two inside perspectives on why mainstream TV dramas are casting porn actors.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 26 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Cartoonist Emily Flake on gross humour for moms and the seamy underbelly of modern parenting. Wicked author Gregory Maguire goes down the rabbit hole in After Alice. Plus, two inside perspectives on why mainstream TV dramas are casting porn actors.</itunes:subtitle>
+              <itunes:summary>Cartoonist Emily Flake on gross humour for moms and the seamy underbelly of modern parenting. Wicked author Gregory Maguire goes down the rabbit hole in After Alice. Plus, two inside perspectives on why mainstream TV dramas are casting porn actors.</itunes:summary>
+	      <itunes:duration>3598</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151026_29676.mp3" length="56211" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Seth MacFarlane, objectifying Trudeau, Drake's dorky moves, The Darkness performs, and more! 10/23/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151023_51189.mp3</guid>
+	      <description>The Darkness performs from Last of Our Kind. Seth MacFarlane on serious climate change collab. Panel on Justin Trudeau and the politics of physical appearance. "Inappropriate" period underwear ads. Why Drake's dance moves fit his brand. q sports panel. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 23 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>The Darkness performs from Last of Our Kind. Seth MacFarlane on serious climate change collab. Panel on Justin Trudeau and the politics of physical appearance. "Inappropriate" period underwear ads. Why Drake's dance moves fit his brand. q sports panel. </itunes:subtitle>
+              <itunes:summary>The Darkness performs from Last of Our Kind. Seth MacFarlane on serious climate change collab. Panel on Justin Trudeau and the politics of physical appearance. "Inappropriate" period underwear ads. Why Drake's dance moves fit his brand. q sports panel. </itunes:summary>
+	      <itunes:duration>5207</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151023_51189.mp3" length="81358" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Lebanese band Mashrou Leila', Roland 808, Chance the Rapper</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151022_66077.mp3</guid>
+	      <description>Mashrou' Leila's gay frontman confronts homophobia in the Middle East, stereotypes in the West. '808' documentary pays tribute to disruptive drum machine. Chance the Rapper on staying indie in the major label world of hip-hop. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 23 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Mashrou' Leila's gay frontman confronts homophobia in the Middle East, stereotypes in the West. '808' documentary pays tribute to disruptive drum machine. Chance the Rapper on staying indie in the major label world of hip-hop. </itunes:subtitle>
+              <itunes:summary>Mashrou' Leila's gay frontman confronts homophobia in the Middle East, stereotypes in the West. '808' documentary pays tribute to disruptive drum machine. Chance the Rapper on staying indie in the major label world of hip-hop. </itunes:summary>
+	      <itunes:duration>3529</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151022_66077.mp3" length="55135" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Dick Van Dyke, q pop culture panel, Julia Hardy 10/22/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151022_27404.mp3</guid>
+	      <description>Acting legend Dick Van Dyke talks aging, death and why he can't stop dancing. America's Next Top Model reaches the end of the runway. Why pediatricians are rethinking strict screen time rules. Julia Hardy vs. misogyny: Shutting up is not a superpower.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 22 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Acting legend Dick Van Dyke talks aging, death and why he can't stop dancing. America's Next Top Model reaches the end of the runway. Why pediatricians are rethinking strict screen time rules. Julia Hardy vs. misogyny: Shutting up is not a superpower.</itunes:subtitle>
+              <itunes:summary>Acting legend Dick Van Dyke talks aging, death and why he can't stop dancing. America's Next Top Model reaches the end of the runway. Why pediatricians are rethinking strict screen time rules. Julia Hardy vs. misogyny: Shutting up is not a superpower.</itunes:summary>
+	      <itunes:duration>3845</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151022_27404.mp3" length="60077" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Post-election panel, The Girl On The Train, Aaron Sorkin 10/20/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151020_57834.mp3</guid>
+	      <description>q's post-election panel on the campaign and Canadian multiculturalism. Author Paula Hawkins on The Girl On The Train's runaway success. Screenwriter Aaron Sorkin on Steve Jobs and writing honest characters.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 20 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>q's post-election panel on the campaign and Canadian multiculturalism. Author Paula Hawkins on The Girl On The Train's runaway success. Screenwriter Aaron Sorkin on Steve Jobs and writing honest characters.</itunes:subtitle>
+              <itunes:summary>q's post-election panel on the campaign and Canadian multiculturalism. Author Paula Hawkins on The Girl On The Train's runaway success. Screenwriter Aaron Sorkin on Steve Jobs and writing honest characters.</itunes:summary>
+	      <itunes:duration>3660</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151020_57834.mp3" length="57185" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Memoirist Mary Karr, Glen Hansard, Limetown co-creators 10/19/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151019_23739.mp3</guid>
+	      <description>Sook-Yin Lee guest hosts. Mary Karr on The Art of Memoir. Glen Hansard performs from Didn't He Ramble. Limetown co-creators Skip Bronkie and Zack Akers on their hit mystery podcast.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 19 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Sook-Yin Lee guest hosts. Mary Karr on The Art of Memoir. Glen Hansard performs from Didn't He Ramble. Limetown co-creators Skip Bronkie and Zack Akers on their hit mystery podcast.</itunes:subtitle>
+              <itunes:summary>Sook-Yin Lee guest hosts. Mary Karr on The Art of Memoir. Glen Hansard performs from Didn't He Ramble. Limetown co-creators Skip Bronkie and Zack Akers on their hit mystery podcast.</itunes:summary>
+	      <itunes:duration>4273</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151019_23739.mp3" length="66766" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Majical Cloudz performs, Peter Sarsgaard on Experimenter, Cinematographer Bradford Young, native advertising, q sports panel, election comedy 10/16/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151016_28829.mp3</guid>
+	      <description>Majical Cloudz performs from 'Are You Alone?'. Peter Sarsgaard on 'Experimenter' and obedience. Selma cinematographer Bradford Young on the power of image. Unwritten rules of baseball. Terry Fallis on satire that sticks. Conde Nast's Pitchfork purchase.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 16 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Majical Cloudz performs from 'Are You Alone?'. Peter Sarsgaard on 'Experimenter' and obedience. Selma cinematographer Bradford Young on the power of image. Unwritten rules of baseball. Terry Fallis on satire that sticks. Conde Nast's Pitchfork purchase.</itunes:subtitle>
+              <itunes:summary>Majical Cloudz performs from 'Are You Alone?'. Peter Sarsgaard on 'Experimenter' and obedience. Selma cinematographer Bradford Young on the power of image. Unwritten rules of baseball. Terry Fallis on satire that sticks. Conde Nast's Pitchfork purchase.</itunes:summary>
+	      <itunes:duration>6108</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151016_28829.mp3" length="95442" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Bryan Adams, Sterlin Harjo, Deepa Mehta, q playlist with Hayden 10/15/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151016_81708.mp3</guid>
+	      <description>Get Up! Bryan Adams is back with an ode to classic rock 'n' roll. Sterlin Harjo on Mekko and finding the light in the dark. Dad rock: What's on Hayden's parental playlist? Beeba Boys: Did Deepa Mehta just make a mobster movie?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 16 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Get Up! Bryan Adams is back with an ode to classic rock 'n' roll. Sterlin Harjo on Mekko and finding the light in the dark. Dad rock: What's on Hayden's parental playlist? Beeba Boys: Did Deepa Mehta just make a mobster movie?</itunes:subtitle>
+              <itunes:summary>Get Up! Bryan Adams is back with an ode to classic rock 'n' roll. Sterlin Harjo on Mekko and finding the light in the dark. Dad rock: What's on Hayden's parental playlist? Beeba Boys: Did Deepa Mehta just make a mobster movie?</itunes:summary>
+	      <itunes:duration>4320</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151016_81708.mp3" length="67503" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Today on q: pop culture panel, Patti Smith, Clive on Tech, Walk-Up Song 10/14/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151014_16138.mp3</guid>
+	      <description>Why Playboy Magazine says it's time to cover up. Patti Smith on the power of daydream time. Are humans ready to hand over the steering wheel? Smash hit! What's the power of a walk-up song?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 14 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Why Playboy Magazine says it's time to cover up. Patti Smith on the power of daydream time. Are humans ready to hand over the steering wheel? Smash hit! What's the power of a walk-up song?</itunes:subtitle>
+              <itunes:summary>Why Playboy Magazine says it's time to cover up. Patti Smith on the power of daydream time. Are humans ready to hand over the steering wheel? Smash hit! What's the power of a walk-up song?</itunes:summary>
+	      <itunes:duration>4569</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151014_16138.mp3" length="71398" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Ralph Nader's tort passion, Fear and Clothing, the pros and cons of work friends 10/13/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151013_98056.mp3</guid>
+	      <description>Ralph Nader on why Tort law is actually fascinating. Fashion critic Cintra Wilson on mapping the geography of style. Good or Bad: Should we be wary of work friends?</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 13 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Ralph Nader on why Tort law is actually fascinating. Fashion critic Cintra Wilson on mapping the geography of style. Good or Bad: Should we be wary of work friends?</itunes:subtitle>
+              <itunes:summary>Ralph Nader on why Tort law is actually fascinating. Fashion critic Cintra Wilson on mapping the geography of style. Good or Bad: Should we be wary of work friends?</itunes:summary>
+	      <itunes:duration>3948</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151013_98056.mp3" length="61690" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Syrian composer Malek Jandali, Phyllis Smith as Sadness, David Lagercrantz 10/09/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151009_50901.mp3</guid>
+	      <description>From the best of q: Inside Out's Phyllis Smith shares what she learned from Sadness. David Lagercrantz on resurrecting the Dragon Tattoo trilogy. Syrian composer Malek Jandali on why art threatens Assad. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 09 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>From the best of q: Inside Out's Phyllis Smith shares what she learned from Sadness. David Lagercrantz on resurrecting the Dragon Tattoo trilogy. Syrian composer Malek Jandali on why art threatens Assad. </itunes:subtitle>
+              <itunes:summary>From the best of q: Inside Out's Phyllis Smith shares what she learned from Sadness. David Lagercrantz on resurrecting the Dragon Tattoo trilogy. Syrian composer Malek Jandali on why art threatens Assad. </itunes:summary>
+	      <itunes:duration>3973</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151009_50901.mp3" length="62079" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>City and Colour performs, actress Rose McGowan, magician Darcy Oake, q sports panel 10/09/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151009_81649.mp3</guid>
+	      <description>City and Colour brings 'If I Should Go Before You' to studio q. Rose McGowan stays vocal after exile from Hollywood. Illusionist Darcy Oake on the art of hiding your skill. q sports panel. How American Apparel lost its cool. The merits of making your bed.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Fri, 09 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>City and Colour brings 'If I Should Go Before You' to studio q. Rose McGowan stays vocal after exile from Hollywood. Illusionist Darcy Oake on the art of hiding your skill. q sports panel. How American Apparel lost its cool. The merits of making your bed.</itunes:subtitle>
+              <itunes:summary>City and Colour brings 'If I Should Go Before You' to studio q. Rose McGowan stays vocal after exile from Hollywood. Illusionist Darcy Oake on the art of hiding your skill. q sports panel. How American Apparel lost its cool. The merits of making your bed.</itunes:summary>
+	      <itunes:duration>6080</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151009_81649.mp3" length="94995" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Wire walker Philippe Petit, 2 Live Crew's Luke Campbell, Sinatra playlist 10/08/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151008_86063.mp3</guid>
+	      <description>Meet Philippe Petit, the real World Trade Centre wire walker who inspired The Walk. 2 Live Crew's Luther Campbell on why he went to court to be nasty as he wants to be. Let's be Frank: Albert Schultz selects essential Sinatra for a new q playlist. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Thu, 08 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Meet Philippe Petit, the real World Trade Centre wire walker who inspired The Walk. 2 Live Crew's Luther Campbell on why he went to court to be nasty as he wants to be. Let's be Frank: Albert Schultz selects essential Sinatra for a new q playlist. </itunes:subtitle>
+              <itunes:summary>Meet Philippe Petit, the real World Trade Centre wire walker who inspired The Walk. 2 Live Crew's Luther Campbell on why he went to court to be nasty as he wants to be. Let's be Frank: Albert Schultz selects essential Sinatra for a new q playlist. </itunes:summary>
+	      <itunes:duration>4312</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151008_86063.mp3" length="67378" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Today on q: pop culture panel, immortal tattoos,1960s gay slang</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151007_97540.mp3</guid>
+	      <description>q pop culture panel on Mars, male nudity and more. Tattoo preservationist makes the case for saving skin art. Why internet freedom groups are worried about the TPP. Polari revisited: Filmmakers Brian and Kark decode the secret art of gay slang. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Wed, 07 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>q pop culture panel on Mars, male nudity and more. Tattoo preservationist makes the case for saving skin art. Why internet freedom groups are worried about the TPP. Polari revisited: Filmmakers Brian and Kark decode the secret art of gay slang. </itunes:subtitle>
+              <itunes:summary>q pop culture panel on Mars, male nudity and more. Tattoo preservationist makes the case for saving skin art. Why internet freedom groups are worried about the TPP. Polari revisited: Filmmakers Brian and Kark decode the secret art of gay slang. </itunes:summary>
+	      <itunes:duration>3977</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151007_97540.mp3" length="62139" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>Canadian opera singer Barbara Hannigan, Chvrches performs, Will Ferguson 10/06/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151006_48107.mp3</guid>
+	      <description>Glasgow synth-pop trio Chvrches returns to studio q with Every Open Eye. Singing opera conductor Barbara Hannigan on becoming the music. Will Ferguson and Jean-Claude Munyezamu on Road Trip Rwanda.</description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Tue, 06 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Glasgow synth-pop trio Chvrches returns to studio q with Every Open Eye. Singing opera conductor Barbara Hannigan on becoming the music. Will Ferguson and Jean-Claude Munyezamu on Road Trip Rwanda.</itunes:subtitle>
+              <itunes:summary>Glasgow synth-pop trio Chvrches returns to studio q with Every Open Eye. Singing opera conductor Barbara Hannigan on becoming the music. Will Ferguson and Jean-Claude Munyezamu on Road Trip Rwanda.</itunes:summary>
+	      <itunes:duration>3988</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151006_48107.mp3" length="62317" type="audio/mpeg" />
+	    </item>
+	      
+	    
+	    <item>
+	      <title>q political culture panel, John Fogerty, refugee performance art 10/05/2015</title>
+	      <guid>http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151005_20694.mp3</guid>
+	      <description>Is good TV also good for democracy? The q election panel weighs in. Creedence Clearwater Revival's John Fogerty shares confessions of a Fortunate Son. Refugee theatre club co-founder Ahmed Shah on fighting the death inside. </description>
+	      <link>http://www.cbc.ca/podcasting</link>
+		  <author>podcasting@cbc.ca</author>
+	      <pubDate>Mon, 05 Oct 2015 04:00:00 GMT</pubDate>
+	      <itunes:subtitle>Is good TV also good for democracy? The q election panel weighs in. Creedence Clearwater Revival's John Fogerty shares confessions of a Fortunate Son. Refugee theatre club co-founder Ahmed Shah on fighting the death inside. </itunes:subtitle>
+              <itunes:summary>Is good TV also good for democracy? The q election panel weighs in. Creedence Clearwater Revival's John Fogerty shares confessions of a Fortunate Son. Refugee theatre club co-founder Ahmed Shah on fighting the death inside. </itunes:summary>
+	      <itunes:duration>3942</itunes:duration>
+	      <enclosure url="http://podcast.cbc.ca/mp3/podcasts/qpodcast_20151005_20694.mp3" length="61590" type="audio/mpeg" />
+	    </item>
+	      
+	  </channel>
+</rss>
