@@ -1,16 +1,7 @@
-dist: trusty
-#sudo: required
-
-addons:
-  sonarcloud:
-    organization: "alexangas-github"
-
-jdk:
-  - oraclejdk8
+language: csharp
 
 script:
-  - sonar-scanner
-
-cache:
-  directories:
-    - '$HOME/.sonar/cache'
+  - dotnet tool install dotnet-sonarscanner
+  - dotnet sonarscanner begin /k:"alexangas_podcast-feed-reader" /d:sonar.login="${SONAR_TOKEN}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.verbose=true
+  - dotnet build
+  - dotnet sonarscanner end /d:sonar.login="${SONAR_TOKEN}"
