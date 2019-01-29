@@ -37,12 +37,12 @@ environment:
   SRC_PROJECT: .\src\PodFeedReader
   SONAR_PROJECT: alexangas_podcast
   SONAR_TOKEN:
-    secure: 5oU+bODTB0ZVQVIxinUIjji23k3ZZeUTvCXav8YgC2zhv3wSVUL+e3jUnEeJZDHH
+    secure: 4a7+xiB1/0gxBkAF+VILSRGyDACWtw/UOAv2gjlB2WRsbW6Mah+DDmkGogacgJpE
 build_script:
 - ps: >-
     dotnet tool install dotnet-sonarscanner --global
 
-    dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.verbose=true
+    dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io"
 
     dotnet build --configuration $env:BUILD_CONFIGURATION
 
