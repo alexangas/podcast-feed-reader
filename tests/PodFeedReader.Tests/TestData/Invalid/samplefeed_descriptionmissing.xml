@@ -1,0 +1,265 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Einhundert - DRadio Wissen</title>
+    <link>http://dradiowissen.de/einhundert</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://dradiowissen.de/podcast/einhundert" />
+    <description>Storytelling im Radio. Auch im Podcast der Sendung "Einhundert" auf DRadio Wissen.</description>
+    <category>Info</category>
+    <copyright>DRadio Wissen - dradiowissen.de</copyright>
+    <ttl>60</ttl>
+    <language>de-DE</language>
+    <pubDate>Tue, 19 Jan 2016 01:53:46 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 01:53:46 +0000</lastBuildDate>
+    <image>
+      <url>http://static.dradiowissen.de/cover/Podcasts/_transformationPodcastCover/2015_einhundert.jpg</url>
+      <title>Einhundert - DRadio Wissen</title>
+      <link>http://dradiowissen.de/einhundert</link>
+      <description>Feed provided by Deutschlandradio. Click to visit.</description>
+    </image>
+    <itunes:subtitle>Die Beiträge zur Sendung </itunes:subtitle>
+    <itunes:image href="http://static.dradiowissen.de/cover/Podcasts/2015_einhundert.jpg" />
+    <itunes:owner>
+      <itunes:name>Redaktion dradio.de</itunes:name>
+      <itunes:email>podcast@deutschlandradio.de</itunes:email>
+    </itunes:owner>
+    <itunes:author>DRadio Wissen</itunes:author>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:category text="Society &amp; Culture" />
+					    		    		    						<item>
+      <title>Wo niemand vorher war (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2016/01/08/dradiowissen_wo_niemand_vorher_war_20160108_04eefc06.mp3</link>
+      <description><![CDATA[<p>In den Bergen reichen ein paar Seillängen aus, um sich weit von den Fixpunkten der Zivilisation zu entfernen. Problematisch wird es, wenn wir dort plötzlich Hilfe brauchen. Geschichten von Menschen, die an Grenzen gehen - Grenzen der uns bekannten Welt und Grenzen der Leistungsfähigkeit.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-04eefc06</guid>
+      <pubDate>Fri, 08 Jan 2016 09:38:26 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2016/01/08/dradiowissen_wo_niemand_vorher_war_20160108_04eefc06.mp3" length="78855225" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:22:08</itunes:duration>
+    </item>
+		    		    						<item>
+      <title>Macht Freude (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2016/01/01/dradiowissen_macht_freude_podcast_20160101_16afaa15.mp3</link>
+      <description><![CDATA[<p>David sieht seine Yanomami-Mutter wieder, Bex lernt ihren Vater als Bild im Fernsehen kennen, Jenny erkennt eine Schulfreundin als Sängerin und Christel findet ihre Jugendliebe. Vier Geschichten von Menschen, die sich irgendwann verloren und nach langer Zeit wieder gefunden haben.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-16afaa15</guid>
+      <pubDate>Thu, 31 Dec 2015 13:02:58 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2016/01/01/dradiowissen_macht_freude_podcast_20160101_16afaa15.mp3" length="80532798" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:23:53</itunes:duration>
+    </item>
+		    						<item>
+      <title>Ankommen in Deutschland - Wir sind dann mal da 25.12.2015 (PODCAST)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/12/25/dradiowissen_ankommen_in_deutschland_20151225_ff0240f3.mp3</link>
+      <description><![CDATA[<p>Marcel ist vor dem Krieg aus Bosnien geflohen, Inga kam als Au-Pair-Mädchen aus Litauen - und blieb. Dorothea musste kurz vor Ende des Zweiten Weltkriegs ihre Heimat in Schlesien verlassen, Tijani kam in den 70er Jahren zum Studium aus Ghana und Keywan ist aus dem Iran gekommen - eure Geschichten vom Ankommen in Deutschland.
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-ff0240f3</guid>
+      <pubDate>Sun, 20 Dec 2015 09:52:11 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/12/25/dradiowissen_ankommen_in_deutschland_20151225_ff0240f3.mp3" length="77759840" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:20:59</itunes:duration>
+    </item>
+		    		    		    						<item>
+      <title>Der vergessene Krieg (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/12/11/dradiowissen_der_vergessene_krieg_20151211_a2c61aaa.mp3</link>
+      <description><![CDATA[<p>Anfang der 90er: Nur anderthalb Flugstunden von Deutschland entfernt leben die Menschen im Krieg. Wir erzählen ihre Geschichten: vom Leben in der belagerten Stadt Sarajevo. Von ermordeten und verscharrten Brüdern. Vom Geschäftemachen mit dem Tod. Und vom Neuanfang nach der Gewalt.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-a2c61aaa</guid>
+      <pubDate>Fri, 11 Dec 2015 16:40:10 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/12/11/dradiowissen_der_vergessene_krieg_20151211_a2c61aaa.mp3" length="67492390" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:10:18</itunes:duration>
+    </item>
+		    		    		    		    		    		    		    						<item>
+      <title>Fremdenfeindlichkeit - die Flüchtlinge, die Angst, der Hass (Podcast) </title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/12/04/dradiowissen_fremdenfeindlichkeit_20151204_4bd64d4a.mp3</link>
+      <description><![CDATA[<p>Die Rassisten von nebenan haben nichts gegen Fremde, sagen sie - sie haben nur Angst. Und aus dieser unbegründeten Angst heraus werden sie zu Akteuren: hetzen, feinden und greifen andere an. Ein Gespräch zu führen, ist kaum noch möglich. Wir haben trotzdem vier Mal zugehört.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-4bd64d4a</guid>
+      <pubDate>Fri, 04 Dec 2015 12:12:58 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/12/04/dradiowissen_fremdenfeindlichkeit_20151204_4bd64d4a.mp3" length="65580952" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:08:18</itunes:duration>
+    </item>
+		    		    		    		    						<item>
+      <title>Untergehen mit Ansage (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/11/27/dradiowissen_untergehen_mit_ansage_20151127_47d14340.mp3</link>
+      <description><![CDATA[<p>Wir merken nichts, obwohl er eigentlich ziemlich präsent ist. Aber genau in diesem Moment, also jetzt, spüren Menschen den Klimawandel ganz deutlich. Besonders auf Inseln - ganz weit weg und vor unserer Haustür. Eine Einhundert über den ganz realen Klimawandel.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-47d14340</guid>
+      <pubDate>Fri, 27 Nov 2015 12:41:50 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/11/27/dradiowissen_untergehen_mit_ansage_20151127_47d14340.mp3" length="56778830" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>59:08</itunes:duration>
+    </item>
+		    		    		    		    						<item>
+      <title>Pain in the Ass 13.11.2015 (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/11/13/dradiowissen_pain_in_the_ass_20151113_36128935.mp3</link>
+      <description><![CDATA[<p>Manche Menschen gehen einem einfach auf die Nerven: Sie sind pedantisch, lassen nicht locker, müssen sich um jeden Preis durchsetzen. Und das in Situationen, in denen es besser wäre, nachzugeben. Eine Einhundert über Menschen, die anstrengender sind als andere.
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-36128935</guid>
+      <pubDate>Fri, 13 Nov 2015 09:55:19 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/11/13/dradiowissen_pain_in_the_ass_20151113_36128935.mp3" length="53135926" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>55:20</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Schicksalsschläge - Aus der Bahn geworfen (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/11/06/dradiowissen_schicksalsschlaege_aus_20151106_35820830.mp3</link>
+      <description><![CDATA[<p>Ein Unfall, eine Krankheit - es trifft dich wie ein Schlag. Plötzlich kannst du dich nicht mehr bewegen, bist gefangen in deinem eigenen Körper. Oder du erkennst deine Freunde nicht mehr. Drei Geschichten von Menschen, die auf eine extrem harte Probe gestellt wurden.
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-35820830</guid>
+      <pubDate>Fri, 06 Nov 2015 13:59:10 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/11/06/dradiowissen_schicksalsschlaege_aus_20151106_35820830.mp3" length="58886803" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:01:20</itunes:duration>
+    </item>
+		    		    		    		    						<item>
+      <title>Augenblicke - Macht der Bilder 30.10.2015 (PODCAST)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/10/30/dradiowissen_augenblicke_macht_der_20151030_d5a726d6.mp3</link>
+      <description><![CDATA[<p>Das Bild von Harald Ewert hat die Einstellung zu Rechtsradikalismus beeinflusst. Das Bild von Alan Kurdi macht uns auf unsere Verantwortung für Menschen in Not aufmerksam. Bilder haben Macht, und sie schreiben Geschichten. Wir erzählen sie in der Einhundert.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-d5a726d6</guid>
+      <pubDate>Fri, 30 Oct 2015 17:09:12 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/10/30/dradiowissen_augenblicke_macht_der_20151030_d5a726d6.mp3" length="68571211" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:11:25</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Einhundert - Denken Sie groß 16.10.2015 - Podcast</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/10/16/dradiowissen_einhundert_denken_sie_20151016_89f8348b.mp3</link>
+      <description><![CDATA[<p>Man könnte weiter Wein trinken. Man könnte einfach Bilder malen. Man könnte ein Leben in Luxus führen als sorgenfreie Ehefrau. Oder aber: Einen Ölkonzern kaufen und einen Staat gründen. Geschichten von Menschen, die lieber größer denken.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-89f8348b</guid>
+      <pubDate>Thu, 15 Oct 2015 12:58:21 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/10/16/dradiowissen_einhundert_denken_sie_20151016_89f8348b.mp3" length="66299808" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:09:03</itunes:duration>
+    </item>
+		    		    		    						<item>
+      <title>Wir machen den Weg frei (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/10/09/dradiowissen_wir_machen_den_weg_frei_20151009_06174e00.mp3</link>
+      <description><![CDATA[<p>Manchmal ist Hilfe unbürokratisch und spontan. In diesen Momenten geht es nur ums Machen und zwar schnell. Ganz gleich ob legal oder illegal, gefährlich oder ungefährlich. Dabei kommen Geschichten heraus, die unser Herz berühren und uns zeigen: Wir können die Welt ein bisschen verändern, wenn wir über unseren Schatten springen. Geschichten von Fluchthelfern.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-06174e00</guid>
+      <pubDate>Fri, 09 Oct 2015 12:42:40 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/10/09/dradiowissen_wir_machen_den_weg_frei_20151009_06174e00.mp3" length="64904079" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:07:36</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Gekommen, um zu bleiben (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/10/02/dradiowissen_gekommen_um_zu_bleiben_20151002_1f927c15.mp3</link>
+      <description><![CDATA[<p>Schlauchboote mit Menschen, die an der griechischen Küste ankommen. Menschen, die am Budapester Ostbahnhof auf Züge gen Westen warten. Das sind die Bilder der Flucht. Was geschieht, wenn die Flüchtlinge an ihrem Ziel ankommen? Sie finden Freunde, suchen sich einen Job, lernen die Sprache - Leben halt.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-1f927c15</guid>
+      <pubDate>Fri, 02 Oct 2015 09:29:50 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/10/02/dradiowissen_gekommen_um_zu_bleiben_20151002_1f927c15.mp3" length="67871866" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:10:41</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Auf hoher See - 25.09.2015 (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/09/25/dradiowissen_auf_hoher_see_20150925_d78394d5.mp3</link>
+      <description><![CDATA[<p>Schon seltsam, diese Sehnsucht nach der Einsamkeit auf dem Meer. Es gibt gute und schreckliche Geschichten darüber. Drei davon erzählen wir in der Einhundert.
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-d78394d5</guid>
+      <pubDate>Fri, 25 Sep 2015 12:05:20 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/09/25/dradiowissen_auf_hoher_see_20150925_d78394d5.mp3" length="65792710" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:08:32</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Schicksal, du Arschloch! (Podcast) NEU</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/09/11/dradiowissen_schicksal_du_arschloch_20150911_2cb9c821.mp3</link>
+      <description><![CDATA[<p>Ein Schauspieler ergattert seine erste Hollywood-Rolle, aber wird nicht in die USA gelassen. Zwei Rapper starten in Deutschland gerade ihre Karriere - und werden abgeschoben. Und der hoffnungsvolle Brief an die Jugendliebe geht nach hinten los.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-2cb9c821</guid>
+      <pubDate>Fri, 11 Sep 2015 11:22:45 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/09/11/dradiowissen_schicksal_du_arschloch_20150911_2cb9c821.mp3" length="65637173" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:08:22</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Ich hab doch gar nichts angestellt 28.08.2015 (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/08/28/dradiowissen_ich_hab_doch_gar_nichts_20150828_f6d292f8.mp3</link>
+      <description><![CDATA[<p>Wer unschuldig ist, hat nichts zu befürchten. Außer man gerät doch in Verdacht - und findet sich vor Maschinenpistolen im Anschlag oder im Geheimdienst-Verhör wieder. Vier Geschichten dazu.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-f6d292f8</guid>
+      <pubDate>Fri, 28 Aug 2015 10:01:41 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/08/28/dradiowissen_ich_hab_doch_gar_nichts_20150828_f6d292f8.mp3" length="73142790" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:16:11</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Enttäuscht - Vertrauen ist gut... 21.08.2015 (PODCAST)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/08/21/dradiowissen_enttaeuscht_vertrauen_20150821_4e07be49.mp3</link>
+      <description><![CDATA[<p>...Kontrolle ist besser. OK, in unseren vier Geschichten stimmt das wirklich. Ein Hundewelpen ist bei Verkauf schwer krank. Aris Appartment wird zerstört. Der Grill ist ein trojanisches Pferd. Manches ist enttäuschend, anderes hochgradig böswillig. Wir finden trotzdem: Vertrauen ist gut.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-4e07be49</guid>
+      <pubDate>Fri, 21 Aug 2015 13:56:51 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/08/21/dradiowissen_enttaeuscht_vertrauen_20150821_4e07be49.mp3" length="55313957" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>57:37</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Mensch, Affe! (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/08/14/dradiowissen_mensch_affe_podcast_20150814_96035d9a.mp3</link>
+      <description><![CDATA[<p>Affen sind uns so ähnlich. Darum erzählen wir vier Geschichten von Affen, die mit uns zusammenleben, die für uns arbeiten und oft auch missbraucht werden.
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-96035d9a</guid>
+      <pubDate>Fri, 14 Aug 2015 12:12:43 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/08/14/dradiowissen_mensch_affe_podcast_20150814_96035d9a.mp3" length="62859089" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:05:28</itunes:duration>
+    </item>
+		    		    		    						<item>
+      <title>Russland verstehen (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/07/24/dradiowissen_russland_verstehen_20150724_0673780e.mp3</link>
+      <description><![CDATA[<p>Jeder, der heute versucht aus Russland und seinem Präsidenten Putin schlau zu werden, wird Russlandversteher genannt. Das ist alles andere als nett gemeint. Aber verstehen wollen wir trotzdem - und sind hingefahren.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-0673780e</guid>
+      <pubDate>Thu, 23 Jul 2015 18:57:46 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/07/24/dradiowissen_russland_verstehen_20150724_0673780e.mp3" length="61456732" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:04:01</itunes:duration>
+    </item>
+		    		    		    		    		    						<item>
+      <title>Wurzeln - wo wir herkommen 17.07.2015 (PODCAST)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/07/17/dradiowissen_wurzeln_wo_wir_20150717_ff8863f1.mp3</link>
+      <description><![CDATA[<p>Drei Geschichten von Menschen, die sich aufgemacht haben zu ihren Wurzeln.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-ff8863f1</guid>
+      <pubDate>Fri, 17 Jul 2015 08:08:06 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/07/17/dradiowissen_wurzeln_wo_wir_20150717_ff8863f1.mp3" length="55432367" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>57:44</itunes:duration>
+    </item>
+		    		    		    		    						<item>
+      <title>Retter vom Dienst 10.07.2015 (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/07/10/dradiowissen_retter_vom_dienst_20150710_5843c250.mp3</link>
+      <description><![CDATA[<p>Sie sind da, bevor alles zu spät ist.  Und wenn es gut läuft, retten sie Leben. Drei Geschichten über Berufsretter: der Suicide Cop von der Golden Gate Bridge, zwei Ärzte in Sierra Leone und Feuerwehrmänner in Bonn. </p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-5843c250</guid>
+      <pubDate>Fri, 10 Jul 2015 13:29:43 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/07/10/dradiowissen_retter_vom_dienst_20150710_5843c250.mp3" length="64792331" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:07:29</itunes:duration>
+    </item>
+		    		    		    						<item>
+      <title>Mach dich frei 26.06.2015 (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/06/26/dradiowissen_mach_dich_frei_20150626_5a78dd53.mp3</link>
+      <description><![CDATA[<p>Nacktheit spaltet: Für die einen ist es Scham, für die anderen die natürlichste Sache der Welt. Zu letzteren gehören Nacktwanderer, FKKler, und Nacktreiter. Die Dänin Emma Holten war Opfer von Revenge Porn. Da hat sie den Spieß einfach umgedreht und selbst Aktfotos von sich veröffentlicht. Einhundert ab 18:15 Uhr
+</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-5a78dd53</guid>
+      <pubDate>Wed, 24 Jun 2015 17:35:49 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/06/26/dradiowissen_mach_dich_frei_20150626_5a78dd53.mp3" length="57112853" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>59:29</itunes:duration>
+    </item>
+		    		    						<item>
+      <title>Einhundert - Dein Bier (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/06/19/dradiowissen_einhundert_dein_bier_20150619_72951475.mp3</link>
+      <description><![CDATA[<p>Stephanie trinkt nicht gern. Hat sie noch nie gemacht. Alkohol schmeckt ihr einfach nicht. Die meisten finden das komisch. Dominiks Vater hingegen hat den Alkohol zu sehr gemocht. Erst war er ein guter Freund, später Feind. Und Dominik fragt sich heute, warum er dabei zugesehen hat. Im Rausch oder unter Kontrolle: Drei Geschichten vom Alkohol.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-72951475</guid>
+      <pubDate>Fri, 19 Jun 2015 09:50:03 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/06/19/dradiowissen_einhundert_dein_bier_20150619_72951475.mp3" length="68600784" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:11:27</itunes:duration>
+    </item>
+		    		    		    		    		    		    		    		    						<item>
+      <title>Das nette Internet (Podcast)</title>
+      <link>http://ondemand-mp3.dradio.de/file/dradio/2015/06/12/dradiowissen_das_nette_internet_20150612_86998e81.mp3</link>
+      <description><![CDATA[<p>Das Netz kann auch nett: Es kann eine Party gegen Mobbing organisieren, einen Einzelkämpfer für unsere Freiheit im Internet unterstützen, endlich den Komponisten eines tausendfach verwendeten Breaks bezahlen und ein Buch zum Bestseller machen, dessen Autor einen Schlaganfall hatte und dringend Geld braucht. Vier Geschichten über das Internet, heute mal nett.</p>]]></description>
+      <guid isPermaLink="false">DRadio-Wissen-86998e81</guid>
+      <pubDate>Fri, 12 Jun 2015 13:58:46 +0000</pubDate>
+      <enclosure url="http://ondemand-mp3.dradio.de/file/dradio/2015/06/12/dradiowissen_das_nette_internet_20150612_86998e81.mp3" length="58414713" type="audio/mpeg" />
+      <itunes:author>DRadio Wissen</itunes:author>
+      <itunes:duration>1:00:50</itunes:duration>
+    </item>
+		    		    		    		      </channel>
+</rss>

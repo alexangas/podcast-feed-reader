@@ -1,0 +1,1327 @@
+<br />
+<b>Notice</b>:  Undefined index: HTTP_USER_AGENT in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>288</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>289</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>290</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>292</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>293</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>294</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php:41) in <b>/nfs/c01/h13/mnt/1474/domains/podcasts.abruptmedia.com/html/feed/as/index.php</b> on line <b>295</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <lastBuildDate>Sun, 03 Nov 2013 07:02:48 EST</lastBuildDate>
+    <title><![CDATA[Atlanta Skeptics in the Pub]]></title>
+    <itunes:new-feed-url>http://podcasts.abruptmedia.com/feed/as</itunes:new-feed-url>
+    <itunes:subtitle><![CDATA[Atlanta Skeptics in the Pub meetups]]></itunes:subtitle>
+    <itunes:summary><![CDATA[The Atlanta Skeptics is a social organization that brings people together to discuss skepticism, science, and critical thinking]]></itunes:summary>
+    <description><![CDATA[Podcasts of the Atlanta Skeptics in the Pub Meetups]]></description>
+    <language>en-us</language>
+    <copyright><![CDATA[Copyright 2009-2012 Atlanta Skeptics in the Pub]]></copyright>
+    <link>http://www.atlantaskeptics.com/</link>
+    <ttl>1440</ttl>
+    <itunes:author><![CDATA[Atlanta Skeptics in the Pub]]></itunes:author>
+    <itunes:category text="Science &amp; Medicine"/>
+    <itunes:category text="Education"/>
+    <itunes:category text="Science &amp; Medicine">
+      <itunes:category text="Natural Sciences"/>
+    </itunes:category>
+    <itunes:image href="http://podcasts.abruptmedia.com/feed/as/podcast-art2.png"/>
+    <itunes:keywords><![CDATA[Skepticism,Critical thinking,Skepticamp,Science,Atlanta]]></itunes:keywords>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>AbruptMedia, LLC</itunes:name>
+      <itunes:email>podcastadmin@abruptmedia.com</itunes:email>
+    </itunes:owner>
+    <atom:link href="http://podcasts.abruptmedia.com/feed/as" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[The Ghosts of the S.S. Watertown]]></title>
+      <description><![CDATA[In 1924, an accident aboard the oil tanker S. S. Watertown resulted in the death of two crewmen. James Courtenay and Michael Meehan were asphyxiated by fumes in an empty hold and subsequently buried at sea. In the following days various members of the crew began to see the faces of the crewmen bobbing in the water off the side of the ship. This continued until the ship passed through the Panama Canal and came back to port in New Orleans. When the captain of the ship gave this report to officers of the company they asked him to take a camera with him when he returned to the Pacific and see if he could get a photo. So it came to pass that when they returned to the area where the two men had been sent to their watery grave the faces appeared again and six photos were taken. On return to New Orleans five photos showed only choppy water but the sixth showed the faces of the two phantom sailors, mouths agape in silent screams. Or so the story goes... Find out the facts behind what has been called one of the best ghost photos of all time when you hear the gripping story of "Doctor Atlantis and the Case of the Watertown Ghosts!"]]></description>
+      <pubDate>Sat, 15 Aug 2009 21:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0001.m4v" length="306308804" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0001</guid>
+      <link>http://www.atlantaskeptics.com/2009/07/24/august-skeptics-in-the-pub-the-ghosts-of-watertown/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>36:57</itunes:duration>
+      <itunes:keywords><![CDATA[Ghosts, S.S. Watertown]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Skepticism in the Health and Fitness Industry]]></title>
+      <description><![CDATA[Are you confused, shocked, appalled, or simply discouraged by the vast amounts of conflicting and unsupported information coming from The Health Industry? Do you need to cut out all the carbs, fats, gluten, chocolate, and dairy from your diet? How many hours per day do you need to spend on your Bowflex to get to a socially tolerated Size 2? What does my BMI say about how healthy I am?  Join us as Maria Walters takes us through the nonsense we're getting from a multibillion dollar industry that we're sure cares deeply about all of us.]]></description>
+      <pubDate>Sat, 19 Sep 2009 21:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0002.m4a" length="24853973" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0002</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/11338985/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>48:15</itunes:duration>
+      <itunes:keywords><![CDATA[Health, Fitness, Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[November Meeting - Massimo Pigliucci]]></title>
+      <description><![CDATA[Dr. Pigliucci is the chair of the Department of Philosophy at Lehman College. He is known as an outspoken critic of creationism and advocate of science education. He writes regularly for Skeptical Inquirer and Philosophy Now and maintains a blog called "Rationally Speaking" He has debated creationists and intelligent design proponents, including Duane Gish, Kent Hovind, William Dembski and Jonathan Wells, on many occasions.]]></description>
+      <pubDate>Fri, 13 Nov 2009 21:30:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0003.m4a" length="37251191" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0003</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/11711113/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:15:36</itunes:duration>
+      <itunes:keywords><![CDATA[Creationism, Evolution]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Archaeology and the Bible]]></title>
+      <description><![CDATA[Many attempts have been made over the years to verify the stories of the Bible through archaeological research. What does the archaeological record actually say about the stories told in the Bible? Is it even possible for archaeology to validate Biblical "history"? What the heck is archaeology, anyway?]]></description>
+      <pubDate>Sat, 19 Dec 2009 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0004.m4a" length="25002909" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0004</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/11919717/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>49:29</itunes:duration>
+      <itunes:keywords><![CDATA[Archaeology, Bible, History]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Archaeology and the Bible]]></title>
+      <description><![CDATA[Many attempts have been made over the years to verify the stories of the Bible through archaeological research. What does the archaeological record actually say about the stories told in the Bible? Is it even possible for archaeology to validate Biblical &quot;history?&quot; What the heck is archaeology, anyway?]]></description>
+      <pubDate>Sat, 19 Dec 2009 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0004.pdf" length="352763" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0004.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/11919717/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Archaeology, Bible, History]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Virgin Skeptic: My First Year in Skepticism]]></title>
+      <description><![CDATA[LaVerne is new to the world of organized skepticism, having just discovered us at last year's SkeptiCamp. She will talk about what she's learned since then, how it's affected her life, and trials and treasures during her year as a Virgin Skeptic.]]></description>
+      <pubDate>Sat, 30 Jan 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0005.m4a" length="17900872" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0005</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/12247487/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>37:17</itunes:duration>
+      <itunes:keywords><![CDATA[Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[How I Spent My Winter Vacation: Skeptics Visit the Creation Museum]]></title>
+      <description><![CDATA[Join us for a tour through the mind of Ken Ham as Bob and Eve present &quot;How I Spent My Winter Vacation: Skeptics Visit the Creation Museum.&quot;  Eve and Bob are fairly new to Atlanta. They received their Ph.D.s in English at Saint Louis University. Bob is a Brittain Postdoctoral Fellow at Georgia Tech, where he teaches writing and literature. He wrote his dissertation on the fiction and memoirs of American WWII combat veterans, and he is currently teaching a writing class that focuses on conspiracy theories in literature and history. He is co-authoring an article (with Washington University physics student John Flavin) about using Carl Sagan's novel Contact to teach students about the scientific method and skepticism.  Eve's dissertation was on body and soul poems in Old and Middle English literature. She recently published an article on a possible source for the addition to the 12th-century poem, &quot;The Grave.&quot; She has submitted an article on creationist interpretations of Beowulf to Skeptic magazine.  Bob and Eve are coauthoring a critical thinking and writing textbook that focuses on evaluating and writing about extraordinary claims.]]></description>
+      <pubDate>Sat, 13 Feb 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0006.m4a" length="31207132" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0006</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/12495120/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:03:14</itunes:duration>
+      <itunes:keywords><![CDATA[Creation, Evolution, Creation Mueeum, Ken Ham]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Amateur Scientist Invasion]]></title>
+      <description><![CDATA[Brian Thompson has graciously agreed to come to Atlanta to help us raise money for the Atlanta Skepticamp this summer!  Brian will be interviewing Atlanta's own Blake Smith (co-host of the Monster Talk podcast), and Lindsay Starke (writer and conspiracy expert). We are also expecting some exciting visitors who are coming into town for the event. Nothing is confirmed yet but there may be sightings of loud astronomers and flora-dwelling crustaceans... you never know.]]></description>
+      <pubDate>Sat, 13 Mar 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0007.m4v" length="1325256011" type="video/x-m4v"/>
+      <guid isPermaLink="false">asitp-0007</guid>
+      <link>http://www.atlantaskeptics.com/2010/02/20/373/</link>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:48:08</itunes:duration>
+      <itunes:keywords><![CDATA[Amateur Scientist, Comedy]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[I am not Seth: Confessions of a Skeptical Asshole]]></title>
+      <description><![CDATA[Atlanta's own J. Paul Daigle is going to talk about skeptical promotion online, but from a different angle than you've probably heard before.]]></description>
+      <pubDate>Sat, 17 Apr 2010 20:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0008.m4a" length="19414014" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0008</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/13035511/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:48:08</itunes:duration>
+      <itunes:keywords><![CDATA[Online Skepticism, J. Paul Daigle]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Stock Market Skepticism]]></title>
+      <description><![CDATA[This month, we have Sean Sullivan telling us about skepticism and economics. Or, rather, how we need more of one in the other.]]></description>
+      <pubDate>Sat, 19 Jun 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0009.m4a" length="25560567" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0009</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/13734451/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>49:36</itunes:duration>
+      <itunes:keywords><![CDATA[Stock Market, Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Stock Market Skepticism]]></title>
+      <description><![CDATA[This month, we have Sean Sullivan telling us about skepticism and economics. Or, rather, how we need more of one in the other.]]></description>
+      <pubDate>Sat, 19 Jun 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0009.pdf" length="686810" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0009.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/13734451/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Stock Market, Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Hiding in Plain Sight: Ubiquity and Anonymity for the Novice]]></title>
+      <description><![CDATA[Proponents of conspiracy theories are very clever and have figured out how we, the exalted and all-powerful, remain at the same time everywhere and unseen. In this evil workshop, Bob will introduce budding universal overlords to the strategies by which they can sheathe their ubiquity in anonymity. 
+                
+[ Slides of Mr. Blaskiewicz's presentations are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0010.pdf ]]]></description>
+      <pubDate>Sat, 17 Jul 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0010.m4a" length="36327519" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0010</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/13929199/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:06:21</itunes:duration>
+      <itunes:keywords><![CDATA[Conspiracy, Conspiracy Theory Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Hiding in Plain Sight: Ubiquity and Anonymity for the Novice]]></title>
+      <description><![CDATA[Proponents of conspiracy theories are very clever and have figured out how we, the exalted and all-powerful, remain at the same time everywhere and unseen. In this evil workshop, Bob will introduce budding universal overlords to the strategies by which they can sheathe their ubiquity in anonymity. 
+                
+[ Slides of Mr. Blaskiewicz's presentations are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0010.pdf ]]]></description>
+      <pubDate>Sat, 17 Jul 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0010.pdf" length="12316487" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0010.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/13929199/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Conspiracy, Conspiracy Theory Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[No Need to Whisper: Your Dog is Not The Problem]]></title>
+      <description><![CDATA[Local dog trainer/behavior consultant/pet first aid instructor and sarcasm expert Mailey E. McLaughlin, M.Ed. (The Pooch Professor) has been working with dogs and people for almost 30 years. She ran hugely successful Obedience classes at the Atlanta Humane Society (where she is also the behavior expert) for 10 years, and currently provides house calls for maladjusted mutts in the metro area.  Mailey considers herself a &quot;cynical optimist&quot; when it comes to life.  She survived 9 years of Catholic school, and has been an atheist since the age of 14 when the baby Jesus appeared to her and convinced her he wasn't real. She enjoys using her math skills in Sudoku, climbing really tall trees for fun, correcting other people's grammar and talking to herself in the car.
+
+Mailey will be discussing some common myths about dogs and dog training (and one cool cat factoid thrown in for good measure for all you ailurophiles out there) in her presentation, &quot;No Need to Whisper: Your Dog is Not the Problem.&quot; No actual dogs have been harmed in the making of this presentation, though a few people have been annoyed, probably.
+
+[ Slides of Mailey's presentation are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0011.pdf ]]]></description>
+      <pubDate>Sat, 21 Aug 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0011.m4a" length="46548796" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0011</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14131921/</link>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:32:13</itunes:duration>
+      <itunes:keywords><![CDATA[Dogs, Pet Myths, Mailey E. McLaughlin, Pooch Professor]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[No Need to Whisper: Your Dog is Not The Problem]]></title>
+      <description><![CDATA[Local dog trainer/behavior consultant/pet first aid instructor and sarcasm expert Mailey E. McLaughlin, M.Ed. (The Pooch Professor) has been working with dogs and people for almost 30 years. She ran hugely successful Obedience classes at the Atlanta Humane Society (where she is also the behavior expert) for 10 years, and currently provides house calls for maladjusted mutts in the metro area.  Mailey considers herself a &quot;cynical optimist&quot; when it comes to life.  She survived 9 years of Catholic school, and has been an atheist since the age of 14 when the baby Jesus appeared to her and convinced her he wasn't real. She enjoys using her math skills in Sudoku, climbing really tall trees for fun, correcting other people's grammar and talking to herself in the car.
+
+Mailey will be discussing some common myths about dogs and dog training (and one cool cat factoid thrown in for good measure for all you ailurophiles out there) in her presentation, &quot;No Need to Whisper: Your Dog is Not the Problem.&quot; No actual dogs have been harmed in the making of this presentation, though a few people have been annoyed, probably.
+
+[ Slides of Mailey's presentation are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0011.pdf ]]]></description>
+      <pubDate>Sat, 21 Aug 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0011.pdf" length="1714488" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0011.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14131921/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Dogs, Pet Myths, Mailey E. McLaughlin, Pooch Professor]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Hug me, I'm Vaccinated!]]></title>
+      <description><![CDATA[Dr. William Atkinson is a Medical Epidemiologist in the National Center for Immunization and Respiratory Diseases at the Centers for Disease Control and Prevention in Atlanta, Georgia. He has worked for CDC for 23 years, with most of this time spent in immunization-related activities. His current principle responsibility is the development of technical and training materials for immunization providers - he teaches doctors and nurses how and when to give vaccines.??He practiced his skepticism in solitude for more than 20 years. This all changed after a chance encounter with Maria Walters at his first Amazing Meeting in July 2010.??Bill will be discussing the "Hug Me, I'm Vaccinated" promotion - how and why it started, and it's first big project: a pertussis (whooping cough) vaccination clinic at Dragon*Con 2010. Come see Angels and Enchanters (and Maria and DJ and Matt and a host of others) get protected from pertussis!??[ Slides of Dr. Atkinson's presentation are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0012.pdf ]]]></description>
+      <pubDate>Sat, 18 Sep 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0012.m4a" length="26734573" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0012</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14722322/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>48:24</itunes:duration>
+      <itunes:keywords><![CDATA[Vaccinations, Pertussis, Dr. William Atkinson]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Hug me, I'm Vaccinated!]]></title>
+      <description><![CDATA[Dr. William Atkinson is a Medical Epidemiologist in the National Center for Immunization and Respiratory Diseases at the Centers for Disease Control and Prevention in Atlanta, Georgia. He has worked for CDC for 23 years, with most of this time spent in immunization-related activities. His current principle responsibility is the development of technical and training materials for immunization providers - he teaches doctors and nurses how and when to give vaccines.??He practiced his skepticism in solitude for more than 20 years. This all changed after a chance encounter with Maria Walters at his first Amazing Meeting in July 2010.??Bill will be discussing the "Hug Me, I'm Vaccinated" promotion - how and why it started, and it's first big project: a pertussis (whooping cough) vaccination clinic at Dragon*Con 2010. Come see Angels and Enchanters (and Maria and DJ and Matt and a host of others) get protected from pertussis!??[ Slides of Dr. Atkinson's presentation are available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0012.pdf ]]]></description>
+      <pubDate>Sat, 18 Sep 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0012.pdf" length="10907311" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0012.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14722322/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Vaccinations, Pertussis, Dr. William Atkinson]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Basic Concepts in Information Security]]></title>
+      <description><![CDATA[Information Security has seen more media attention than ever in the last couple of years. Stories hit regularly about identity theft, the latest virus or the most recent company to have hundreds of thousands of accounts compromised. The methods employed to create the problems are usually technically deep and not easily summarized in the articles.
+
+In this discussion, we will strip away the technical layers and attempt to look at the basic concepts. They are actually pretty basic and you probably instinctively identify them when you see them already.
+
+Nate has worked in Information Technology for 14 years. The last seven of which have been spent helping companies implement enterprise software by advising them on what infrastructure to build and how to secure it. He holds a Bachelor of Science in Technical Management and is currently pursuing a Master of Science in Information Security and Assurance. He currently holds multiple IT and security certifications including being a Certified Information Systems Security Professional (CISSP.)
+
+[ Slides of Mr. Shoemaker's presentation are available at http://podcasts/abruptmedia.com/AtlantaSkeptics/asitp-0018.pdf ]
+]]></description>
+      <pubDate>Sat, 16 Oct 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0013.m4a" length="34508674" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0013a</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14981400/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:08:44</itunes:duration>
+      <itunes:keywords><![CDATA[Information Security, Nate Shoemaker]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Basic Concepts in Information Security]]></title>
+      <description><![CDATA[Information Security has seen more media attention than ever in the last couple of years. Stories hit regularly about identity theft, the latest virus or the most recent company to have hundreds of thousands of accounts compromised. The methods employed to create the problems are usually technically deep and not easily summarized in the articles.
+
+In this discussion, we will strip away the technical layers and attempt to look at the basic concepts. They are actually pretty basic and you probably instinctively identify them when you see them already.
+
+Nate has worked in Information Technology for 14 years. The last seven of which have been spent helping companies implement enterprise software by advising them on what infrastructure to build and how to secure it. He holds a Bachelor of Science in Technical Management and is currently pursuing a Master of Science in Information Security and Assurance. He currently holds multiple IT and security certifications including being a Certified Information Systems Security Professional (CISSP.)
+
+[ Slides of Mr. Shoemaker's presentation are available at http://podcasts/abruptmedia.com/AtlantaSkeptics/asitp-0018.pdf ]
+]]></description>
+      <pubDate>Sat, 16 Oct 2010 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0013.pdf" length="1026652" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0013a.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/14981400/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Information Security, Nate Shoemaker]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[JREF $1 Million Paranormal Challenge (Video)]]></title>
+      <description><![CDATA[Bart Farkas is the development officer for the James Randi Educational Foundation. He is also an author and is currently working (in conjunction with James Randi) on a book that deals with the 40 year history of the Million Dollar Challenge. Bart used to be a Registered Nurse and therefore has a strong interest in alternative medicine and medical quackery in general.
+
+Bart's talk discusses the 40-year history of the Million Dollar Challenge and then focuses on the challenges the JREF faces in administering the Million Dollar Challenge and shows some examples of some of the more bizarre applications.
+
+[ Editors Note:  This is a video version of this podcast.  An audio-only version is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.1.m4a
+
+A PDF file of Mr. Farkas' slides is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.pdf
+
+Some of the slides Mr. Farkas used during his presentation were not available for the podcast production and therefore they are not included in the accompanying PDF, nor in this podcast. ]
+]]></description>
+      <pubDate>Sat, 20 Nov 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0014.m4v" length="285379945" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0014</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/15185316/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>57:04</itunes:duration>
+      <itunes:keywords><![CDATA[JREF,James Randi,$1 Million Paranormal Challenge,Bart Farkas]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[JREF $1 Million Paranormal Challenge (Audio only)]]></title>
+      <description><![CDATA[Bart Farkas is the development officer for the James Randi Educational Foundation. He is also an author and is currently working (in conjunction with James Randi) on a book that deals with the 40 year history of the Million Dollar Challenge. Bart used to be a Registered Nurse and therefore has a strong interest in alternative medicine and medical quackery in general.
+
+Bart's talk discusses the 40-year history of the Million Dollar Challenge and then focuses on the challenges the JREF faces in administering the Million Dollar Challenge and shows some examples of some of the more bizarre applications.
+
+[ Editors Note:  This is an audio-only podcast.  A video version, including the presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.m4v
+
+A PDF file of Mr. Farkas' slides is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.pdf
+
+Some of the slides Mr. Farkas used during his presentation were not available for the podcast production and therefore they are not included in the accompanying PDF, nor in the video version of this podcast. ]
+]]></description>
+      <pubDate>Sat, 20 Nov 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0014.1.m4a" length="28215331" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0014.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/15185316/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>57:04</itunes:duration>
+      <itunes:keywords><![CDATA[JREF,James Randi,$1 Million Paranormal Challenge,Bart Farkas]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[JREF $1 Million Paranormal Challenge (Audio only)]]></title>
+      <description><![CDATA[Bart Farkas is the development officer for the James Randi Educational Foundation. He is also an author and is currently working (in conjunction with James Randi) on a book that deals with the 40 year history of the Million Dollar Challenge. Bart used to be a Registered Nurse and therefore has a strong interest in alternative medicine and medical quackery in general.
+
+Bart's talk discusses the 40-year history of the Million Dollar Challenge and then focuses on the challenges the JREF faces in administering the Million Dollar Challenge and shows some examples of some of the more bizarre applications.
+
+[ Editors Note:  This is an audio-only podcast.  A video version, including the presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.m4v
+
+A PDF file of Mr. Farkas' slides is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0014.pdf
+
+Some of the slides Mr. Farkas used during his presentation were not available for the podcast production and therefore they are not included in the accompanying PDF, nor in the video version of this podcast. ]
+]]></description>
+      <pubDate>Sat, 20 Nov 2010 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0014.pdf" length="11436171" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0014.2</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/15185316/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[JREF,James Randi,$1 Million Paranormal Challenge,Bart Farkas]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Nuclear Power: Is It Really Safe?]]></title>
+      <description><![CDATA[When you hear the term "nuclear power" what do you think? Chernobyl and Three Mile Island are probably the first two things that pop into your head. It's scary stuff. But how much does the average person actually know about nuclear power? How much do you know???Jennifer Henning has a BSE in chemical engineering from the University of Michigan and works for a consulting firm in the nuclear power industry. Her job is to design various process and mechanical systems in nuclear power plants, including cooling water and feedwater systems which feed the reactor vessel. She will explain how a nuclear power plant works, compare nuclear to fossil fuel plants, explain how nuclear safety in the United States has changed as a result of Three Mile Island, weigh the pros and cons of nuclear power, and look at some of the new technology for future power plants.??[ A PDF of Jennifer Henning's slide presentation can be found at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0015.pdf ]]]></description>
+      <pubDate>Sat, 08 Jan 2011 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0015.m4a" length="29335353" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0015</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/calendar/15792307/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>56:50</itunes:duration>
+      <itunes:keywords><![CDATA[Nuclear Power, Three Mile Island, Chernobyl, Jennifer Henning]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[10:23 Challence - Is Homeopathy Effective?]]></title>
+      <description><![CDATA[The Atlanta Skeptics are proud to be participating in the 10:23 challenge this year. We will be presenting a demonstration and presentation on homeopathy and its uses.]]></description>
+      <pubDate>Sat, 05 Feb 2011 10:23:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0016.m4v" length="208539927" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0016</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/16146675/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>17:27</itunes:duration>
+      <itunes:keywords><![CDATA[Homeopathy, Masala Skeptic, Dr. Atlantis]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[High Tech Snake Oil]]></title>
+      <description><![CDATA[Jonathan Strickland will be discussing gadgets and devices that are either based on pseudoscientific claims or are used incorrectly in pseudoscientific ways (like the ghost hunting tech).
+   
+Jonathan is a senior writer and a blogger at HowStuffWorks.com, co-host of the popular TechStuff podcast and a technology enthusiast since his first computer: an Apple ][e. While fascinated by the technical aspects of computers and electronics, his main interest focuses on the social impact of technology.
+   
+[ A PDF of Jonathan's slides is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0017.pdf ]]]></description>
+      <pubDate>Sat, 12 Feb 2011 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0017.m4a" length="37745224" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0017</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/16096633/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:07:57</itunes:duration>
+      <itunes:keywords><![CDATA[Psuedoscientific Tech Claims, Jonathan Strickland, How Stuff Works]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[High Tech Snake Oil]]></title>
+      <description><![CDATA[Jonathan Strickland will be discussing gadgets and devices that are either based on pseudoscientific claims or are used incorrectly in pseudoscientific ways (like the ghost hunting tech).
+   
+Jonathan is a senior writer and a blogger at HowStuffWorks.com, co-host of the popular TechStuff podcast and a technology enthusiast since his first computer: an Apple ][e. While fascinated by the technical aspects of computers and electronics, his main interest focuses on the social impact of technology.
+   
+[ A PDF of Jonathan's slides is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0017.pdf ]]]></description>
+      <pubDate>Sat, 12 Feb 2011 20:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0017.pdf" length="1346091" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0017.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/16096633/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Psuedoscientific Tech Claims, Jonathan Strickland, How Stuff Works]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Shakespeare Conspiracy]]></title>
+      <description><![CDATA[I wrote Shakespeare. I am a time-traveling alien who built Stonehenge, the pyramids and wrote the works commonly attributed to William Shakespeare. I also created the earth 6000 years ago and helped fake the moon landing. You can't prove that I didn't.
+
+Not all fringe theories are alike, but proponents of fringe theories tend to use similar reasoning (or lack thereof) to support their claims. Regardless of the specific fringe theory, the same logical fallacies will appear over and over again, as, for example, the attempt to shift the burden of proof. The argument that Francis Bacon/Christopher Marlowe/the Earl of Oxford/the Countess of Pembroke/Queen Elizabeth I/Batboy wrote Shakespeare thus has much in common with theories that suggest we never landed on the moon or that 9/11 was an inside job.
+
+Come for the strawman; stay for the red herring.
+
+[ A PDF of Eve's presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0018.pdf ]
+]]></description>
+      <pubDate>Sat, 19 Mar 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0018.m4a" length="23699220" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0018</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/16631535/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>44:20</itunes:duration>
+      <itunes:keywords><![CDATA[Shakespeare Comspiracy, Eve Siebert]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Shakespeare Conspiracy]]></title>
+      <description><![CDATA[I wrote Shakespeare. I am a time-traveling alien who built Stonehenge, the pyramids and wrote the works commonly attributed to William Shakespeare. I also created the earth 6000 years ago and helped fake the moon landing. You can't prove that I didn't.
+
+Not all fringe theories are alike, but proponents of fringe theories tend to use similar reasoning (or lack thereof) to support their claims. Regardless of the specific fringe theory, the same logical fallacies will appear over and over again, as, for example, the attempt to shift the burden of proof. The argument that Francis Bacon/Christopher Marlowe/the Earl of Oxford/the Countess of Pembroke/Queen Elizabeth I/Batboy wrote Shakespeare thus has much in common with theories that suggest we never landed on the moon or that 9/11 was an inside job.
+
+Come for the strawman; stay for the red herring.
+
+[ A PDF of Eve's presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0018.pdf ]
+]]></description>
+      <pubDate>Sat, 19 Mar 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0018.pdf" length="3131903" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0018.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/16631535/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Shakespeare Comspiracy, Eve Siebert]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Fukushima Nuclear Disaster and its Implications]]></title>
+      <description><![CDATA[Jennifer Henning has a BSE in chemical engineering from the University of Michigan and works for a consulting firm in the nuclear power industry. Her job is to design various process and mechanical systems in nuclear power plants, including cooling water and feedwater systems which feed the reactor vessel. 
+
+Jennifer is going to help separate fact vs. speculation over what's been going on in Japan, discuss what the US nuclear industry response has been (as far as what actions the plants here are taking to make sure they are safe), and discuss the real implications of the different levels of radiation with regards to the Fukushima disaster.
+
+[ A PDF of Jennifer's presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0019.pdf 
+
+The recording location was very noisy during this presentation and the audio quality has suffered.  We apologize for the feedback and low quality of this recording. ]
+]]></description>
+      <pubDate>Sat, 14 May 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0019.m4a" length="28327072" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0019</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/17416063/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>53:20</itunes:duration>
+      <itunes:keywords><![CDATA[Fukushima, Nuclear Disaster, Jennifer Henning]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Fukushima Nuclear Disaster and its Implications]]></title>
+      <description><![CDATA[Jennifer Henning has a BSE in chemical engineering from the University of Michigan and works for a consulting firm in the nuclear power industry. Her job is to design various process and mechanical systems in nuclear power plants, including cooling water and feedwater systems which feed the reactor vessel. 
+
+Jennifer is going to help separate fact vs. speculation over what's been going on in Japan, discuss what the US nuclear industry response has been (as far as what actions the plants here are taking to make sure they are safe), and discuss the real implications of the different levels of radiation with regards to the Fukushima disaster.
+
+[ A PDF of Jennifer's presentation is available at http://podcasts.abruptmedia.com/AtlantaSkeptics/asitp-0019.pdf 
+
+The recording location was very noisy during this presentation and the audio quality has suffered.  We apologize for the feedback and low quality of this recording. ]
+]]></description>
+      <pubDate>Sat, 14 May 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0019.pdf" length="2983453" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0019.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/17416063/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Fukushima, Nuclear Disaster, Jennifer Henning]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Don't Start a Blog or Podcast! (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Fri, 17 Jun 2011 12:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0020.m4v" length="389165834" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0020</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>39:36</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Tim Farley]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[All They Want is the Truth: TruthCon 2011 (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Sat, 18 Jun 2011 13:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0021.m4v" length="378683244" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0021</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>35:20</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, TruthCon 2011, Bob Blaskiewicz]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Mythical Origins of Naughty Words (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Mon, 20 Jun 2011 00:15:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0022.m4v" length="223605743" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0022</guid>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>26:54</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Eve Siebert, Naughty Words]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Putting a Friendly Face on Skepticism (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Wed, 22 Jun 2011 00:15:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0023.m4v" length="365382646" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0023</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>29:59</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Katie Smith, Friendly Skepticism]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Ghost in the Machine: Creationist Neuroscience (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Fri, 24 Jun 2011 00:45:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0024.m4v" length="299118420" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0024</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>29:30</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Rich Hammett, Creationist Neuroscience]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Skeptical Trivia Contest (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Mon, 27 Jun 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0025.m4v" length="365012538" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0025</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>30:00</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, John Snider, Skeptical Trivia]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Workplace Woo: Fight or Flight? (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Wed, 29 Jun 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0026.m4v" length="351393379" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0026</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>28:50</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Christian Walters, Workplace Woo]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Green Jelly Beans Linked to Acne: Practical Statistics for Skeptics (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Thu, 30 Jun 2011 00:45:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0027.m4v" length="304937431" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0027</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>25:04</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, McKenzie Smith, Statistics for Skeptics]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Roadside Skeptic's Guide to Awesome Fun Times in Georgia (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Fri, 01 Jul 2011 00:15:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0028.m4v" length="174054487" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0028</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>33:39</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Taylor Proctor, Roadside Skeptic]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Questions Without Answers: Medical Ethics in Light of the HeLa Line of Cells (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Tue, 05 Jul 2011 00:15:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0029.m4v" length="297493445" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0029</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>24:02</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Laura Ross, Henrietta Lacks, HeLa]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Allergies: Why Your Body is Trying to Kill You (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Wed, 06 Jul 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0030.m4v" length="279393151" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0030</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>26:51</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Lisa Hammett, Allergies]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Internet Reviews (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Thu, 07 Jul 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0031.m4v" length="352125864" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0031</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>28:55</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, J. Stephen King, Internet Reviews]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Some Conspiracy Theories Are Real (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Fri, 08 Jul 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0032.m4v" length="393073289" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0032</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>32:14</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, Elizabeth Gordon, Some Conspiracy Theories Are Real]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[My Year of Critical Mothering (Atlanta Skepticamp 2011)]]></title>
+      <description><![CDATA[Atlanta Skepticamp 2011 Sessions
+
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.]]></description>
+      <pubDate>Mon, 11 Jul 2011 00:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0033.m4v" length="249617600" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0033.1</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>20:33</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2011, LaVerne Knight-West, Critical Mothering, Skeptical Mothering]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Allergies -- Yes, It Really is a Conspiracy!]]></title>
+      <description><![CDATA[Lisa Hammett has a M.S. in Microbology and has done research in Genetics and Forensic Biology and has taught Microbiology at community colleges.
+
+Lisa expands upon her allergies talk which she gave at Atlanta Skepticamp 2011.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 17 Sep 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0034.m4a" length="21696747" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0034</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/32604562/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>40:54</itunes:duration>
+      <itunes:keywords><![CDATA[Allergies, Lisa Hammett]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Allergies -- Yes, It Really is a Conspiracy!]]></title>
+      <description><![CDATA[A PDF of Lisa Hammett;s presentation on Allergies]]></description>
+      <pubDate>Sat, 17 Sep 2011 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0034.pdf" length="1844388" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0034.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/32604562/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Allergies, Lisa Hammett]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Mr. Jefferson and the Giant Moose]]></title>
+      <description><![CDATA[Lee Dugatkin's Mr. Jefferson and the Giant Moose is a tale of both natural history and American history. What started out in the Revolutionary War era as an international dispute over natural history quickly took on important political overtones.
+
+The story revolves around three fascinating individuals.
+
+Thomas Jefferson, the French Count and world-renowned naturalist, George-Louis Leclerc Buffon, who claimed that all life in America was "degenerate," weak and feeble,
+and a very large, dead moose. 
+
+While Jefferson is known to every schoolchild, the latter two, although lesser known, are equally important to the story. Their interactions lay at the heart of an amazing tale in which Jefferson obsessed over a very large, very dead moose that he believed could help quash early French arrogance toward a fledgling republic in America, and demonstrate that a young America was every bit the equal of a well-established Europe.
+
+Our Speaker
+
+Lee Alan Dugatkin is a Professor of Biology at the University of Louisville.  He has a B.A. in History and a Ph.D. in Evolutionary Biology.  In addition to  Mr. Jefferson, he is the author of nine books on evolution, behavior, and the history of science, including The Altruism Equation and  Cheating Monkeys and Citizen Bees.
+
+Lee's book The Prince of Evolution is now out in trade paperback. It is a fast moving history-of-science/adventure tale centering on the remarkable life of Prince Peter Kropotkin. 
+
+Lee has lectured on his work all over the world, including in England, Canada, Japan, Sweden, The Czech Republic, Denmark, Finland, and Switzerland. He lives in Louisville, Kentucky with his wife and son. You can follow Lee on Twitter @LeeDugatkin and on his Facebook page.
+
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any that suggests that the Atlanta Science Tavern, Atlanta Skeptics, the Speaker, nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Science Tavern (http://www.AtlantaScienceTavern.com), Atlanta Skeptics (http://www.atlantaskeptics.com), the Speaker and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 19 Nov 2011 22:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0036.m4a" length="44526184" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0036</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/37797582/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:16:16</itunes:duration>
+      <itunes:keywords><![CDATA[Thomas Jefferson, Moose, Lee Dugatkin]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Mr. Jefferson and the Giant Moose]]></title>
+      <description><![CDATA[A PDF of Mr. Dugatkin's presentation.
+
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any that suggests that the Atlanta Science Tavern, Atlanta Skeptics, the Speaker, nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Science Tavern (http://www.AtlantaScienceTavern.com), Atlanta Skeptics (http://www.atlantaskeptics.com), the Speaker and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 19 Nov 2011 22:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0036.pdf" length="16190859" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0036.1</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/37797582/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Thomas Jefferson, Moose, Lee Dugatkin]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[IIG Update and The Year in Skepticism]]></title>
+      <description><![CDATA[Join us for the last Skeptics in the Pub for 2011!  Bob Blaskiewicz gives a talk about what's going on with the Atlanta Independent Investigations Group and Christian Walters present's Tim Farley's recap of the year in Skepticism.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 17 Dec 2011 22:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0037.m4a" length="36457799" type="audio/mpeg"/>
+      <guid isPermaLink="false">asitp-0037</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:10:18</itunes:duration>
+      <itunes:keywords><![CDATA[Independent Investigations Group Atlanta, Bob Blaskiewicz, Christian Walters, Tim Farley]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[IIG Update and The Year in Skepticism]]></title>
+      <description><![CDATA[Join us for the last Skeptics in the Pub for 2011!  Bob Blaskiewicz gives a talk about what's going on with the Atlanta Independent Investigations Group and Christian Walters present's Tim Farley's recap of the year in Skepticism.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 17 Dec 2011 22:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0037.pdf" length="3013905" type="application/pdf"/>
+      <guid isPermaLink="false">asitp-0037.1</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:keywords><![CDATA[Independent Investigations Group Atlanta, Bob Blaskiewicz, Christian Walters, Tim Farley]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Running Through Mann Gulch]]></title>
+      <description><![CDATA[Christian Walters discusses the what happend to a group of smoke jumpers fighting a forest fire at Mann Gulch in 1949 and what can be learned from the tragedy.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 21 Jan 2012 13:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0038.m4v" length="581955208" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0038</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/47281222/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>48:19</itunes:duration>
+      <itunes:keywords><![CDATA[Mann Gulch, Smoke Jumper, Christian Walters]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[The Maafa in America]]></title>
+      <description><![CDATA[LaVerne Knight-West will be talking about MAAFA or the African Holocaust. As part of the recognition of Black History Month, LaVerne will share some facts on the subject. Hopefully opening the door for some critical thinking and objective sharing in this area.
+
+LaVerne attended Georgia State University with a Major in Journalism and just completed a diploma in Medical Billing, Insurance and Medical Coding specialty at United Education Institute. For over 25 years, LaVerne worked as a television and radio journalist in Georgia with a concentration in Education and Promotional Coverages. Now a mother and an administrative professional, she shares her love of critical thinking through blogging and other public efforts.]]></description>
+      <pubDate>Sat, 18 Feb 2012 13:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0039.m4v" length="169608824" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0039</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/51492452/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>39:46</itunes:duration>
+      <itunes:keywords><![CDATA[Maafa, LaVerne Knight-West]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Nuns Gone Wild: The Maria Monk Conspiracy]]></title>
+      <description><![CDATA[Murder! Obscenity! Fornication! Villainy! Kidnapping! Infanticide! Insanity! Torture! Prostitution! Just another day at the convent, according to Maria Monk, perhaps America's most widely published author before Harriet Beecher Stowe released Uncle Tom's Cabin. Wonder over the biggest American controversy of its day! Hear about those who were responsible for scandalizing a nation! Marvel at the skeptics who got to the truth of the matter! And learn, if your heart is strong enough, what the nuns have buried in the basement!
+
+What About Bob?
+
+Bob Blaskiewicz received his Ph.D in English from Saint Louis University. He specializes in twentieth-century American literature and culture, and wrote his dissertation on the fiction and memoirs of American combat veterans of the Second World War. He is a Brittain Postdoctoral Fellow in the Writing and Communication Program at the Georgia Institute of Technology in Atlanta, where he teaches writing and communication classes that take extraordinary claims as their subject. His most recent classes include Science and Pseudoscience, American Conspiracy Theories, and Writing about World War II in Film and Literature (Spring 2011). He is currently the Chair of the Steering Committee for the Atlanta chapter of the Independent Investigations Group (IIG-Atlanta), a research group and public resource for information about the paranormal and extraordinary. IIG-Atlanta also has a standing $50,000 challenge for anyone who can provide evidence demonstrating the existence of the paranormal, occult, or supernatural under properly controlled conditions. But he really wants to direct.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 17 Mar 2012 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0040.m4v" length="266495587" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0040</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/53339132/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>37:29</itunes:duration>
+      <itunes:keywords><![CDATA[Maria Monk, Bob Blaskiewicz]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[A Titanic Event!]]></title>
+      <description><![CDATA[Join us as we celebrate the 100th anniversary of the sinking of the Titanic! No... wait, celebrate is the wrong word. Commemorate? Acknowledge? Relive? (No, relive is definitely the wrong word.)
+
+Regardless, we're going to take a look at the myths and legends that have grown up around that ship and the accident. For example, did you know the 1912 Renault Coupe DeVille in the Titanic's cargo hold would be worth a quarter-million dollars today if it wasn't on the bottom of the ocean? And if Jack and Rose hadn't had sex in it?
+
+It'll be both educational and lucrative, what with the fabulous prizes!
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 21 Apr 2012 19:30:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0041.m4v" length="842021921" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0041</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/57846002/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:37:37</itunes:duration>
+      <itunes:keywords><![CDATA[Titanic, Iceberg, Christian Walters]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Popular Myths About the Civil War]]></title>
+      <description><![CDATA[Join us as former Damn Yankee James Severin talks about the misunderstanding, falsehoods, lies, and urban legends around The War that will force the South to rise again any day now.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 16 Jun 2012 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0042.m4v" length="521911885" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0042</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/62250662/</link>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:duration>01:04:40</itunes:duration>
+      <itunes:keywords><![CDATA[Civil War, James Severin]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Introduction to Skepticism]]></title>
+      <description><![CDATA[We have had quite a few new people join up in recent months, as such we are going to dust off the old introduction to skepticism session. Find out what skepticism is all about, the various groups, the lingo we use, and about our goals. We will also be experimenting with what we hope will become a couple of semi-regular segments.  Lastly we will also be wrapping up any DragonCon Skeptrack open items and showing video of some key sessions for those of you that missed them.
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Skeptics, the Speaker(s) nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Skeptics (http://www.AtlantaSkeptics.com/), the Speaker(s) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 20 Oct 2012 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0043.m4v" length="476597972" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0043</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/81872372/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:26:23</itunes:duration>
+      <itunes:keywords><![CDATA[Skepticism, Shaune Beattie, Cynthia Henry]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Martin Gardner: Personal Reminiscences and Atlanta Connections]]></title>
+      <description><![CDATA[We will delve deeper into life of one of the founders of the modern skeptics movement, Martin Gardner. 
+
+American man of letters and numbers -- and logic and magic and patterns and puzzles -- Martin Gardner (1914-2010) wrote about 100 books, starting with "Fads and Fallacies in the Name of Science" sixty years ago. That led to his playing a founding role in CSICOP (Committee for the Scientific Investigation of Claims of the Paranormal), and the Skeptical Inquirer magazine. He was most well-known for his book The Annotated Alice (in Wonderland), the 300 columns he wrote for Scientific American, mostly on recreational mathematics, and the huge body of magic he created. We'll survey his legacy and touch on his Atlanta connections. Follow @WWMGT on Twitter to find out What Would Martin Gardner Tweet?
+
+"Card Colm" Mulcahy (@CardColm) teaches mathematics at Spelman College, Atlanta, Georgia. He knew Gardner for the last decade of his life. He blogs at Huffington Post, Aperiodical and MAA. He's the author of the upcoming book Mathematical Card Magic (AK Peters).
+---
+Released and distributed under the Creative Commons BY-NC-SA 3.0 United States license
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+
+You are free to:
+
+Share - to copy, distribute and transmit the work
+
+Remix - to adapt the work
+
+Under the following conditions:
+
+Attribution - You must attribute the work (but not in any way that suggests that the Atlanta Science Tavern nor AbruptMedia, LLC endorses you or your use of the work) to the Atlanta Science Tavern (http://www.AtlantaScienceTavern.com) and AbruptMedia, LLC (http://www.AbruptMedia.com).
+
+Noncommercial - You may not use this work for commercial purposes.
+
+Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+]]></description>
+      <pubDate>Sat, 17 Nov 2012 22:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0044.m4v" length="162079043" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0044</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/89479072/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:06:46</itunes:duration>
+      <itunes:keywords><![CDATA[Martin Gardner, Math puzzles, Colm Mulcahy]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Alternative Medicine: Snake oil or panacea?]]></title>
+      <description><![CDATA[ER physician Angie Mattke discusses the claims alternative medicine.
+]]></description>
+      <pubDate>Sat, 19 Jan 2013 19:00:00 EST</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0045.m4v" length="638314470" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0045</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/93474262/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:34:01</itunes:duration>
+      <itunes:keywords><![CDATA[Angela Mattke, Alternative Medicine]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Atlanta Skeptics' LIVE Podcast Event!]]></title>
+      <description><![CDATA[We bring you not one, not two, but three Atlanta podcasters, all smashed up into one big pot of simmering live skepticism. For one night only, they have the power. There may be tears but it will be a fun ride!
+
+Derek Colanduno co-hosts Skepticality, one of the longest running skeptical podcast.
+Monster Talk's Blake Smith regales listeners with stories of things that go bump in the night.
+John Snider of American Freethought fame, encourages us to think for ourselves.]]></description>
+      <pubDate>Sat, 16 Mar 2013 20:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0046.m4v" length="752131069" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0046</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/101883192/</link>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>01:23:13</itunes:duration>
+      <itunes:keywords><![CDATA[Skepticamp, Derek Colanduno, Blake Smith, John Snider]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Atlanta Skepticamp 2013]]></title>
+      <description><![CDATA[Join the Atlanta Skeptics for the 2013 Atlanta Skepticamp May 3-4, 2013 in Atlanta, GA.
+
+For more information and to sign up, please visit http://www.atlantaskeptics.com/skepticamp
+]]></description>
+      <pubDate>Sun, 14 Apr 2013 15:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0047.m4v" length="47289908" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0047.1</guid>
+      <link>http://www.atlantaskeptics.com/skepticamp</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:57</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2013]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Skepticamp 2013: Mark W. Gura]]></title>
+      <description><![CDATA[Mark W. Gura: The Three Possibilities: A System for Classifying Religions and Philosophies]]></description>
+      <pubDate>Mon, 29 Jul 2013 08:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0048.m4v" length="231836339" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0048</guid>
+      <link>http://www.atlantaskeptics.com/skepticamp</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>25:31</itunes:duration>
+      <itunes:keywords><![CDATA[Atlanta Skepticamp 2013, Mark W. Gura]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[Bad Statistics]]></title>
+      <description><![CDATA[We will discuss how a misunderstanding of statistics can lead to very unskeptical thinking.
+
+Humans are inherently bad at judging risk and the probability of events. This can lead to belief in the supernatural, psychics, and 'fate'.
+
+Even scientists fall foul to bad statistics, and a basic understanding of how statistics work can help weed out the good studies from the bad.
+
+We'll be keeping this very light, 'statistics minus the numbers' :) There will be fun demonstrations of bad statistics in action, and we'll outline some basic concepts and ideas to arm you against the next person who claims that they must be psychic because they can predict who is calling when the phone rings.]]></description>
+      <pubDate>Sat, 17 Aug 2013 21:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0049.m4v" length="124448024" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0049</guid>
+      <link>http://www.meetup.com/AtlantaSkeptics/events/132337302/</link>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:07:53</itunes:duration>
+      <itunes:keywords><![CDATA[Shaune Beattie, Statistics]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[1992 Georgia Skeptics Conference - Part 1 of 3]]></title>
+      <description><![CDATA[From the archive: 1992 Georgia Skeptics Conference.  Robert Baker - His talk on Hypnosis, and Dr. George Gannaway's Hypnosis experiment.]]></description>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0050.m4v" length="1080699580" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0050</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:59:07</itunes:duration>
+      <itunes:keywords><![CDATA[Georgia Skeptics, Robert Baker, Dr. George Gannaway, Atlanta Skeptics]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[1992 Georgia Skeptics Conference - Part 2 of 3]]></title>
+      <description><![CDATA[From the archive: 1992 Georgia Skeptics Conference.  Keith Parsons -  On Critical Thinking]]></description>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0051.m4v" length="2147483647" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0051</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>04:50:21</itunes:duration>
+      <itunes:keywords><![CDATA[Georgia Skeptics, Keith Parsons, Critical Thinking, Atlanta Skeptics]]></itunes:keywords>
+    </item>
+    <item>
+      <title><![CDATA[1992 Georgia Skeptics Conference - Part 3 of 3]]></title>
+      <description><![CDATA[From the archive: 1992 Georgia Skeptics Conference.  James McGaha - On UFOs]]></description>
+      <pubDate>Sun, 03 Nov 2013 00:00:00 EDT</pubDate>
+      <enclosure url="http://podcasts.abruptmedia.com/feed/as/asitp-0052.m4v" length="897120355" type="video/mpeg"/>
+      <guid isPermaLink="false">asitp-0052</guid>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:39:13</itunes:duration>
+      <itunes:keywords><![CDATA[Georgia Skeptics, James McGaha, UFO, Atlanta Skeptics]]></itunes:keywords>
+    </item>
+  </channel>
+</rss>

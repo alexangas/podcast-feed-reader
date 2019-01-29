@@ -1,0 +1,527 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Financial Theory - Audio</title>
+        <link>http://deimos3.apple.com/WebObjects/Core.woa/Browse/yale.edu-dz.6910423309.06910423311</link>
+        <itunes:author>John Geanakoplos</itunes:author>
+        <description>Financial Theory - Audio</description>
+        <category>Business</category>
+        <itunes:category text="iTunes U">
+        
+            
+                <itunes:category text="Business">
+                    <itunes:category text="Finance" />
+                </itunes:category>
+            
+            
+        
+        </itunes:category>
+        <itunes:provider>Yale University</itunes:provider>
+        <language>EN</language>
+        <itunes:block>no</itunes:block>
+        <copyright></copyright>
+        <itunes:summary>This course attempts to explain the role and the importance of the financial system in the global economy.  Rather than separating off the financial world from the rest of the economy, financial equilibrium is studied as an extension of economic equilibrium.  The course also gives a picture of the kind of thinking and analysis done by hedge funds.</itunes:summary>
+        <itunes:subtitle>This course attempts to explain the role and the importance of the financial system in the global economy.</itunes:subtitle>
+        <itunes:complete>false</itunes:complete>
+        
+        <itunes:image href="http://a1648.phobos.apple.com/us/r30/Podcasts/17/44/79/tns.mkxxargw.jpg"></itunes:image>
+        
+            <item>
+                <title>01 - Why Finance?</title>
+                <itunes:subtitle>This lecture gives a brief history of the young field of financial theory, which began in business schools quite separate from economics, and of my growing interest in the field and in Wall Street.</itunes:subtitle>
+                <description>This lecture gives a brief history of the young field of financial theory, which began in business schools quite separate from economics, and of my growing interest in the field and in Wall Street. A cornerstone of standard financial theory is the efficient markets hypothesis, but that has been discredited by the financial crisis of 2007-09. This lecture describes the kinds of questions standard financial theory nevertheless answers well. It also introduces the leverage cycle as a critique of standard financial theory and as an explanation of the crisis. The lecture ends with a class experiment illustrating a situation in which the efficient markets hypothesis works surprisingly well.</description>
+                <itunes:summary>This lecture gives a brief history of the young field of financial theory, which began in business schools quite separate from economics, and of my growing interest in the field and in Wall Street. A cornerstone of standard financial theory is the efficient markets hypothesis, but that has been discredited by the financial crisis of 2007-09. This lecture describes the kinds of questions standard financial theory nevertheless answers well. It also introduces the leverage cycle as a critique of standard financial theory and as an explanation of the crisis. The lecture ends with a class experiment illustrating a situation in which the efficient markets hypothesis works surprisingly well.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/37/fb/ee/37fbeedc-31bb-027b-a241-7417c0abd79e/3c88ae987c3d3da1e2ac48d6fea4eef7a98083f6643027e676b4cbdb9ae5943e-6912498220.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457377%26episodeName%3D01%2B-%2BWhy%2BFinance%253F%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912498221</guid>
+                <pubDate>Fri, 25 Mar 2011 18:03:32 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:14:15</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>1</itunes:order>
+            </item>
+        
+            <item>
+                <title>02 - Utilities, Endowments, and Equilibrium</title>
+                <itunes:subtitle>This lecture explains what an economic model is, and why it allows for counterfactual reasoning and often yields paradoxical conclusions.</itunes:subtitle>
+                <description>This lecture explains what an economic model is, and why it allows for counterfactual reasoning and often yields paradoxical conclusions. Typically, equilibrium is defined as the solution to a system of simultaneous equations. The most important economic model is that of supply and demand in one market, which was understood to some extent by the Ancient Greeks and even by Shakespeare. That model accurately fits the experiment from the last class, as well as many other markets, such as the Paris Bourse, online trading, the commodities pit, and a host of others. The modern theory of general economic equilibrium described in this lecture extends that model to continuous quantities and multiple commodities. It is the bedrock on which we will build the model of financial equilibrium in subsequent lectures.</description>
+                <itunes:summary>This lecture explains what an economic model is, and why it allows for counterfactual reasoning and often yields paradoxical conclusions. Typically, equilibrium is defined as the solution to a system of simultaneous equations. The most important economic model is that of supply and demand in one market, which was understood to some extent by the Ancient Greeks and even by Shakespeare. That model accurately fits the experiment from the last class, as well as many other markets, such as the Paris Bourse, online trading, the commodities pit, and a host of others. The modern theory of general economic equilibrium described in this lecture extends that model to continuous quantities and multiple commodities. It is the bedrock on which we will build the model of financial equilibrium in subsequent lectures.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/36/56/97/3656972d-2255-9a36-955a-98beae7f130f/00624ba0c4d752cc141136b38f20d6103896876c20046f0920e3bf8a8494ab24-6912383932.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457378%26episodeName%3D02%2B-%2BUtilities%252C%2BEndowments%252C%2Band%2BEquilibrium%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912383933</guid>
+                <pubDate>Fri, 25 Mar 2011 17:57:04 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:16</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>2</itunes:order>
+            </item>
+        
+            <item>
+                <title>03 - Computing Equilibrium</title>
+                <itunes:subtitle>Our understanding of the economy will be more tangible and vivid if we can in principle explain all the economic decisions of every agent in the economy.</itunes:subtitle>
+                <description>Our understanding of the economy will be more tangible and vivid if we can in principle explain all the economic decisions of every agent in the economy. This lecture demonstrates, with two examples, how the theory lets us calculate equilibrium prices and allocations in a simple economy, either by hand or using a computer. In future lectures we shall extend this method so as to compute equilibrium in financial economies with stocks and bonds and other financial assets.</description>
+                <itunes:summary>Our understanding of the economy will be more tangible and vivid if we can in principle explain all the economic decisions of every agent in the economy. This lecture demonstrates, with two examples, how the theory lets us calculate equilibrium prices and allocations in a simple economy, either by hand or using a computer. In future lectures we shall extend this method so as to compute equilibrium in financial economies with stocks and bonds and other financial assets.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/f5/08/72/f5087299-53ed-662d-90ac-db85a3e90d48/fbd28e0a4ae4ce5340dac055be348b046bc8bd8c063a9a16922fcae213592f0b-6910682535.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457380%26episodeName%3D03%2B-%2BComputing%2BEquilibrium%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6910682536</guid>
+                <pubDate>Fri, 25 Mar 2011 18:11:24 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:14:30</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>3</itunes:order>
+            </item>
+        
+            <item>
+                <title>04 - Efficiency, Assets, and Time</title>
+                <itunes:subtitle>Over time, economists' justifications for why free markets are a good thing have changed.</itunes:subtitle>
+                <description>Over time, economists' justifications for why free markets are a good thing have changed. In the first few classes, we saw how under some conditions, the competitive allocation maximizes the sum of agents' utilities. When it was found that this property didn't hold generally, the idea of Pareto efficiency was developed. This class reviews two proofs that equilibrium is Pareto efficient, looking at the arguments of economists Edgeworth, and Arrow-Debreu. The lecture suggests that if a broadening of the economic model invalidated the sum of utilities justification of free markets, a further broadening might invalidate the Pareto efficiency justification of unregulated markets. Finally, Professor Geanakoplos discusses how Irving Fisher introduced two crucial ingredients of finance,--time and assets--into the standard economic equilibrium model.</description>
+                <itunes:summary>Over time, economists' justifications for why free markets are a good thing have changed. In the first few classes, we saw how under some conditions, the competitive allocation maximizes the sum of agents' utilities. When it was found that this property didn't hold generally, the idea of Pareto efficiency was developed. This class reviews two proofs that equilibrium is Pareto efficient, looking at the arguments of economists Edgeworth, and Arrow-Debreu. The lecture suggests that if a broadening of the economic model invalidated the sum of utilities justification of free markets, a further broadening might invalidate the Pareto efficiency justification of unregulated markets. Finally, Professor Geanakoplos discusses how Irving Fisher introduced two crucial ingredients of finance,--time and assets--into the standard economic equilibrium model.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/85/00/33/85003391-ab04-abb1-76be-cbe1f2eaed39/afd08069b3a505a060f146fac73dd4b4c0ee3ae04f4cf2af76ea80a0b89a4763-6912498591.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457382%26episodeName%3D04%2B-%2BEfficiency%252C%2BAssets%252C%2Band%2BTime%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912498592</guid>
+                <pubDate>Fri, 25 Mar 2011 18:18:03 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:11:27</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>4</itunes:order>
+            </item>
+        
+            <item>
+                <title>05 - Present Value Prices and the Real Rate of Interest</title>
+                <itunes:subtitle>Philosophers and theologians have railed against interest for thousands of years.</itunes:subtitle>
+                <description>Philosophers and theologians have railed against interest for thousands of years. But that is because they didn't understand what causes interest. Irving Fisher built a model of financial equilibrium on top of general equilibrium (GE) by introducing time and assets into the GE model. He saw that trade between apples today and apples next year is completely analogous to trade between apples and oranges today. Similarly he saw that in a world without uncertainty, assets like stocks and bonds are significant only for the dividends they pay in the future, just like an endowment of multiple goods. With these insights Fisher was able to show that he could solve his model of financial equilibrium for interest rates, present value prices, asset prices, and allocations with precisely the same techniques we used to solve for general equilibrium. He concluded that the real rate of interest is a relative price, and just like any other relative price, is determined by market participants' preferences and endowments, an insight that runs counter to the intuitions held by philosophers throughout much of human history. His theory did not explain the nominal rate of interest or inflation, but only their ratio.</description>
+                <itunes:summary>Philosophers and theologians have railed against interest for thousands of years. But that is because they didn't understand what causes interest. Irving Fisher built a model of financial equilibrium on top of general equilibrium (GE) by introducing time and assets into the GE model. He saw that trade between apples today and apples next year is completely analogous to trade between apples and oranges today. Similarly he saw that in a world without uncertainty, assets like stocks and bonds are significant only for the dividends they pay in the future, just like an endowment of multiple goods. With these insights Fisher was able to show that he could solve his model of financial equilibrium for interest rates, present value prices, asset prices, and allocations with precisely the same techniques we used to solve for general equilibrium. He concluded that the real rate of interest is a relative price, and just like any other relative price, is determined by market participants' preferences and endowments, an insight that runs counter to the intuitions held by philosophers throughout much of human history. His theory did not explain the nominal rate of interest or inflation, but only their ratio.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/3c/9d/bf/3c9dbf6d-2f10-edd4-0a1f-e8d12844c90a/6831a367d0d94bd21e3f7341e8a96d34fdc1db3d26d251f05ecef9a64368dac2-6912434103.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457379%26episodeName%3D05%2B-%2BPresent%2BValue%2BPrices%2Band%2Bthe%2BReal%2BRate%2Bof%2BInterest%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912434104</guid>
+                <pubDate>Fri, 25 Mar 2011 18:24:55 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:14:13</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>5</itunes:order>
+            </item>
+        
+            <item>
+                <title>06 - Irving Fisher's Impatience Theory of Interest</title>
+                <itunes:subtitle>Building on the general equilibrium setup solved in the last week, this lecture looks in depth at the relationships between productivity, patience, prices, allocations, and nominal and real interest rates.</itunes:subtitle>
+                <description>Building on the general equilibrium setup solved in the last week, this lecture looks in depth at the relationships between productivity, patience, prices, allocations, and nominal and real interest rates. The solutions to three of Fisher's famous examples are given: What happens to interest rates when people become more or less patient? What happens when they expect to receive windfall riches sometime in the future? And, what happens when wealth in an economy is redistributed from the poor to the rich?</description>
+                <itunes:summary>Building on the general equilibrium setup solved in the last week, this lecture looks in depth at the relationships between productivity, patience, prices, allocations, and nominal and real interest rates. The solutions to three of Fisher's famous examples are given: What happens to interest rates when people become more or less patient? What happens when they expect to receive windfall riches sometime in the future? And, what happens when wealth in an economy is redistributed from the poor to the rich?</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/2f/3a/c1/2f3ac187-b518-c590-944d-748644316b96/fa6051eefed22214b7bc4ff59bd3cebd5b3f67fecc0f6f7c0d2e762c4dd1511b-6912434404.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092457381%26episodeName%3D06%2B-%2BIrving%2BFisher%2527s%2BImpatience%2BTheory%2Bof%2BInterest%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912434405</guid>
+                <pubDate>Fri, 25 Mar 2011 18:32:49 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:10:55</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>6</itunes:order>
+            </item>
+        
+            <item>
+                <title>07 - Shakespeare's Merchant of Venice, Collateral. Present Value and the Vocabulary of Finance</title>
+                <itunes:subtitle>While economists didn't have a good theory of interest until Irving Fisher came along, and didn't understand the role of collateral until even later, Shakespeare understood many of these things hundreds of years earlier.</itunes:subtitle>
+                <description>While economists didn't have a good theory of interest until Irving Fisher came along, and didn't understand the role of collateral until even later, Shakespeare understood many of these things hundreds of years earlier. The first half of this lecture examines Shakespeare's economic insights in depth, and sees how they sometimes prefigured or even surpassed Irving Fisher's intuitions. The second half of this lecture uses the concept of present value to define and explain some of the basic financial instruments: coupon bonds, annuities, perpetuities, and mortgages.</description>
+                <itunes:summary>While economists didn't have a good theory of interest until Irving Fisher came along, and didn't understand the role of collateral until even later, Shakespeare understood many of these things hundreds of years earlier. The first half of this lecture examines Shakespeare's economic insights in depth, and sees how they sometimes prefigured or even surpassed Irving Fisher's intuitions. The second half of this lecture uses the concept of present value to define and explain some of the basic financial instruments: coupon bonds, annuities, perpetuities, and mortgages.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/3d/9d/2c/3d9d2cdd-f069-6574-ba8c-83e51ec934e2/727871ad36b91470ebb55488fa090281722e0409004dcd20154bd37de001304d-6911650482.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092459166%26episodeName%3D07%2B-%2BShakespeare%2527s%2BMerchant%2Bof%2BVenice%252C%2BCollateral.%2BPresent%2BValue%2Band%2Bthe%2BVocabulary%2Bof%2BFinance%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6911650483</guid>
+                <pubDate>Fri, 25 Mar 2011 19:13:35 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:18:33</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>7</itunes:order>
+            </item>
+        
+            <item>
+                <title>08 - How a Long-Lived Institution Figures an Annual Budget. Yield</title>
+                <itunes:subtitle>In the 1990s, Yale discovered that it was faced with a deferred maintenance problem: the university hadn't properly planned for important renovations in many buildings.</itunes:subtitle>
+                <description>In the 1990s, Yale discovered that it was faced with a deferred maintenance problem: the university hadn't properly planned for important renovations in many buildings. A large, one-time expenditure would be needed. How should Yale have covered these expenses? This lecture begins by applying the lessons learned so far to show why Yale's initial forecast budget cuts were overly pessimistic. In the second half of the class, we turn to the problem of measuring investment performance, and examine the strengths and weaknesses of various measures of yield, including yield-to-maturity and current yield.</description>
+                <itunes:summary>In the 1990s, Yale discovered that it was faced with a deferred maintenance problem: the university hadn't properly planned for important renovations in many buildings. A large, one-time expenditure would be needed. How should Yale have covered these expenses? This lecture begins by applying the lessons learned so far to show why Yale's initial forecast budget cuts were overly pessimistic. In the second half of the class, we turn to the problem of measuring investment performance, and examine the strengths and weaknesses of various measures of yield, including yield-to-maturity and current yield.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/56/33/d1/5633d1c3-ca44-200e-c4d7-cee289015500/046eb16476dc727a1477ae6ac1f5fb59085c69ee6af632bbd58e08ed24c3c55a-6912500081.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092459169%26episodeName%3D08%2B-%2BHow%2Ba%2BLong-Lived%2BInstitution%2BFigures%2Ban%2BAnnual%2BBudget.%2BYield%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912500082</guid>
+                <pubDate>Fri, 25 Mar 2011 19:14:06 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:16:11</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>8</itunes:order>
+            </item>
+        
+            <item>
+                <title>09 - Yield Curve Arbitrage</title>
+                <itunes:subtitle>Where can you find the market rates of interest (or equivalently the zero coupon bond prices) for every maturity?</itunes:subtitle>
+                <description>Where can you find the market rates of interest (or equivalently the zero coupon bond prices) for every maturity? This lecture shows how to infer them from the prices of Treasury bonds of every maturity, first using the method of replication, and again using the principle of duality. Treasury bond prices, or at least Treasury bond yields, are published every day in major newspapers. From the zero coupon bond prices one can immediately infer the forward interest rates. Under certain conditions these forward rates can tell us a lot about how traders think the prices of Treasury bonds will evolve in the future.</description>
+                <itunes:summary>Where can you find the market rates of interest (or equivalently the zero coupon bond prices) for every maturity? This lecture shows how to infer them from the prices of Treasury bonds of every maturity, first using the method of replication, and again using the principle of duality. Treasury bond prices, or at least Treasury bond yields, are published every day in major newspapers. From the zero coupon bond prices one can immediately infer the forward interest rates. Under certain conditions these forward rates can tell us a lot about how traders think the prices of Treasury bonds will evolve in the future.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/d7/4e/0c/d74e0c82-a9b0-4257-786c-2e26801f5470/39ee84bfdbd46f1aa156147a296660f9e348009405d4c4fc2fbd5c2b9d4941be-6912386440.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092459167%26episodeName%3D09%2B-%2BYield%2BCurve%2BArbitrage%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912386441</guid>
+                <pubDate>Fri, 25 Mar 2011 19:29:32 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:15:06</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>9</itunes:order>
+            </item>
+        
+            <item>
+                <title>10 - Dynamic Present Value</title>
+                <itunes:subtitle>In this lecture we move from present values to dynamic present values.</itunes:subtitle>
+                <description>In this lecture we move from present values to dynamic present values. If interest rates evolve along the forward curve, then the present value of the remaining cash flows of any instrument will evolve in a predictable trajectory. The fastest way to compute these is by backward induction. Dynamic present values help us understand the returns of various trading strategies, and how marking-to-market can prevent some subtle abuses of the system. They explain how mortgages work, why they're called amortizing, and what is meant by the remaining balance. In the second half of the lecture we turn to an important application of present value thinking: an analysis of the troubles facing the Social Security system.</description>
+                <itunes:summary>In this lecture we move from present values to dynamic present values. If interest rates evolve along the forward curve, then the present value of the remaining cash flows of any instrument will evolve in a predictable trajectory. The fastest way to compute these is by backward induction. Dynamic present values help us understand the returns of various trading strategies, and how marking-to-market can prevent some subtle abuses of the system. They explain how mortgages work, why they're called amortizing, and what is meant by the remaining balance. In the second half of the lecture we turn to an important application of present value thinking: an analysis of the troubles facing the Social Security system.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/0e/d0/a0/0ed0a0d7-a3ca-30ce-9f2e-e5806c4b448b/0bbb122532f0db3e809476d8b7b6b59c531b937e99f69ff7537cebfcb166330b-6911651136.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092459165%26episodeName%3D10%2B-%2BDynamic%2BPresent%2BValue%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6911651137</guid>
+                <pubDate>Fri, 25 Mar 2011 19:38:54 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:09:36</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>10</itunes:order>
+            </item>
+        
+            <item>
+                <title>11 - Social Security</title>
+                <itunes:subtitle>This lecture continues the analysis of Social Security started at the end of the last class.</itunes:subtitle>
+                <description>This lecture continues the analysis of Social Security started at the end of the last class. We describe the creation of the system in 1938 by Franklin Roosevelt and Frances Perkins and its current financial troubles. For many democrats Social Security is the most successful government program ever devised and for many Republicans Social Security is a bankrupt program that needs to be privatized. Is there any way to reconcile the views of Democrats and Republicans? How did the system get into so much financial trouble? We will see that the mess becomes quite clear when examined with the proper present value approach. Present value analysis reveals the flaws in the three most popular analyses of Social Security, that the financial breakdown is the fault of the baby boomers, that privatization would bring young investors a better return than they anticipate getting from their social security contributions, and that privatization is impossible without compromising today's retired workers.</description>
+                <itunes:summary>This lecture continues the analysis of Social Security started at the end of the last class. We describe the creation of the system in 1938 by Franklin Roosevelt and Frances Perkins and its current financial troubles. For many democrats Social Security is the most successful government program ever devised and for many Republicans Social Security is a bankrupt program that needs to be privatized. Is there any way to reconcile the views of Democrats and Republicans? How did the system get into so much financial trouble? We will see that the mess becomes quite clear when examined with the proper present value approach. Present value analysis reveals the flaws in the three most popular analyses of Social Security, that the financial breakdown is the fault of the baby boomers, that privatization would bring young investors a better return than they anticipate getting from their social security contributions, and that privatization is impossible without compromising today's retired workers.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/a9/91/bb/a991bb80-0fd3-2189-fca3-17f77e196da2/036405e70e51f0693e9bb485ed0c361c990d6b7de4db76b3f0229960e0041668-6912403434.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092459168%26episodeName%3D11%2B-%2BSocial%2BSecurity%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912403435</guid>
+                <pubDate>Fri, 25 Mar 2011 19:51:40 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:19</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>11</itunes:order>
+            </item>
+        
+            <item>
+                <title>12 - Overlapping Generations Models of the Economy</title>
+                <itunes:subtitle>In order for Social Security to work, people have to believe there's some possibility that the world will last forever, so that each old generation will have a young generation to support it.</itunes:subtitle>
+                <description>In order for Social Security to work, people have to believe there's some possibility that the world will last forever, so that each old generation will have a young generation to support it. The overlapping generations model, invented by Allais and Samuelson but here augmented with land, represents such a situation. Financial equilibrium can again be reduced to general equilibrium. At first glance it would seem that the model requires a solution of an infinite number of supply equals demand equations, one for each time period. But by assuming stationarity, the whole analysis can be reduced to one equation. In this mathematical framework we reach an even more precise and subtle understanding of Social Security and the real rate of interest. We find that Social Security likely increases the real rate of interest. The presence of land, an infinitely lived asset that pays a perpetual dividend, forces the real rate of interest to be positive, exposing the flaw in Samuelson's contention that Social Security is a giant, yet beneficial, Ponzi scheme where each generation can win by perpetually deferring a growing cost.</description>
+                <itunes:summary>In order for Social Security to work, people have to believe there's some possibility that the world will last forever, so that each old generation will have a young generation to support it. The overlapping generations model, invented by Allais and Samuelson but here augmented with land, represents such a situation. Financial equilibrium can again be reduced to general equilibrium. At first glance it would seem that the model requires a solution of an infinite number of supply equals demand equations, one for each time period. But by assuming stationarity, the whole analysis can be reduced to one equation. In this mathematical framework we reach an even more precise and subtle understanding of Social Security and the real rate of interest. We find that Social Security likely increases the real rate of interest. The presence of land, an infinitely lived asset that pays a perpetual dividend, forces the real rate of interest to be positive, exposing the flaw in Samuelson's contention that Social Security is a giant, yet beneficial, Ponzi scheme where each generation can win by perpetually deferring a growing cost.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/44/1f/6f/441f6f7a-5fb9-eca6-5112-6c21ea91ed4c/242554549f976379eb0e1f509733488c32c5788fa8a52bd690933b709da6dd38-6912501713.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092460073%26episodeName%3D12%2B-%2BOverlapping%2BGenerations%2BModels%2Bof%2Bthe%2BEconomy%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912501714</guid>
+                <pubDate>Fri, 25 Mar 2011 08:25:52 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:32</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>12</itunes:order>
+            </item>
+        
+            <item>
+                <title>13 - Demography and Asset Pricing: Will the Stock Market Decline when the Baby Boomers Retire?</title>
+                <itunes:subtitle>In this lecture, we use the overlapping generations model from the previous class to see, mathematically, how demographic changes can influence interest rates and asset prices.</itunes:subtitle>
+                <description>In this lecture, we use the overlapping generations model from the previous class to see, mathematically, how demographic changes can influence interest rates and asset prices. We evaluate Tobin's statement that a perpetually growing population could solve the Social Security problem, and resolve, in a surprising way, a classical argument about the link between birth rates and the level of the stock market. Lastly, we finish by laying some of the philosophical and statistical groundwork for dealing with uncertainty.</description>
+                <itunes:summary>In this lecture, we use the overlapping generations model from the previous class to see, mathematically, how demographic changes can influence interest rates and asset prices. We evaluate Tobin's statement that a perpetually growing population could solve the Social Security problem, and resolve, in a surprising way, a classical argument about the link between birth rates and the level of the stock market. Lastly, we finish by laying some of the philosophical and statistical groundwork for dealing with uncertainty.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/1b/2b/0b/1b2b0be5-4111-57ca-ab47-1c8bc5a2e48d/e4ba15c23dd826ab671b189574b9b961d8569ece4061845fb18a55e00c1a6727-6912501479.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092460074%26episodeName%3D13%2B-%2BDemography%2Band%2BAsset%2BPricing%253A%2BWill%2Bthe%2BStock%2BMarket%2BDecline%2Bwhen%2Bthe%2BBaby%2BBoomers%2BRetire%253F%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6912501480</guid>
+                <pubDate>Fri, 25 Mar 2011 08:19:41 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:21</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>13</itunes:order>
+            </item>
+        
+            <item>
+                <title>14 - Quantifying Uncertainty and Risk</title>
+                <itunes:subtitle>Until now, the models we've used in this course have focused on the case where everyone can perfectly forecast future economic conditions.</itunes:subtitle>
+                <description>Until now, the models we've used in this course have focused on the case where everyone can perfectly forecast future economic conditions. Clearly, to understand financial markets, we have to incorporate uncertainty into these models. The first half of this lecture continues reviewing the key statistical concepts that we'll need to be able to think seriously about uncertainty, including expectation, variance, and covariance. We apply these concepts to show how diversification can reduce risk exposure. Next we show how expectations can be iterated through time to rapidly compute conditional expectations: if you think the Yankees have a 60% chance of winning any game against the Dodgers, what are the odds the Yankees will win a seven game series once they are up 2 games to 1? Finally we allow the interest rate, the most important variable in the economy according to Irving Fisher, to be uncertain. We ask whether interest rate uncertainty tends to make a dollar in the distant future more valuable or less valuable.</description>
+                <itunes:summary>Until now, the models we've used in this course have focused on the case where everyone can perfectly forecast future economic conditions. Clearly, to understand financial markets, we have to incorporate uncertainty into these models. The first half of this lecture continues reviewing the key statistical concepts that we'll need to be able to think seriously about uncertainty, including expectation, variance, and covariance. We apply these concepts to show how diversification can reduce risk exposure. Next we show how expectations can be iterated through time to rapidly compute conditional expectations: if you think the Yankees have a 60% chance of winning any game against the Dodgers, what are the odds the Yankees will win a seven game series once they are up 2 games to 1? Finally we allow the interest rate, the most important variable in the economy according to Irving Fisher, to be uncertain. We ask whether interest rate uncertainty tends to make a dollar in the distant future more valuable or less valuable.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/10/da/e0/10dae021-a3c8-604f-e621-511a3d2c8332/4f257cca854eb98e18ce54f595ca44562b4ee3655c0b4d3d7bec1b08bad41294-6910685923.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092460075%26episodeName%3D14%2B-%2BQuantifying%2BUncertainty%2Band%2BRisk%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6910685924</guid>
+                <pubDate>Fri, 25 Mar 2011 08:29:10 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:04:08</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>14</itunes:order>
+            </item>
+        
+            <item>
+                <title>15 - Uncertainty and the Rational Expectations Hypothesis</title>
+                <itunes:subtitle>According to the rational expectations hypothesis, traders know the probabilities of future events, and value uncertain future payoffs by discounting their expected value at the riskless rate of interest.</itunes:subtitle>
+                <description>According to the rational expectations hypothesis, traders know the probabilities of future events, and value uncertain future payoffs by discounting their expected value at the riskless rate of interest. Under this hypothesis the best predictor of a firm's valuation in the future is its stock price today. In one famous test of this hypothesis, it was found that detailed weather forecasts could not be used to improve on contemporaneous orange prices as a predictor of future orange prices, but that orange prices could improve contemporaneous weather forecasts. Under the rational expectations hypothesis you can infer more about the odds of corporate or sovereign bonds defaulting by looking at their prices than by reading about the financial condition of their issuers.
+
+On the other hand, when discount rates rather than payoffs are uncertain, today's one-year rate grossly overestimates the long run annualized rate. If today's one year interest rate is 4%, and if the one year interest rate follows a geometric random walk, then the value today of one dollar in T years is described in the long run by the hyperbolic function 1/ √T, which is much larger than the exponential function 1/(1.04)T, no matter what the constant K. Hyperbolic discounting is the term used to describe the tendency of animals and humans to value the distant future much more than would be implied by (exponentially) discounting at a constant rate such as 4%. Hyperbolic discounting can justify expenses taken today to improve the environment in 500 years that could not be justified under exponential discounting.</description>
+                <itunes:summary>According to the rational expectations hypothesis, traders know the probabilities of future events, and value uncertain future payoffs by discounting their expected value at the riskless rate of interest. Under this hypothesis the best predictor of a firm's valuation in the future is its stock price today. In one famous test of this hypothesis, it was found that detailed weather forecasts could not be used to improve on contemporaneous orange prices as a predictor of future orange prices, but that orange prices could improve contemporaneous weather forecasts. Under the rational expectations hypothesis you can infer more about the odds of corporate or sovereign bonds defaulting by looking at their prices than by reading about the financial condition of their issuers.
+
+On the other hand, when discount rates rather than payoffs are uncertain, today's one-year rate grossly overestimates the long run annualized rate. If today's one year interest rate is 4%, and if the one year interest rate follows a geometric random walk, then the value today of one dollar in T years is described in the long run by the hyperbolic function 1/ √T, which is much larger than the exponential function 1/(1.04)T, no matter what the constant K. Hyperbolic discounting is the term used to describe the tendency of animals and humans to value the distant future much more than would be implied by (exponentially) discounting at a constant rate such as 4%. Hyperbolic discounting can justify expenses taken today to improve the environment in 500 years that could not be justified under exponential discounting.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/99/92/c6/9992c664-63df-abc9-03e7-5e7f442c6bb4/51113f3ac65fd6939587ce3677b0b83dc32f23c0673b7bb86fe19681800ed1cd-6954446986.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518827%26episodeName%3D15%2B-%2BUncertainty%2Band%2Bthe%2BRational%2BExpectations%2BHypothesis%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954446987</guid>
+                <pubDate>Mon, 28 Mar 2011 13:20:11 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:16:08</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>15</itunes:order>
+            </item>
+        
+            <item>
+                <title>16 - Backward Induction and Optimal Stopping Times</title>
+                <itunes:subtitle>The main part of the lecture focuses on the powerful tool of backward induction, once used in the early 1900s by the mathematician Zermelo to prove the existence of an optimal strategy in chess.</itunes:subtitle>
+                <description>In the first part of the lecture we wrap up the previous discussion of implied default probabilities, showing how to calculate them quickly by using the same duality trick we used to compute forward interest rates, and showing how to interpret them as spreads in the forward rates. The main part of the lecture focuses on the powerful tool of backward induction, once used in the early 1900s by the mathematician Zermelo to prove the existence of an optimal strategy in chess. We explore its application in a series of optimal stopping problems, starting with examples quite distant from economics such as how to decide when it is time to stop dating and get married. In each case we find that the option to continue is surprisingly valuable.</description>
+                <itunes:summary>In the first part of the lecture we wrap up the previous discussion of implied default probabilities, showing how to calculate them quickly by using the same duality trick we used to compute forward interest rates, and showing how to interpret them as spreads in the forward rates. The main part of the lecture focuses on the powerful tool of backward induction, once used in the early 1900s by the mathematician Zermelo to prove the existence of an optimal strategy in chess. We explore its application in a series of optimal stopping problems, starting with examples quite distant from economics such as how to decide when it is time to stop dating and get married. In each case we find that the option to continue is surprisingly valuable.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/7e/5d/23/7e5d23ab-477b-a1d0-6d11-0b0c67cc08f0/e203892ef89cbfcc296ee9a709e2db81fc6c8f74908cfdd62d754e48d4dce555-6952532530.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518828%26episodeName%3D16%2B-%2BBackward%2BInduction%2Band%2BOptimal%2BStopping%2BTimes%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6952532531</guid>
+                <pubDate>Mon, 28 Mar 2011 13:26:11 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:19:13</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>16</itunes:order>
+            </item>
+        
+            <item>
+                <title>17 - Callable Bonds and the Mortgage Prepayment Option</title>
+                <itunes:subtitle>This lecture is about optimal exercise strategies for callable bonds, which are bonds bundled with an option that allows the borrower to pay back the loan early, if she chooses.</itunes:subtitle>
+                <description>This lecture is about optimal exercise strategies for callable bonds, which are bonds bundled with an option that allows the borrower to pay back the loan early, if she chooses. Using backward induction, we calculate the borrower's optimal strategy and the value of the option. As with the simple examples in the previous lecture, the option value turns out to be very large. The most important callable bond is the fixed rate amortizing mortgage; calling a mortgage means prepaying your remaining balance. We examine how high bankers must set the mortgage rate in order to compensate for the prepayment option they give homeowners. Looking at data on mortgage rates we see that mortgage borrowers often fail to prepay optimally.</description>
+                <itunes:summary>This lecture is about optimal exercise strategies for callable bonds, which are bonds bundled with an option that allows the borrower to pay back the loan early, if she chooses. Using backward induction, we calculate the borrower's optimal strategy and the value of the option. As with the simple examples in the previous lecture, the option value turns out to be very large. The most important callable bond is the fixed rate amortizing mortgage; calling a mortgage means prepaying your remaining balance. We examine how high bankers must set the mortgage rate in order to compensate for the prepayment option they give homeowners. Looking at data on mortgage rates we see that mortgage borrowers often fail to prepay optimally.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/20/99/48/209948b7-1a20-3b0e-ca33-59dd71ad2c63/f5799cfee83d8d44e0b7ef9c1368362f64fb50f08998f8ee12b3992ec30f4f37-6954300106.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518829%26episodeName%3D17%2B-%2BCallable%2BBonds%2Band%2Bthe%2BMortgage%2BPrepayment%2BOption%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954300107</guid>
+                <pubDate>Mon, 28 Mar 2011 13:33:15 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:12</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>17</itunes:order>
+            </item>
+        
+            <item>
+                <title>18 - Modeling Mortgage Prepayments and Valuing Mortgages</title>
+                <itunes:subtitle>A mortgage involves making a promise, backing it with collateral, and defining a way to dissolve the promise at prearranged terms in case you want to end it by prepaying.</itunes:subtitle>
+                <description>A mortgage involves making a promise, backing it with collateral, and defining a way to dissolve the promise at prearranged terms in case you want to end it by prepaying. The option to prepay, the refinancing option, makes the mortgage much more complicated than a coupon bond, and therefore something that a hedge fund could make money trading. In this lecture we discuss how to build and calibrate a model to forecast prepayments in order to value mortgages. Old-fashioned economists still make non-contingent forecasts, like the recent predictions that unemployment would peak at 8%. A model makes contingent forecasts. The old prepayment models fit a curve to historical data estimating how sensitive aggregate prepayments have been to changes in the interest rate. The modern agent based approach to modeling rationalizes behavior at the individual level and allows heterogeneity among individual types. From either kind of model we see that mortgages are very risky securities, even in the absence of default. This raises the question of how investors and banks should hedge them.</description>
+                <itunes:summary>A mortgage involves making a promise, backing it with collateral, and defining a way to dissolve the promise at prearranged terms in case you want to end it by prepaying. The option to prepay, the refinancing option, makes the mortgage much more complicated than a coupon bond, and therefore something that a hedge fund could make money trading. In this lecture we discuss how to build and calibrate a model to forecast prepayments in order to value mortgages. Old-fashioned economists still make non-contingent forecasts, like the recent predictions that unemployment would peak at 8%. A model makes contingent forecasts. The old prepayment models fit a curve to historical data estimating how sensitive aggregate prepayments have been to changes in the interest rate. The modern agent based approach to modeling rationalizes behavior at the individual level and allows heterogeneity among individual types. From either kind of model we see that mortgages are very risky securities, even in the absence of default. This raises the question of how investors and banks should hedge them.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/0d/63/86/0d6386e9-aa66-de85-f075-6a6afcbfa200/d73b99ef1987d730cb3ac4a016bd2d2f193dd47685c818e272e69ca697a3f49e-6953007301.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518836%26episodeName%3D18%2B-%2BModeling%2BMortgage%2BPrepayments%2Band%2BValuing%2BMortgages%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6953007302</guid>
+                <pubDate>Mon, 28 Mar 2011 13:41:44 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:04</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>18</itunes:order>
+            </item>
+        
+            <item>
+                <title>19 - History of the Mortgage Market: A Personal Narrative</title>
+                <itunes:subtitle>I explain how, as a mathematical economist, I became interested in the practical world of mortgage securities, and how I became the Head of Fixed Income Securities at Kidder Peabody, and then one of six founding partners of Ellington Capital Management.</itunes:subtitle>
+                <description>I explain how, as a mathematical economist, I became interested in the practical world of mortgage securities, and how I became the Head of Fixed Income Securities at Kidder Peabody, and then one of six founding partners of Ellington Capital Management. During that time Kidder Peabody became the biggest issuer of collateralized mortgage obligations, and Ellington became the biggest mortgage hedge fund. I describe securitization and tranching of mortgage pools, the role of investment banks and hedge funds, and the evolution of the prime and subprime mortgage markets. I also discuss agent-based models of prepayments in the mortgage market.</description>
+                <itunes:summary>I explain how, as a mathematical economist, I became interested in the practical world of mortgage securities, and how I became the Head of Fixed Income Securities at Kidder Peabody, and then one of six founding partners of Ellington Capital Management. During that time Kidder Peabody became the biggest issuer of collateralized mortgage obligations, and Ellington became the biggest mortgage hedge fund. I describe securitization and tranching of mortgage pools, the role of investment banks and hedge funds, and the evolution of the prime and subprime mortgage markets. I also discuss agent-based models of prepayments in the mortgage market.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/81/63/02/816302f5-399b-c52b-5174-4accf507ce4d/e2395f9e7f683ce3a3e103bc869f84cff6dcbd3771aae9d23924dd1718a1335a-6954447492.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518826%26episodeName%3D19%2B-%2BHistory%2Bof%2Bthe%2BMortgage%2BMarket%253A%2BA%2BPersonal%2BNarrative%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954447493</guid>
+                <pubDate>Mon, 28 Mar 2011 13:48:33 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:19:16</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>19</itunes:order>
+            </item>
+        
+            <item>
+                <title>20 - Dynamic Hedging</title>
+                <itunes:subtitle>Suppose you have a perfect model of contingent mortgage prepayments, like the one built in the previous lecture.</itunes:subtitle>
+                <description>Suppose you have a perfect model of contingent mortgage prepayments, like the one built in the previous lecture. You are willing to bet on your prepayment forecasts, but not on which way interest rates will move. Hedging lets you mitigate the extra risk, so that you only have to rely on being right about what you know. The trouble with hedging is that there are so many things that can happen over the 30-year life of a mortgage. Even if interest rates can do only two things each year, in 30 years there are over a billion interest rate scenarios. It would seem impossible to hedge against so many contingencies. The principle of dynamic hedging shows that it is enough to hedge yourself against the two things that can happen next year (which is far less onerous), provided that each following year you adjust the hedge to protect against what might occur one year after that. To illustrate the issue we reconsider the World Series problem from a previous lecture. Suppose you know the Yankees have a 60% chance of beating the Dodgers in each game and that you can bet any amount at 60:40 odds on individual games with other bookies. A naive fan is willing to bet on the Dodgers winning the whole Series at even odds. You have a 71% chance of winning a bet against the fan, but bad luck can cause you to lose anyway. What bets on individual games should you make with the bookies to lock in your expected profit from betting against the fan on the whole Series?</description>
+                <itunes:summary>Suppose you have a perfect model of contingent mortgage prepayments, like the one built in the previous lecture. You are willing to bet on your prepayment forecasts, but not on which way interest rates will move. Hedging lets you mitigate the extra risk, so that you only have to rely on being right about what you know. The trouble with hedging is that there are so many things that can happen over the 30-year life of a mortgage. Even if interest rates can do only two things each year, in 30 years there are over a billion interest rate scenarios. It would seem impossible to hedge against so many contingencies. The principle of dynamic hedging shows that it is enough to hedge yourself against the two things that can happen next year (which is far less onerous), provided that each following year you adjust the hedge to protect against what might occur one year after that. To illustrate the issue we reconsider the World Series problem from a previous lecture. Suppose you know the Yankees have a 60% chance of beating the Dodgers in each game and that you can bet any amount at 60:40 odds on individual games with other bookies. A naive fan is willing to bet on the Dodgers winning the whole Series at even odds. You have a 71% chance of winning a bet against the fan, but bad luck can cause you to lose anyway. What bets on individual games should you make with the bookies to lock in your expected profit from betting against the fan on the whole Series?</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic6/v4/6a/c8/e1/6ac8e112-ee70-c4c9-c7d4-3f595883f87d/493cb7ab8619db87fce41b87b0354f9afd5b53a9b37297373ee66276943435af-6952533055.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518833%26episodeName%3D20%2B-%2BDynamic%2BHedging%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6952533056</guid>
+                <pubDate>Mon, 28 Mar 2011 13:55:05 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:12:29</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>20</itunes:order>
+            </item>
+        
+            <item>
+                <title>21 - Dynamic Hedging and Average Life</title>
+                <itunes:subtitle>This lecture reviews the intuition from the previous class, where the idea of dynamic hedging was introduced.</itunes:subtitle>
+                <description>This lecture reviews the intuition from the previous class, where the idea of dynamic hedging was introduced. We learn why the crucial idea of dynamic hedging is marking to market: even when there are millions of possible scenarios that could come to pass over time, by hedging a little bit each step of the way, the number of possibilities becomes much more manageable. We conclude the discussion of hedging by introducing a measure for the average life of a bond, and show how traders use this to figure out the appropriate hedge against interest rate movements.</description>
+                <itunes:summary>This lecture reviews the intuition from the previous class, where the idea of dynamic hedging was introduced. We learn why the crucial idea of dynamic hedging is marking to market: even when there are millions of possible scenarios that could come to pass over time, by hedging a little bit each step of the way, the number of possibilities becomes much more manageable. We conclude the discussion of hedging by introducing a measure for the average life of a bond, and show how traders use this to figure out the appropriate hedge against interest rate movements.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/e8/c0/8f/e8c08f60-d96b-3c8a-9be8-5562a0432e2c/e6457a4757a80440e0984c7c3916a17bb263ff8411b8df2e291b2d82d6915b69-6954643853.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518825%26episodeName%3D21%2B-%2BDynamic%2BHedging%2Band%2BAverage%2BLife%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954643854</guid>
+                <pubDate>Mon, 28 Mar 2011 14:06:15 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:13:40</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>21</itunes:order>
+            </item>
+        
+            <item>
+                <title>22 - Risk Aversion and the Capital Asset Pricing Theorem</title>
+                <itunes:subtitle>Until now we have ignored risk aversion. The Bernoulli brothers were the first to suggest a tractable way of representing risk aversion.</itunes:subtitle>
+                <description>Until now we have ignored risk aversion. The Bernoulli brothers were the first to suggest a tractable way of representing risk aversion. They pointed out that an explanation of the St. Petersburg paradox might be that people care about expected utility instead of expected income, where utility is some concave function, such as the logarithm. One of the most famous and important models in financial economics is the Capital Asset Pricing Model, which can be derived from the hypothesis that every agent has a (different) quadratic utility. Much of the modern mutual fund industry is based on the implications of this model. The model describes what happens to prices and asset holdings in general equilibrium when the underlying risks can't be hedged in the aggregate. It turns out that the tools we developed in the beginning of this course provide an answer to this question.</description>
+                <itunes:summary>Until now we have ignored risk aversion. The Bernoulli brothers were the first to suggest a tractable way of representing risk aversion. They pointed out that an explanation of the St. Petersburg paradox might be that people care about expected utility instead of expected income, where utility is some concave function, such as the logarithm. One of the most famous and important models in financial economics is the Capital Asset Pricing Model, which can be derived from the hypothesis that every agent has a (different) quadratic utility. Much of the modern mutual fund industry is based on the implications of this model. The model describes what happens to prices and asset holdings in general equilibrium when the underlying risks can't be hedged in the aggregate. It turns out that the tools we developed in the beginning of this course provide an answer to this question.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/f5/cd/38/f5cd384c-37b3-6281-1c38-e8835764f22f/58303ad0304e8115339ee11dbbfb525af25dc03662ed5e6d69422d9cdd6dd012-6954153479.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518830%26episodeName%3D22%2B-%2BRisk%2BAversion%2Band%2Bthe%2BCapital%2BAsset%2BPricing%2BTheorem%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954153480</guid>
+                <pubDate>Mon, 28 Mar 2011 14:12:45 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:16:05</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>22</itunes:order>
+            </item>
+        
+            <item>
+                <title>23 - The Mutual Fund Theorem and Covariance Pricing Theorems</title>
+                <itunes:subtitle>This lecture continues the analysis of the Capital Asset Pricing Model, building up to two key results.</itunes:subtitle>
+                <description>This lecture continues the analysis of the Capital Asset Pricing Model, building up to two key results. One, the Mutual Fund Theorem proved by Tobin, describes the optimal portfolios for agents in the economy. It turns out that every investor should try to maximize the Sharpe ratio of his portfolio, and this is achieved by a combination of money in the bank and money invested in the "market" basket of all existing assets. The market basket can be thought of as one giant index fund or mutual fund. This theorem precisely defines optimal diversification. It led to the extraordinary growth of mutual funds like Vanguard. The second key result of CAPM is called the covariance pricing theorem because it shows that the price of an asset should be its discounted expected payoff less a multiple of its covariance with the market. The riskiness of an asset is therefore measured by its covariance with the market, rather than by its variance. We conclude with the shocking answer to a puzzle posed during the first class, about the relative valuations of a large industrial firm and a risky pharmaceutical start-up.</description>
+                <itunes:summary>This lecture continues the analysis of the Capital Asset Pricing Model, building up to two key results. One, the Mutual Fund Theorem proved by Tobin, describes the optimal portfolios for agents in the economy. It turns out that every investor should try to maximize the Sharpe ratio of his portfolio, and this is achieved by a combination of money in the bank and money invested in the "market" basket of all existing assets. The market basket can be thought of as one giant index fund or mutual fund. This theorem precisely defines optimal diversification. It led to the extraordinary growth of mutual funds like Vanguard. The second key result of CAPM is called the covariance pricing theorem because it shows that the price of an asset should be its discounted expected payoff less a multiple of its covariance with the market. The riskiness of an asset is therefore measured by its covariance with the market, rather than by its variance. We conclude with the shocking answer to a puzzle posed during the first class, about the relative valuations of a large industrial firm and a risky pharmaceutical start-up.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/d6/e7/5d/d6e75d14-e189-6de3-40c9-01aa726db756/bff8b204809f784e277ca1cad4ff8dd2c5f0eaf738333251d79a7bb8303c8298-6954448135.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518835%26episodeName%3D23%2B-%2BThe%2BMutual%2BFund%2BTheorem%2Band%2BCovariance%2BPricing%2BTheorems%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954448136</guid>
+                <pubDate>Mon, 28 Mar 2011 14:23:10 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:16:04</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>23</itunes:order>
+            </item>
+        
+            <item>
+                <title>24 - Risk, Return, and Social Security</title>
+                <itunes:subtitle>This lecture addresses some final points about the CAPM.</itunes:subtitle>
+                <description>This lecture addresses some final points about the CAPM. How would one test the theory? Given the theory, what's the right way to think about evaluating fund managers' performance? Should the manager of a hedge fund and the manager of a university endowment be judged by the same performance criteria? More generally, how should we think about the return differential between stocks and bonds? Lastly, looking back to the lectures on Social Security earlier in the semester, how should the CAPM inform our thinking about the role of stocks and bonds in Social Security? Can the views of Democrats and Republicans be reconciled? What if Social Security were privatized, but workers were forced to hold their assets in a new kind of asset called PAAWS, which pay the holder more if the wage of young workers is higher?</description>
+                <itunes:summary>This lecture addresses some final points about the CAPM. How would one test the theory? Given the theory, what's the right way to think about evaluating fund managers' performance? Should the manager of a hedge fund and the manager of a university endowment be judged by the same performance criteria? More generally, how should we think about the return differential between stocks and bonds? Lastly, looking back to the lectures on Social Security earlier in the semester, how should the CAPM inform our thinking about the role of stocks and bonds in Social Security? Can the views of Democrats and Republicans be reconciled? What if Social Security were privatized, but workers were forced to hold their assets in a new kind of asset called PAAWS, which pay the holder more if the wage of young workers is higher?</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/0b/6f/eb/0b6febfc-f391-b603-1e57-d416013d12d6/2ece3930573b7ba99443e3805b5c3cb62f9795bae045deb36133dfb62018adab-6954153728.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518832%26episodeName%3D24%2B-%2BRisk%252C%2BReturn%252C%2Band%2BSocial%2BSecurity%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954153729</guid>
+                <pubDate>Mon, 28 Mar 2011 14:23:24 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:14:09</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>24</itunes:order>
+            </item>
+        
+            <item>
+                <title>25 - The Leverage Cycle and the Subprime Mortgage Crisis</title>
+                <itunes:subtitle>Standard financial theory left us woefully unprepared for the financial crisis of 2007-09.</itunes:subtitle>
+                <description>Standard financial theory left us woefully unprepared for the financial crisis of 2007-09. Something is missing in the theory. In the majority of loans the borrower must agree on an interest rate and also on how much collateral he will put up to guarantee repayment. The standard theory presented in all the textbooks ignores collateral. The next two lectures introduce a theory of the Leverage Cycle, in which default and collateral are endogenously determined. The main implication of the theory is that when collateral requirements get looser and leverage increases, asset prices rise, but then when collateral requirements get tougher and leverage decreases, asset prices fall. This stands in stark contrast to the fundamental value theory of asset pricing we taught so far. We'll look at a number of facts about the subprime mortgage crisis, and see whether the new theory offers convincing explanations.</description>
+                <itunes:summary>Standard financial theory left us woefully unprepared for the financial crisis of 2007-09. Something is missing in the theory. In the majority of loans the borrower must agree on an interest rate and also on how much collateral he will put up to guarantee repayment. The standard theory presented in all the textbooks ignores collateral. The next two lectures introduce a theory of the Leverage Cycle, in which default and collateral are endogenously determined. The main implication of the theory is that when collateral requirements get looser and leverage increases, asset prices rise, but then when collateral requirements get tougher and leverage decreases, asset prices fall. This stands in stark contrast to the fundamental value theory of asset pricing we taught so far. We'll look at a number of facts about the subprime mortgage crisis, and see whether the new theory offers convincing explanations.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic/v4/85/56/75/8556751d-3cdc-bc32-b86f-fec4c5fb1f4f/1a780fcfcb83c2f5a8054a4ea42ddf6b39c0849bbf13315517183bc1e557e936-6954301160.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518834%26episodeName%3D25%2B-%2BThe%2BLeverage%2BCycle%2Band%2Bthe%2BSubprime%2BMortgage%2BCrisis%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954301161</guid>
+                <pubDate>Mon, 28 Mar 2011 14:29:08 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:16:29</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>25</itunes:order>
+            </item>
+        
+            <item>
+                <title>26 - The Leverage Cycle and Crashes</title>
+                <itunes:subtitle>In order to understand the precise predictions of the Leverage Cycle theory, in this last class we explicitly solve two mathematical examples of leverage cycles.</itunes:subtitle>
+                <description>In order to understand the precise predictions of the Leverage Cycle theory, in this last class we explicitly solve two mathematical examples of leverage cycles. We show how supply and demand determine leverage as well as the interest rate, and how impatience and volatility play crucial roles in setting the interest rate and the leverage. Mathematically, the model helps us identify the three key elements of a crisis. First, scary bad news increases uncertainty. Second, leverage collapses. Lastly, the most optimistic people get crushed, so the new marginal buyers are far less sanguine about the economy. The result is that the drop in asset prices is amplified far beyond what any market participant would expect from the news alone. If we want to mitigate the fallout from a crisis, the place to begin is in controlling those three elements. If we want to prevent leverage cycle crashes, we must monitor leverage and regulate it, the same way we monitor and adjust interest rates.</description>
+                <itunes:summary>In order to understand the precise predictions of the Leverage Cycle theory, in this last class we explicitly solve two mathematical examples of leverage cycles. We show how supply and demand determine leverage as well as the interest rate, and how impatience and volatility play crucial roles in setting the interest rate and the leverage. Mathematically, the model helps us identify the three key elements of a crisis. First, scary bad news increases uncertainty. Second, leverage collapses. Lastly, the most optimistic people get crushed, so the new marginal buyers are far less sanguine about the economy. The result is that the drop in asset prices is amplified far beyond what any market participant would expect from the news alone. If we want to mitigate the fallout from a crisis, the place to begin is in controlling those three elements. If we want to prevent leverage cycle crashes, we must monitor leverage and regulate it, the same way we monitor and adjust interest rates.</itunes:summary>
+                <itunes:image href="http://is2.mzstatic.com/image/thumb/Podcasts/17/44/79/tns.mkxxargw.jpg/600x600bb-85.jpg"></itunes:image>
+                <enclosure url="https://itunesu.assets.itunes.com/apple-assets-us-std-000001/CobaltPublic4/v4/64/86/b1/6486b1a3-7573-d091-c6d5-ce8c628fa122/940876dc0d0feeedc5295cf1b9106b28a93ac37e8020c28a7b215d47c54770eb-6954448347.mp3?a=v%3D3%26artistId%3D341649956%26podcastId%3D428549105%26podcastName%3DFinancial%2BTheory%2B-%2BAudio%26episodeId%3D1000092518831%26episodeName%3D26%2B-%2BThe%2BLeverage%2BCycle%2Band%2BCrashes%26episodeKind%3Depisode%26pageLocation%3Ditc"></enclosure>
+                <guid isPermaLink="false">6954448348</guid>
+                <pubDate>Mon, 28 Mar 2011 14:29:01 GMT</pubDate>
+                <itunes:author>John Geanakoplos</itunes:author>
+                <itunes:duration>1:10:10</itunes:duration>
+                
+                <category>Finance</category>
+                <itunes:provider>Yale University</itunes:provider>
+                
+                <itunes:block>no</itunes:block>
+                <itunes:order>26</itunes:order>
+            </item>
+        
+    </channel>
+</rss>
