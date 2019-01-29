@@ -36,6 +36,8 @@ environment:
   TEST_PROJECT: .\tests\PodFeedReader.Tests
   SRC_PROJECT: .\src\PodFeedReader
   SONAR_PROJECT: alexangas_podcast
+  SONAR_TOKEN:
+    secure: 5oU+bODTB0ZVQVIxinUIjji23k3ZZeUTvCXav8YgC2zhv3wSVUL+e3jUnEeJZDHH
 build_script:
 - ps: >-
     dotnet tool install dotnet-sonarscanner --global
