@@ -31,30 +31,40 @@ init:
     Write-Host APPVEYOR_REPO_COMMIT_TIMESTAMP=$env:APPVEYOR_REPO_COMMIT_TIMESTAMP
 
     Write-Host APPVEYOR_REPO_COMMIT_MESSAGE=$env:APPVEYOR_REPO_COMMIT_MESSAGE
+
+    Write-Host APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH=$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH
+    
+    Write-Host APPVEYOR_PULL_REQUEST_NUMBER=$env:APPVEYOR_PULL_REQUEST_NUMBER
+
 environment:
   BUILD_CONFIGURATION: Release
   TEST_PROJECT: .\tests\PodFeedReader.Tests
   SRC_PROJECT: .\src\PodFeedReader
   SONAR_PROJECT: alexangas_podcast
+  SONAR_ORG: alexangas-github
   SONAR_TOKEN:
     secure: 4a7+xiB1/0gxBkAF+VILSRGyDACWtw/UOAv2gjlB2WRsbW6Mah+DDmkGogacgJpE
 build_script:
 - ps: >-
     dotnet tool install dotnet-sonarscanner --global
 
-    dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io"
+    dotnet test $env:TEST_PROJECT --configuration $env:BUILD_CONFIGURATION --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../../coverage.xml
+
+    if (!$env:APPVEYOR_PULL_REQUEST_NUMBER) {
+        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="../../coverage.xml"
+    } else {
+        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="../../coverage.xml" /d:sonar.pullrequest.branch="$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH" /d:sonar.pullrequest.key="$env:APPVEYOR_PULL_REQUEST_NUMBER" /d:sonar.pullrequest.provider="github" /d:sonar.pullrequest.github.repository="$env:APPVEYOR_REPO_NAME" /d:sonar.pullrequest.github.endpoint="https://api.github.com/"
+    }
 
     dotnet build --configuration $env:BUILD_CONFIGURATION
 
-    dotnet sonarscanner end /d:sonar.login="$env:SONAR_TOKEN"
+    if (!$env:APPVEYOR_PULL_REQUEST_NUMBER) {
+        dotnet sonarscanner end /d:sonar.login="$env:SONAR_TOKEN"
+    }
 
     if (!$env:APPVEYOR_PULL_REQUEST_NUMBER) {
         dotnet pack $env:SRC_PROJECT --configuration $env:BUILD_CONFIGURATION
     }
-test_script:
-- cmd: |
-      cd
-      dotnet test %TEST_PROJECT% --configuration %BUILD_CONFIGURATION% --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../../coverage.xml
 after_test:
   - ps: |
       $env:PATH = 'C:\msys64\usr\bin;' + $env:PATH
