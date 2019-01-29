@@ -38,7 +38,7 @@ environment:
   SONAR_PROJECT: alexangas_podcast
 build_script:
 - ps: >-
-    dotnet tool install dotnet-sonarscanner
+    dotnet tool install dotnet-sonarscanner --global
 
     dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.verbose=true
 
