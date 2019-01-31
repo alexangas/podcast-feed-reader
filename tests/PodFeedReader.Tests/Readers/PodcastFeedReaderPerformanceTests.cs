@@ -21,6 +21,7 @@ namespace PodFeedReader.Tests.Readers
             _logger = A.Fake<ILogger<PodcastFeedReader>>();
         }
 
+        [Trait("Category", "Performance")]
         [Fact]
         public async Task PerformanceTest_Valid_Feeds()
         {
