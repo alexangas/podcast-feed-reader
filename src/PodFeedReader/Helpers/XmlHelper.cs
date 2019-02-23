@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using System.Xml.Linq;
@@ -7,7 +8,7 @@ namespace PodFeedReader.Helpers
 {
     public static class XmlHelper
     {
-        public static XDocument Parse(string raw)
+        public static XDocument ReadXml(string raw)
         {
             XDocument xDocument;
 

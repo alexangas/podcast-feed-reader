@@ -127,7 +127,7 @@ namespace PodFeedReader.Readers
             var indexOfItem = _contentBuilder.IndexOf("<item");
             var showSubstring = _contentBuilder.ToString(0, indexOfItem);
             var showContent = $"{_header}{showSubstring}</channel></rss>";
-            var showXml = XmlHelper.Parse(showContent);
+            var showXml = XmlHelper.ReadXml(showContent);
             
             return showXml;
         }
@@ -171,7 +171,7 @@ namespace PodFeedReader.Readers
             ProcessXml(_bufferBuilder, _contentBuilder, isShow: false);
 
             var episodeContent = $"{_header}{_contentBuilder}</rss>";
-            var episodeXml = XmlHelper.Parse(episodeContent);
+            var episodeXml = XmlHelper.ReadXml(episodeContent);
             _streamProcessedIndex = -1;
 
             return episodeXml;
