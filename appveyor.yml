@@ -41,7 +41,7 @@ environment:
   TEST_PROJECT: .\tests\PodFeedReader.Tests
   TEST_FILTER: Category!=Performance
   SRC_PROJECT: .\src\PodFeedReader
-  SONAR_PROJECT: alexangas_podcast
+  SONAR_PROJECT: alexangas_podfeedreader
   SONAR_ORG: alexangas-github
   SONAR_TOKEN:
     secure: 4a7+xiB1/0gxBkAF+VILSRGyDACWtw/UOAv2gjlB2WRsbW6Mah+DDmkGogacgJpE

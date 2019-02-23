@@ -2,6 +2,7 @@ using System;
 
 namespace PodFeedReader.Readers
 {
+    [Serializable]
     public class InvalidPodcastFeedException : Exception
     {
         public string Contents { get; set; }
@@ -17,14 +18,6 @@ namespace PodFeedReader.Readers
             EpisodeStartNotFound = 5,
             ShowContentTooLong = 7,
             EpisodeContentTooLong = 7,
-        }
-
-        public InvalidPodcastFeedException()
-        {
-        }
-
-        public InvalidPodcastFeedException(string message) : base(message)
-        {
         }
 
         public InvalidPodcastFeedException(InvalidPodcastFeedReason reason) : base($"{reason}")

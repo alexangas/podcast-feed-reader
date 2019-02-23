@@ -25,14 +25,7 @@ namespace PodFeedReader.Helpers
             using (XmlReader xmlReader = XmlReader.Create(stringReader, xmlReaderSettings))
             {
                 xmlReader.MoveToContent();
-                try
-                {
-                    xDocument = XDocument.Load(xmlReader, LoadOptions.SetLineInfo);
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
+                xDocument = XDocument.Load(xmlReader, LoadOptions.SetLineInfo);
             }
 
             return xDocument;

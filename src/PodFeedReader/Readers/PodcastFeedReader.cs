@@ -119,7 +119,7 @@ namespace PodFeedReader.Readers
 
             if (posEpisodeItemStart < 0)
                 throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.EpisodeStartNotFound, _bufferBuilder.ToString());
-            _streamProcessedIndex = _stringBuffer.IndexOf("<item");
+            _streamProcessedIndex = _stringBuffer.IndexOf("<item", StringComparison.Ordinal);
 
             _contentBuilder = new StringBuilder(_bufferBuilder.Capacity);
             ProcessXml(_bufferBuilder, _contentBuilder, isShow: true);
@@ -145,7 +145,7 @@ namespace PodFeedReader.Readers
             {
                 _bufferBuilder.Append(_stringBuffer);
 
-                _posEpisodeItemEndIndex = _stringBuffer.IndexOf("</item>");
+                _posEpisodeItemEndIndex = _stringBuffer.IndexOf("</item>", StringComparison.Ordinal);
                 if (_posEpisodeItemEndIndex >= 0)
                 {
                     _posEpisodeItemEndIndex += 7;   //"</item>".Length;
@@ -180,7 +180,7 @@ namespace PodFeedReader.Readers
         private async Task<int> ReadFromStream()
         {
             Array.Clear(_streamBuffer, 0, _streamBuffer.Length);
-            _logger.LogTrace($"Reading from stream");
+            _logger.LogTrace("Reading from stream");
             var bytesRead = await _baseReader.ReadBlockAsync(_streamBuffer, 0, BufferSize);
             if (bytesRead > 0)
             {

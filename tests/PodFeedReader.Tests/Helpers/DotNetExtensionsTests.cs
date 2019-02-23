@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using PodFeedReader.Helpers;
 using Xunit;
 
@@ -104,5 +105,35 @@ namespace PodFeedReader.Tests.Helpers
 
             Assert.Equal(1, index);
         }
-   }
+
+        [Trait("Category", "Performance")]
+        [Fact]
+        public static void IndexOfPerfTest()
+        {
+            var rnd = new Random();
+            StringBuilder s = new StringBuilder();
+            StringBuilder s2 = new StringBuilder();
+            for (var x = 0; x < 500000; x++)
+            {
+                s.Clear();
+                s.Append(rnd.Next(Int32.MinValue, Int32.MaxValue).ToString()).Append('*', 1024 * 1024);
+                s2.Clear();
+                s2.Append(rnd.Next(Int32.MinValue, Int32.MaxValue).ToString()).Append('-', 1024);
+                int r;
+                if (x % 2 == 0)
+                {
+                    r = s.IndexOf(s2.ToString());
+                }
+                else
+                {
+                    r = s.IndexOf(s.ToString());
+                }
+                if (x % 3 == 0)
+                {
+                    r = s.IndexOf(s2.ToString(), startPos: rnd.Next(1, 1024));
+                }
+                System.Diagnostics.Debug.WriteLine(r);
+            }
+        }
+    }
 }
