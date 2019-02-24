@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using FluentAssertions;
 using PodFeedReader.Helpers;
 using Xunit;
 
@@ -15,7 +16,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(-1, index);
+            index.Should().Be(-1);
         }
 
         [Fact]
@@ -26,7 +27,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(-1, index);
+            index.Should().Be(-1);
         }
 
         [Fact]
@@ -37,7 +38,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(0, index);
+            index.Should().Be(0);
         }
 
         [Fact]
@@ -48,7 +49,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(0, index);
+            index.Should().Be(0);
         }
 
         [Fact]
@@ -59,7 +60,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(1, index);
+            index.Should().Be(1);
         }
 
         [Fact]
@@ -70,7 +71,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(2, index);
+            index.Should().Be(2);
         }
 
         [Fact]
@@ -81,7 +82,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(2, index);
+            index.Should().Be(2);
         }
 
         [Fact]
@@ -92,7 +93,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(5, index);
+            index.Should().Be(5);
         }
 
         [Fact]
@@ -103,7 +104,7 @@ namespace PodFeedReader.Tests.Helpers
 
             var index = builder.LastIndexOf(substring);
 
-            Assert.Equal(1, index);
+            index.Should().Be(1);
         }
 
         [Trait("Category", "Performance")]

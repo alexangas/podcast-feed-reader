@@ -1,8 +1,10 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using FakeItEasy;
+using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using PodFeedReader.Readers;
 using Xunit;
@@ -28,7 +30,8 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
@@ -42,12 +45,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task SkipPreheader_Garbage_Skips()
+        public async Task SkipPreheader_Garbage_DoesNotThrow()
         {
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
@@ -56,12 +60,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task SkipPreheader_GarbageWithExpectedLength_Skips()
+        public async Task SkipPreheader_GarbageWithExpectedLength_DoesNotThrow()
         {
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
@@ -70,7 +75,8 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
@@ -84,7 +90,8 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
@@ -98,12 +105,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.SkipPreheader());
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task SkipPreheader_StartsXml_DoesNotSkip()
+        public async Task SkipPreheader_StartsXml_DoesNotThrow()
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
@@ -112,12 +120,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task SkipPreheader_StartsRss_DoesNotSkip()
+        public async Task SkipPreheader_StartsRss_DoesNotThrow()
         {
             var input = "<rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>";
 
@@ -126,12 +135,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task SkipPreheader_StartsXmlWithExpectedLength_DoesNotSkip()
+        public async Task SkipPreheader_StartsXmlWithExpectedLength_DoesNotThrow()
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
@@ -140,12 +150,13 @@ namespace PodFeedReader.Tests.Readers
             using (var reader = new StreamReader(stream))
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
+                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task ReadDocumentMetadata_ValidChannel_Reads()
+        public async Task ReadDocumentMetadata_ValidChannel_DoesNotThrow()
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
@@ -155,12 +166,13 @@ namespace PodFeedReader.Tests.Readers
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
+                Action act = () => podcastReader.ReadDocumentHeader();
+                act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task ReadDocumentMetadata_GarbageStartValidChannel_Reads()
+        public async Task ReadDocumentMetadata_GarbageStartValidChannel_DoesNotThrow()
         {
             var input = "".PadRight(3, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
@@ -170,12 +182,13 @@ namespace PodFeedReader.Tests.Readers
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
+                Action act = () => podcastReader.ReadDocumentHeader();
+                act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task ReadDocumentMetadata_ValidChannelNonXml_Reads()
+        public async Task ReadDocumentMetadata_ValidChannelNonXml_DoesNotThrow()
         {
             var input = "<?xml ￾version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
@@ -185,7 +198,8 @@ namespace PodFeedReader.Tests.Readers
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
+                Action act = () => podcastReader.ReadDocumentHeader();
+                act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
 
@@ -200,12 +214,13 @@ namespace PodFeedReader.Tests.Readers
             {
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
-                Assert.Throws<InvalidPodcastFeedException>(() => podcastReader.ReadDocumentHeader());
+                Action act = () => podcastReader.ReadDocumentHeader();
+                act.Should().Throw<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task GetShowAsync_PreChannelGarbage_Returns()
+        public async Task GetShowAsync_PreChannelGarbage_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -255,12 +270,13 @@ asfafadsfgfjdhjdgj
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task GetShowAsync_OneBufferContent_Returns()
+        public async Task GetShowAsync_OneBufferContent_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -303,19 +319,19 @@ xmlns:media=""http://search.yahoo.com/mrss/""
 	<item>
 		<title>EP 16: Rubbing The Desk</title>";
 
-            XDocument xml;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
                 var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                xml = await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task GetShowAsync_TwoBufferContent_Returns()
+        public async Task GetShowAsync_TwoBufferContent_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -376,7 +392,8 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
@@ -470,12 +487,13 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
                 podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.GetShowXmlAsync());
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task GetShowAsync_AmpersandOutOfCDataContent_Returns()
+        public async Task GetShowAsync_AmpersandOutOfCDataContent_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -525,12 +543,13 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                xml = await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
         
         [Fact]
-        public async Task GetShowAsync_AmpersandInsideOfCDataContent_Returns()
+        public async Task GetShowAsync_AmpersandInsideOfCDataContent_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -580,12 +599,13 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                xml = await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
         [Fact]
-        public async Task GetShowAsync_AmpersandAfterCDataContent_Returns()
+        public async Task GetShowAsync_AmpersandAfterCDataContent_DoesNotThrow()
         {
             var input = @"zzz<?xml version=""1.0"" encoding=""UTF-8""?><rss version=""2.0""
 	xmlns:content=""http://purl.org/rss/1.0/modules/content/""
@@ -635,7 +655,8 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 var podcastReader = new PodcastFeedReader(reader, _logger);
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
-                xml = await podcastReader.GetShowXmlAsync();
+                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
 
@@ -796,7 +817,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
                 var xml = await podcastReader.GetNextEpisodeXmlAsync();
-                Assert.NotNull(xml);
+                xml.Should().NotBeNull();
             }
         }
 
@@ -1042,9 +1063,9 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
                 var xml = await podcastReader.GetNextEpisodeXmlAsync();
-                Assert.NotNull(xml);
+                xml.Should().NotBeNull();
                 xml = await podcastReader.GetNextEpisodeXmlAsync();
-                Assert.NotNull(xml);
+                xml.Should().NotBeNull();
             }
         }
 
@@ -1205,7 +1226,7 @@ xmlns:media=""http://search.yahoo.com/mrss/""
                 await podcastReader.GetShowXmlAsync();
                 await podcastReader.GetNextEpisodeXmlAsync();
                 var xml = await podcastReader.GetNextEpisodeXmlAsync();
-                Assert.Null(xml);
+                xml.Should().BeNull();
             }
         }
 
@@ -1606,7 +1627,8 @@ Mauris nec erat vitae dolor molestie malesuada. Aliquam metus nulla, bibendum vi
                 await podcastReader.SkipPreheader();
                 podcastReader.ReadDocumentHeader();
                 await podcastReader.GetShowXmlAsync();
-                await Assert.ThrowsAsync<InvalidPodcastFeedException>(() => podcastReader.GetNextEpisodeXmlAsync());
+                Func<Task> act = async () => await podcastReader.GetNextEpisodeXmlAsync();
+                await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
     }
