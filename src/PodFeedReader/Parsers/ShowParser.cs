@@ -130,6 +130,8 @@ namespace PodFeedReader.Parsers
             var tagsRaw = keywords
                 .Union(categories)
                 .Union(categories2)
+                .Where(x => !String.IsNullOrWhiteSpace(x))
+                .Select(x => x.Trim())
                 .ToList();
 
             return tagsRaw;
