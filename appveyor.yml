@@ -52,9 +52,9 @@ build_script:
     dotnet test $env:TEST_PROJECT --filter "$env:TEST_FILTER" --configuration $env:BUILD_CONFIGURATION --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../../coverage.xml /p:Exclude="[xunit.*]*"
 
     if (!$env:APPVEYOR_PULL_REQUEST_NUMBER) {
-        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="coverage.xml"
+        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="coverage.xml" /d:sonar.branch.name="$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH"
     } else {
-        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="coverage.xml" /d:sonar.pullrequest.branch="$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH" /d:sonar.pullrequest.key="$env:APPVEYOR_PULL_REQUEST_NUMBER" /d:sonar.pullrequest.provider="github" /d:sonar.pullrequest.github.repository="$env:APPVEYOR_REPO_NAME" /d:sonar.pullrequest.github.endpoint="https://api.github.com/"
+        dotnet sonarscanner begin /k:"$env:SONAR_PROJECT" /d:sonar.organization="$env:SONAR_ORG" /d:sonar.login="$env:SONAR_TOKEN" /d:sonar.host.url="https://sonarcloud.io" /v:"$env:APPVEYOR_BUILD_NUMBER" /d:sonar.cs.opencover.reportsPaths="coverage.xml" /d:sonar.branch.name="$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH" /d:sonar.pullrequest.branch="$env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH" /d:sonar.pullrequest.key="$env:APPVEYOR_PULL_REQUEST_NUMBER" /d:sonar.pullrequest.provider="github" /d:sonar.pullrequest.github.repository="$env:APPVEYOR_REPO_NAME" /d:sonar.pullrequest.github.endpoint="https://api.github.com/"
     }
 
     dotnet build --configuration $env:BUILD_CONFIGURATION
