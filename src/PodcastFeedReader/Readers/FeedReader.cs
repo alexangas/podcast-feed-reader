@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
-using PodFeedReader.Helpers;
+using PodcastFeedReader.Helpers;
 
-namespace PodFeedReader.Readers
+namespace PodcastFeedReader.Readers
 {
-    public class PodcastFeedReader
+    public class FeedReader
     {
         private const short BufferSize = 4096;
         private const int MaxShowLength = 8192;
@@ -18,7 +18,7 @@ namespace PodFeedReader.Readers
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
         private readonly StreamReader _baseReader;
-        private readonly ILogger<PodcastFeedReader> _logger;
+        private readonly ILogger<FeedReader> _logger;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
         private StringBuilder _contentBuilder;
@@ -28,7 +28,7 @@ namespace PodFeedReader.Readers
         private string _stringBuffer;
         private string _header;
 
-        public PodcastFeedReader(StreamReader baseReader, ILogger<PodcastFeedReader> logger)
+        public FeedReader(StreamReader baseReader, ILogger<FeedReader> logger)
         {
             if (baseReader == null)
                 throw new ArgumentNullException(nameof(baseReader));
@@ -127,7 +127,7 @@ namespace PodFeedReader.Readers
             var indexOfItem = _contentBuilder.IndexOf("<item");
             var showSubstring = _contentBuilder.ToString(0, indexOfItem);
             var showContent = $"{_header}{showSubstring}</channel></rss>";
-            var showXml = XmlHelper.Parse(showContent);
+            var showXml = XmlHelper.ReadXml(showContent);
             
             return showXml;
         }
@@ -171,7 +171,7 @@ namespace PodFeedReader.Readers
             ProcessXml(_bufferBuilder, _contentBuilder, isShow: false);
 
             var episodeContent = $"{_header}{_contentBuilder}</rss>";
-            var episodeXml = XmlHelper.Parse(episodeContent);
+            var episodeXml = XmlHelper.ReadXml(episodeContent);
             _streamProcessedIndex = -1;
 
             return episodeXml;
