@@ -4,7 +4,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace PodFeedReader.Helpers
+namespace PodcastFeedReader.Helpers
 {
     public static class XmlHelper
     {

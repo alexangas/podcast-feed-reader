@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\PodFeedReader\PodFeedReader.csproj" />
+    <ProjectReference Include="..\..\src\PodcastFeedReader\PodcastFeedReader.csproj" />
   </ItemGroup>
 
   <ItemGroup>

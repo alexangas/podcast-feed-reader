@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace PodFeedReader.Parsers
+namespace PodcastFeedReader.Parsers
 {
     public interface IContentParser<out TParsedContent>
     {

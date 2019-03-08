@@ -1,4 +1,4 @@
-﻿namespace PodFeedReader.Services
+﻿namespace PodcastFeedReader.Services
 {
     public interface ISanitizationService
     {

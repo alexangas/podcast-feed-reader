@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 using FluentAssertions;
-using PodFeedReader.Model.Parsed;
-using PodFeedReader.Parsers;
+using PodcastFeedReader.Model.Parsed;
+using PodcastFeedReader.Parsers;
 using Xunit;
 
-namespace PodFeedReader.Tests.Parsers
+namespace PodcastFeedReader.Tests.Parsers
 {
     public class ShowParserTests
     {

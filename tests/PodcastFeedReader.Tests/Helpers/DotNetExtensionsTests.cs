@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
 using FluentAssertions;
-using PodFeedReader.Helpers;
+using PodcastFeedReader.Helpers;
 using Xunit;
 
-namespace PodFeedReader.Tests.Helpers
+namespace PodcastFeedReader.Tests.Helpers
 {
     public class DotNetExtensionsTests
     {

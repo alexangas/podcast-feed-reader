@@ -3,15 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodFeedReader", "src\PodFeedReader\PodFeedReader.csproj", "{6827448F-9925-4A7F-AF13-658CE69FA6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodcastFeedReader", "src\PodcastFeedReader\PodcastFeedReader.csproj", "{6827448F-9925-4A7F-AF13-658CE69FA6E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodFeedReader.Tests", "tests\PodFeedReader.Tests\PodFeedReader.Tests.csproj", "{F4D5A32F-556F-435B-A97E-4D17C3EDA6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PodcastFeedReader.Tests", "tests\PodcastFeedReader.Tests\PodcastFeedReader.Tests.csproj", "{F4D5A32F-556F-435B-A97E-4D17C3EDA6A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2D87E40-6702-4B0B-B9E0-906B1CB084D6}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		appveyor.yml = appveyor.yml
 		codecov.yml = codecov.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

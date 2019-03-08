@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PodFeedReader.Model.Parsed
+namespace PodcastFeedReader.Model.Parsed
 {
     public class ParsedShow
     {

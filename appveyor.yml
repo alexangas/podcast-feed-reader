@@ -38,10 +38,10 @@ init:
 
 environment:
   BUILD_CONFIGURATION: Release
-  TEST_PROJECT: .\tests\PodFeedReader.Tests
+  TEST_PROJECT: .\tests\PodcastFeedReader.Tests
   TEST_FILTER: Category!=Performance
-  SRC_PROJECT: .\src\PodFeedReader
-  SONAR_PROJECT: alexangas_podfeedreader
+  SRC_PROJECT: .\src\PodcastFeedReader
+  SONAR_PROJECT: alexangas_podcast-feed-reader
   SONAR_ORG: alexangas-github
   SONAR_TOKEN:
     secure: 4a7+xiB1/0gxBkAF+VILSRGyDACWtw/UOAv2gjlB2WRsbW6Mah+DDmkGogacgJpE

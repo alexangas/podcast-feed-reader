@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Xml.Linq;
-using PodFeedReader.Helpers;
+using PodcastFeedReader.Helpers;
 
-namespace PodFeedReader.Parsers
+namespace PodcastFeedReader.Parsers
 {
     public abstract class BaseParser
     {

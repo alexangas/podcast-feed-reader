@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using PodFeedReader.Model.Parsed;
+using PodcastFeedReader.Model.Parsed;
 
-namespace PodFeedReader.Parsers
+namespace PodcastFeedReader.Parsers
 {
     public class ShowParser : BaseParser, IContentParser<ParsedShow>
     {

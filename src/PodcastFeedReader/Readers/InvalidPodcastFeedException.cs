@@ -1,6 +1,6 @@
 using System;
 
-namespace PodFeedReader.Readers
+namespace PodcastFeedReader.Readers
 {
     [Serializable]
     public class InvalidPodcastFeedException : Exception

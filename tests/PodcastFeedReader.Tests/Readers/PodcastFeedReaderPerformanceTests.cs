@@ -5,10 +5,10 @@ using System.Xml.Linq;
 using FakeItEasy;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
-using PodFeedReader.Readers;
+using PodcastFeedReader.Readers;
 using Xunit;
 
-namespace PodFeedReader.Tests.Readers
+namespace PodcastFeedReader.Tests.Readers
 {
     public class PodcastFeedReaderPerformanceTests
     {

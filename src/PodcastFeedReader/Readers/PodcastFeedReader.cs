@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
-using PodFeedReader.Helpers;
+using PodcastFeedReader.Helpers;
 
-namespace PodFeedReader.Readers
+namespace PodcastFeedReader.Readers
 {
     public class PodcastFeedReader
     {
