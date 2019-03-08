@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 using FluentAssertions;
+using PodFeedReader.Model.Parsed;
 using PodFeedReader.Parsers;
 using Xunit;
 
@@ -10,6 +12,16 @@ namespace PodFeedReader.Tests.Parsers
     public class ShowParserTests
     {
         private const string TestDataRoot = @"TestData\";
+
+        [Fact]
+        public void GetContent_WithoutCallingParse_Throws()
+        {
+            var parser = new ShowParser();
+
+            var act = new Func<ParsedShow>(() => parser.GetContent());
+
+            act.Should().Throw<InvalidOperationException>();
+        }
 
         [Fact]
         public void ParseFromXml_WithNoContents_HasEmptyContent()
