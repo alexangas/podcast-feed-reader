@@ -8,9 +8,4 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Model\Display\" />
-    <Folder Include="Model\Search\" />
-  </ItemGroup>
-
 </Project>
