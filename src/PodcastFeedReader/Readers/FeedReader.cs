@@ -9,7 +9,7 @@ using PodcastFeedReader.Helpers;
 
 namespace PodcastFeedReader.Readers
 {
-    public class PodcastFeedReader
+    public class FeedReader
     {
         private const short BufferSize = 4096;
         private const int MaxShowLength = 8192;
@@ -18,7 +18,7 @@ namespace PodcastFeedReader.Readers
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
         private readonly StreamReader _baseReader;
-        private readonly ILogger<PodcastFeedReader> _logger;
+        private readonly ILogger<FeedReader> _logger;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
         private StringBuilder _contentBuilder;
@@ -28,7 +28,7 @@ namespace PodcastFeedReader.Readers
         private string _stringBuffer;
         private string _header;
 
-        public PodcastFeedReader(StreamReader baseReader, ILogger<PodcastFeedReader> logger)
+        public FeedReader(StreamReader baseReader, ILogger<FeedReader> logger)
         {
             if (baseReader == null)
                 throw new ArgumentNullException(nameof(baseReader));

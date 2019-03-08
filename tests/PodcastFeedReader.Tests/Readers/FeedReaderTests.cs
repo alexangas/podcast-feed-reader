@@ -10,15 +10,15 @@ using Xunit;
 
 namespace PodcastFeedReader.Tests.Readers
 {
-    public class PodcastFeedReaderTests
+    public class FeedReaderTests
     {
         private const string TestDataRoot = @"TestData\";
 
-        private readonly ILogger<PodcastFeedReader> _logger;
+        private readonly ILogger<FeedReader> _logger;
 
-        public PodcastFeedReaderTests()
+        public FeedReaderTests()
         {
-            _logger = A.Fake<ILogger<PodcastFeedReader>>();
+            _logger = A.Fake<ILogger<FeedReader>>();
         }
 
         [Fact]
@@ -26,12 +26,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -41,12 +41,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "".PadRight(12, 'z');
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -56,12 +56,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -71,12 +71,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "".PadRight(12, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -86,12 +86,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "".PadRight(10000, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -101,12 +101,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<html>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -116,12 +116,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -131,12 +131,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -146,12 +146,12 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                Func<Task> act = async () => await podcastReader.SkipPreheader();
+                feedReader = new FeedReader(reader, _logger);
+                Func<Task> act = async () => await feedReader.SkipPreheader();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -161,13 +161,13 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                Action act = () => podcastReader.ReadDocumentHeader();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                Action act = () => feedReader.ReadDocumentHeader();
                 act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
@@ -177,13 +177,13 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "".PadRight(3, 'z') + "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                Action act = () => podcastReader.ReadDocumentHeader();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                Action act = () => feedReader.ReadDocumentHeader();
                 act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
@@ -193,13 +193,13 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<?xml ￾version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<channel>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                Action act = () => podcastReader.ReadDocumentHeader();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                Action act = () => feedReader.ReadDocumentHeader();
                 act.Should().NotThrow<InvalidPodcastFeedException>();
             }
         }
@@ -209,13 +209,13 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\r\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\r\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\r\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\r\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\r\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\r\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\r\n\txmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \r\n\txmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\"\r\nxmlns:media=\"http://search.yahoo.com/mrss/\"\r\n\t>\r\n\r\n<flannel>";
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                Action act = () => podcastReader.ReadDocumentHeader();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                Action act = () => feedReader.ReadDocumentHeader();
                 act.Should().Throw<InvalidPodcastFeedException>();
             }
         }
@@ -225,14 +225,14 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = File.ReadAllText($@"{TestDataRoot}Invalid\samplefeed_prechannelgarbage.xml");
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -245,10 +245,10 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -258,14 +258,14 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = File.ReadAllText($@"{TestDataRoot}Invalid\samplefeed_twobuffercontent.xml");
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -275,14 +275,14 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = File.ReadAllText($@"{TestDataRoot}Invalid\samplefeed_toolongcontent.xml");
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -295,10 +295,10 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -311,10 +311,10 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -327,10 +327,10 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                Func<Task> act = async () => await podcastReader.GetShowXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                Func<Task> act = async () => await feedReader.GetShowXmlAsync();
                 await act.Should().NotThrowAsync<InvalidPodcastFeedException>();
             }
         }
@@ -343,11 +343,11 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
-                var xml = await podcastReader.GetNextEpisodeXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                await feedReader.GetShowXmlAsync();
+                var xml = await feedReader.GetNextEpisodeXmlAsync();
                 xml.Should().NotBeNull();
             }
         }
@@ -360,13 +360,13 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
-                var xml = await podcastReader.GetNextEpisodeXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                await feedReader.GetShowXmlAsync();
+                var xml = await feedReader.GetNextEpisodeXmlAsync();
                 xml.Should().NotBeNull();
-                xml = await podcastReader.GetNextEpisodeXmlAsync();
+                xml = await feedReader.GetNextEpisodeXmlAsync();
                 xml.Should().NotBeNull();
             }
         }
@@ -379,12 +379,12 @@ namespace PodcastFeedReader.Tests.Readers
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                var podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
-                await podcastReader.GetNextEpisodeXmlAsync();
-                var xml = await podcastReader.GetNextEpisodeXmlAsync();
+                var feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                await feedReader.GetShowXmlAsync();
+                await feedReader.GetNextEpisodeXmlAsync();
+                var xml = await feedReader.GetNextEpisodeXmlAsync();
                 xml.Should().BeNull();
             }
         }
@@ -394,15 +394,15 @@ namespace PodcastFeedReader.Tests.Readers
         {
             var input = File.ReadAllText($@"{TestDataRoot}Invalid\samplefeed_toolongcontent2.xml");
 
-            PodcastFeedReader podcastReader;
+            FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             using (var reader = new StreamReader(stream))
             {
-                podcastReader = new PodcastFeedReader(reader, _logger);
-                await podcastReader.SkipPreheader();
-                podcastReader.ReadDocumentHeader();
-                await podcastReader.GetShowXmlAsync();
-                Func<Task> act = async () => await podcastReader.GetNextEpisodeXmlAsync();
+                feedReader = new FeedReader(reader, _logger);
+                await feedReader.SkipPreheader();
+                feedReader.ReadDocumentHeader();
+                await feedReader.GetShowXmlAsync();
+                Func<Task> act = async () => await feedReader.GetNextEpisodeXmlAsync();
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }

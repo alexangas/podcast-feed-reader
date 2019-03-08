@@ -10,15 +10,15 @@ using Xunit;
 
 namespace PodcastFeedReader.Tests.Readers
 {
-    public class PodcastFeedReaderPerformanceTests
+    public class FeedReaderPerformanceTests
     {
         private const string TestDataPath = @"..\..\..\TestData";
 
-        private readonly ILogger<PodcastFeedReader> _logger;
+        private readonly ILogger<FeedReader> _logger;
 
-        public PodcastFeedReaderPerformanceTests()
+        public FeedReaderPerformanceTests()
         {
-            _logger = A.Fake<ILogger<PodcastFeedReader>>();
+            _logger = A.Fake<ILogger<FeedReader>>();
         }
 
         [Trait("Category", "Performance")]
@@ -34,20 +34,20 @@ namespace PodcastFeedReader.Tests.Readers
                     reader.BaseStream.Position = 0;
                     var episodeCount = Regex.Matches(feedContents, "<item>").Count;
 
-                    var podcastFeedReader = new PodcastFeedReader(reader, _logger);
-                    await podcastFeedReader.SkipPreheader();
-                    podcastFeedReader.ReadDocumentHeader();
+                    var feedReader = new FeedReader(reader, _logger);
+                    await feedReader.SkipPreheader();
+                    feedReader.ReadDocumentHeader();
 
-                    var showXml = await podcastFeedReader.GetShowXmlAsync();
+                    var showXml = await feedReader.GetShowXmlAsync();
                     showXml.Should().NotBeNull();
 
                     XDocument episodeXml;
                     for (var episodeIndex = 0; episodeIndex < episodeCount; episodeIndex++)
                     {
-                        episodeXml = await podcastFeedReader.GetNextEpisodeXmlAsync();
+                        episodeXml = await feedReader.GetNextEpisodeXmlAsync();
                         episodeXml.Should().NotBeNull("because we have {0} and there should be {1}", episodeIndex + 1, episodeCount);
                     }
-                    episodeXml = await podcastFeedReader.GetNextEpisodeXmlAsync();
+                    episodeXml = await feedReader.GetNextEpisodeXmlAsync();
                     episodeXml.Should().BeNull();
                 }
             }
