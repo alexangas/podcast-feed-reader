@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net;
 using PodcastFeedReader.Exceptions;
 using PodcastFeedReader.Helpers;
+using PodcastFeedReader.Model.DataAnnotations;
 using PodcastFeedReader.Model.Display;
 using PodcastFeedReader.Model.Parsed;
 using PodcastFeedReader.Model.Search;
@@ -15,16 +17,24 @@ namespace PodcastFeedReader.Sanitizers
     {
         private readonly ParsedShow _parsedShow;
         private readonly ISanitizationService _sanitizationService;
+        private readonly IMetadataService _metadataService;
 
-        public ShowSanitizer(ParsedShow parsedShow, ISanitizationService sanitizationService)
+        public ShowSanitizer(
+            ParsedShow parsedShow,
+            ISanitizationService sanitizationService,
+            IMetadataService metadataService
+        )
         {
             if (parsedShow == null)
                 throw new ArgumentNullException(nameof(parsedShow));
             if (sanitizationService == null)
                 throw new ArgumentNullException(nameof(sanitizationService));
+            if (metadataService == null)
+                throw new ArgumentNullException(nameof(metadataService));
 
             _parsedShow = parsedShow;
             _sanitizationService = sanitizationService;
+            _metadataService = metadataService;
         }
 
         public (ShowForDisplay, ICollection<string>) GetShowForDisplay(out ICollection<string> missingExpectedProperties)
@@ -41,11 +51,11 @@ namespace PodcastFeedReader.Sanitizers
                 Tags = SanitizeTags().Select(x => new TagForDisplay(x)).ToList()
             };
 
-            var missingRequiredProperties = TypePropertyAttributesCache.GetRequiredProperties(show);
+            var missingRequiredProperties = _metadataService.GetPropertyNamesMissingValueByAttribute<ShowForDisplay, RequiredAttribute>(show);
             if (missingRequiredProperties.Any())
                 throw new InvalidPropertiesException(missingRequiredProperties.ToDictionary(x => x, y => "Required"));
 
-            missingExpectedProperties = TypePropertyAttributesCache.GetExpectedProperties(show);
+            missingExpectedProperties = _metadataService.GetPropertyNamesMissingValueByAttribute<ShowForDisplay, ExpectedAttribute>(show);
 
             return (show, missingExpectedProperties);
         }
