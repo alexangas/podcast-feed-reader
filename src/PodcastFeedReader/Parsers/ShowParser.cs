@@ -12,6 +12,9 @@ namespace PodcastFeedReader.Parsers
 
         public void ParseFromXml(XElement element)
         {
+            if (element == null)
+                throw new ArgumentNullException(nameof(element));
+
             _content = new ParsedShow
             {
                 Title = GetTitle(element),
@@ -21,7 +24,7 @@ namespace PodcastFeedReader.Parsers
                 Description = GetDescription(element),
                 Author = GetAuthor(element),
                 Language = GetLanguage(element),
-                Tags = GetTags(element)
+                Tags = GetTags(element).Select(x => new ParsedTag(x)).ToList()
             };
         }
 
