@@ -59,7 +59,17 @@ namespace PodcastFeedReader.Tests.Parsers
             show.Description.Should().Be("#justSayin is a random comedy podcast, with Boston accents and a variety of subjects.");
             show.Author.Should().Be("Ryan & Tara");
             show.Language.Should().Be("en");
-            show.Tags.Should().BeEquivalentTo(new List<string>(new[] {"Comedy", "Entertainment", "Boston", "Massachusetts", "Random", "Arts", "Performing Arts", "Games & Hobbies", "Video Games" }));
+            show.Tags.Should().BeEquivalentTo(
+                new ParsedTag("Comedy"),
+                new ParsedTag("Entertainment"),
+                new ParsedTag("Boston"),
+                new ParsedTag("Massachusetts"),
+                new ParsedTag("Random"),
+                new ParsedTag("Arts"),
+                new ParsedTag("Performing Arts"),
+                new ParsedTag("Games & Hobbies"),
+                new ParsedTag("Video Games")
+            );
         }
 
         [Fact]
@@ -202,7 +212,11 @@ namespace PodcastFeedReader.Tests.Parsers
             parser.ParseFromXml(doc);
 
             var show = parser.GetContent();
-            show.Tags.Should().BeEquivalentTo(new List<string>(new[] { "iTunes U", "Business", "Finance" }));
+            show.Tags.Should().BeEquivalentTo(
+                new ParsedTag("iTunes U"),
+                new ParsedTag("Business"),
+                new ParsedTag("Finance")
+            );
         }
     }
 }

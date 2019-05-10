@@ -348,7 +348,7 @@ namespace PodcastFeedReader.Tests.Readers
                 feedReader.ReadDocumentHeader();
                 await feedReader.GetShowXmlAsync();
                 var xml = await feedReader.GetNextEpisodeXmlAsync();
-                xml.Should().NotBeNull();
+                xml.Should().NotBeNull().And.Subject.ToString().Should().Contain("EP 16: Rubbing The Desk");
             }
         }
 
@@ -365,9 +365,9 @@ namespace PodcastFeedReader.Tests.Readers
                 feedReader.ReadDocumentHeader();
                 await feedReader.GetShowXmlAsync();
                 var xml = await feedReader.GetNextEpisodeXmlAsync();
-                xml.Should().NotBeNull();
+                xml.Should().NotBeNull().And.Subject.ToString().Should().Contain("EP 16: Rubbing The Desk");
                 xml = await feedReader.GetNextEpisodeXmlAsync();
-                xml.Should().NotBeNull();
+                xml.Should().NotBeNull().And.Subject.ToString().Should().Contain("EP 15: I Get Sweaty Palm");
             }
         }
 

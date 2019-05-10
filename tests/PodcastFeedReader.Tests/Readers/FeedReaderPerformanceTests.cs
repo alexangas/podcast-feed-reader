@@ -41,14 +41,15 @@ namespace PodcastFeedReader.Tests.Readers
                     var showXml = await feedReader.GetShowXmlAsync();
                     showXml.Should().NotBeNull();
 
-                    XDocument episodeXml;
-                    for (var episodeIndex = 0; episodeIndex < episodeCount; episodeIndex++)
+                    XDocument episodeXml = null;
+                    for (var episodeIndex = 0; episodeIndex < episodeCount - 1; episodeIndex++)
                     {
+                        var lastXml = episodeXml;
                         episodeXml = await feedReader.GetNextEpisodeXmlAsync();
-                        episodeXml.Should().NotBeNull("because we have {0} and there should be {1}", episodeIndex + 1, episodeCount);
+                        episodeXml.Should().NotBeNull($"because we have {episodeIndex + 1} and there should be {episodeCount}, last was in {feedFile} with content {lastXml?.ToString()}");
                     }
                     episodeXml = await feedReader.GetNextEpisodeXmlAsync();
-                    episodeXml.Should().BeNull();
+                    episodeXml.Should().BeNull($"because we do not expect more in {feedFile} after {episodeCount} episodes");
                 }
             }
         }

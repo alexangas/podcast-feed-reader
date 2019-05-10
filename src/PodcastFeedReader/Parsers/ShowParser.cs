@@ -24,7 +24,7 @@ namespace PodcastFeedReader.Parsers
                 Description = GetDescription(element),
                 Author = GetAuthor(element),
                 Language = GetLanguage(element),
-                Tags = GetTags(element).Select(x => new ParsedTag(x)).ToList()
+                Tags = GetTags(element)?.Select(x => new ParsedTag(x)).ToList()
             };
         }
 

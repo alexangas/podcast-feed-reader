@@ -106,7 +106,7 @@ namespace PodcastFeedReader.Tests.Helpers
 
             index.Should().Be(1);
         }
-
+        /*
         [Trait("Category", "Performance")]
         [Fact]
         public static void IndexOfPerfTest()
@@ -114,7 +114,7 @@ namespace PodcastFeedReader.Tests.Helpers
             var rnd = new Random();
             StringBuilder s = new StringBuilder();
             StringBuilder s2 = new StringBuilder();
-            for (var x = 0; x < 500000; x++)
+            for (var x = 0; x < 50000; x++)
             {
                 s.Clear();
                 s.Append(rnd.Next(Int32.MinValue, Int32.MaxValue).ToString()).Append('*', 1024 * 1024);
@@ -136,5 +136,6 @@ namespace PodcastFeedReader.Tests.Helpers
                 System.Diagnostics.Debug.WriteLine(r);
             }
         }
+        */
     }
 }

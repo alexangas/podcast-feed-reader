@@ -4,6 +4,30 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <id>PodcastFeedReader</id>
+    <version>1.0.0</version>
+    <title>Podcast Feed Reader</title>
+    <authors>Alex Angas</authors>
+    <owners>alexangas</owners>
+    <licenseUrl>https://github.com/alexangas/podcast-feed-reader/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/alexangas/podcast-feed-reader</projectUrl>
+    <repository>
+      <type>git</type>
+      <url>https://github.com/alexangas/podcast-feed-reader</url>
+      <branch>master</branch>
+    </repository>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Reads podcast feeds. Makes POCO.</summary>
+    <description>
+      A keen reader of podcast feeds, always happy to parse them for return as an object.
+    </description>
+    <language>en-US</language>
+    <releaseNotes>Please see https://github.com/alexangas/podcast-feed-reader/releases/ for release notes.</releaseNotes>
+    <copyright>Copyright (c) 2019 Alex Angas</copyright>
+    <tags>podcast feed xml</tags>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
   </ItemGroup>
