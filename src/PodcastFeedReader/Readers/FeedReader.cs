@@ -11,7 +11,11 @@ namespace PodcastFeedReader.Readers
 {
     public class FeedReader
     {
-        private const short BufferSize = 4096;
+        // Maximum size of text content to describe a show or episode
+        // If this is high, it will take longer to read a chunk from the stream
+        // If this is too low, we will lose some of the content altogether (as we don't support checking for an end substring)
+        private const int BufferSize = MaxEpisodeLength;
+
         private const int MaxShowLength = 8192;
         private const int MaxEpisodeLength = 128 * 1024;
 
