@@ -14,10 +14,11 @@ namespace PodcastFeedReader.Readers
         // Maximum size of text content to describe a show or episode
         // If this is high, it will take longer to read a chunk from the stream
         // If this is too low, we will lose some of the content altogether (as we don't support checking for an end substring)
-        private const int BufferSize = MaxEpisodeLength;
+        private const int BufferSize = 4096;
 
         private const int MaxShowLength = 8192;
         private const int MaxEpisodeLength = 128 * 1024;
+        private const int LengthOfItemEndTag = 7;
 
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
@@ -104,7 +105,8 @@ namespace PodcastFeedReader.Readers
                 _bufferBuilder.Append(_stringBuffer);
 
                 posEpisodeItemStart = _bufferBuilder.IndexOf("<item");
-                if (posEpisodeItemStart >= 0)
+
+                if (posEpisodeItemStart >= 0 && _bufferBuilder.IndexOf("</item>", posEpisodeItemStart + LengthOfItemEndTag) >= 0)
                     break;
 
                 if (_baseReader.EndOfStream)
@@ -152,7 +154,7 @@ namespace PodcastFeedReader.Readers
                 _posEpisodeItemEndIndex = _stringBuffer.IndexOf("</item>", StringComparison.Ordinal);
                 if (_posEpisodeItemEndIndex >= 0)
                 {
-                    _posEpisodeItemEndIndex += 7;   //"</item>".Length;
+                    _posEpisodeItemEndIndex += LengthOfItemEndTag;
                     break;
                 }
 

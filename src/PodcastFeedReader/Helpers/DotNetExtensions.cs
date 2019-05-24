@@ -3,7 +3,7 @@ using System.Text;
 
 namespace PodcastFeedReader.Helpers
 {
-    public static class DotNetExtensions
+    internal static class DotNetExtensions
     {
         // From http://stackoverflow.com/a/19361102/6651
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

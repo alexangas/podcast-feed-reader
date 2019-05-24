@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace PodcastFeedReader.Parsers
 {
-    public static class Namespaces
+    internal static class Namespaces
     {
         // ReSharper disable once InconsistentNaming
         public static readonly XNamespace ITunesNamespace = "http://www.itunes.com/dtds/podcast-1.0.dtd";

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace PodcastFeedReader.Helpers
 {
-    public static class XmlHelper
+    internal static class XmlHelper
     {
         public static XDocument ReadXml(string raw)
         {
@@ -30,6 +30,28 @@ namespace PodcastFeedReader.Helpers
             }
 
             return xDocument;
+        }
+
+        public static IEnumerable<XElement> ElementsCaseInsensitive(XContainer source, XName name)
+        {
+            // From https://stackoverflow.com/a/9335141/6651
+
+            foreach (XElement e in source.Elements())
+            {
+                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
+                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
+                    yield return e;
+            }
+        }
+
+        public static IEnumerable<XElement> DescendantsCaseInsensitive(XContainer source, XName name)
+        {
+            foreach (XElement e in source.Descendants())
+            {
+                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
+                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
+                    yield return e;
+            }
         }
     }
 }

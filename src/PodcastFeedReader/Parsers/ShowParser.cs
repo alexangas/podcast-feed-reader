@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using PodcastFeedReader.Helpers;
 using PodcastFeedReader.Model.Parsed;
 
 namespace PodcastFeedReader.Parsers
@@ -55,7 +56,7 @@ namespace PodcastFeedReader.Parsers
 
         private static string GetImageLink(XElement doc)
         {
-            var imageUrl = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "image").Attributes("href").Select(x => x.Value).FirstOrDefault();
+            var imageUrl = XmlHelper.DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "image").Attributes("href").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(imageUrl))
             {
                 imageUrl = doc.Descendants("image").Elements("url").Select(x => x.Value).FirstOrDefault();
@@ -72,7 +73,7 @@ namespace PodcastFeedReader.Parsers
             if (!String.IsNullOrWhiteSpace(summary))
                 return summary;
 
-            summary = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "subtitle").Select(x => x.Value).FirstOrDefault();
+            summary = XmlHelper.DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "subtitle").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(summary))
                 return null;
 
@@ -81,7 +82,7 @@ namespace PodcastFeedReader.Parsers
 
         private static string GetDescription(XElement doc)
         {
-            var description = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "summary").Select(x => x.Value).FirstOrDefault();
+            var description = XmlHelper.DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "summary").Select(x => x.Value).FirstOrDefault();
             if (!String.IsNullOrWhiteSpace(description))
             {
                 if (description.IndexOf("<", StringComparison.OrdinalIgnoreCase) == 0)
@@ -98,7 +99,7 @@ namespace PodcastFeedReader.Parsers
 
         private static string GetAuthor(XElement doc)
         {
-            var author = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "author").Select(x => x.Value).FirstOrDefault();
+            var author = XmlHelper.DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "author").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(author))
                 return null;
             return author;
@@ -123,12 +124,12 @@ namespace PodcastFeedReader.Parsers
             if (channelElement == null)
                 return null;
 
-            var keywords = ElementsCaseInsensitive(channelElement, Namespaces.ITunesNamespace + "keywords").Select(x => x.Value).FirstOrDefault()?.Split(',')
+            var keywords = XmlHelper.ElementsCaseInsensitive(channelElement, Namespaces.ITunesNamespace + "keywords").Select(x => x.Value).FirstOrDefault()?.Split(',')
                            ?? new string[0];
 
-            var categories = ElementsCaseInsensitive(channelElement, Namespaces.ITunesNamespace + "category").DescendantsAndSelf().Attributes("text").Select(x => x.Value);
+            var categories = XmlHelper.ElementsCaseInsensitive(channelElement, Namespaces.ITunesNamespace + "category").DescendantsAndSelf().Attributes("text").Select(x => x.Value);
 
-            var categories2 = ElementsCaseInsensitive(channelElement, "category").Select(x => x.Value);
+            var categories2 = XmlHelper.ElementsCaseInsensitive(channelElement, "category").Select(x => x.Value);
 
             var tagsRaw = keywords
                 .Union(categories)

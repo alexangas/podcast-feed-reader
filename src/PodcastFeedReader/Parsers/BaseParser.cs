@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Xml.Linq;
@@ -19,7 +18,7 @@ namespace PodcastFeedReader.Parsers
             NamespaceStrings = namespaceBuilder.ToString();
         }
 
-        public static string PreParseCleanUp(string initialText)
+        protected static string PreParseCleanUp(string initialText)
         {
             var textBuilder = new StringBuilder(initialText);
             int startIndex;
@@ -92,27 +91,6 @@ namespace PodcastFeedReader.Parsers
                 throw new InvalidOperationException(errorMessage, xmlex);
             }
             return xdoc.Root?.Value;
-        }
-
-        // From https://stackoverflow.com/a/9335141/6651
-        public static IEnumerable<XElement> ElementsCaseInsensitive(XContainer source, XName name)
-        {
-            foreach (XElement e in source.Elements())
-            {
-                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
-                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
-                    yield return e;
-            }
-        }
-
-        public static IEnumerable<XElement> DescendantsCaseInsensitive(XContainer source, XName name)
-        {
-            foreach (XElement e in source.Descendants())
-            {
-                if (e.Name.Namespace.NamespaceName.Equals(name.Namespace.NamespaceName, StringComparison.OrdinalIgnoreCase) &&
-                    e.Name.LocalName.Equals(name.LocalName, StringComparison.OrdinalIgnoreCase))
-                    yield return e;
-            }
         }
     }
 }
