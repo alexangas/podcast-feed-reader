@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Diagnostics;
 
 namespace PodcastFeedReader.Model.Parsed
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class ParsedShow
+    public class ParsedEpisode
     {
         public string Title { get; set; }
 
@@ -12,18 +12,22 @@ namespace PodcastFeedReader.Model.Parsed
 
         public string ImageLink { get; set; }
 
-        public string Subtitle { get; set; }
+        public string CommentsLink { get; set; }
+
+        public string AudioLink { get; set; }
+
+        public DateTime? PublishDate { get; set; }
 
         public string Description { get; set; }
 
         public string Author { get; set; }
 
-        public string Language { get; set; }
+        public DateTime? Duration { get; set; }
 
-        public ICollection<ParsedTag> Tags { get; set; }
+        public long? AudioSize { get; set; }        
 
-        #if DEBUG
+#if DEBUG
         private string DebuggerDisplay => $"Title: '{Title}'";
-        #endif
+#endif
     }
 }

@@ -13,6 +13,8 @@ namespace PodcastFeedReader.Parsers
 
         public void ParseFromXml(XElement element)
         {
+            _content = null;
+
             if (element == null)
                 throw new ArgumentNullException(nameof(element));
 
