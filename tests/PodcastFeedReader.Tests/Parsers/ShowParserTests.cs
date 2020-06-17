@@ -18,7 +18,7 @@ namespace PodcastFeedReader.Tests.Parsers
         {
             var parser = new ShowParser();
 
-            var act = new Func<ParsedShow>(() => parser.GetContent());
+            var act = new Func<ParsedShow>(() => parser.Content);
 
             act.Should().Throw<InvalidOperationException>();
         }
@@ -31,7 +31,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Title.Should().BeNull();
             show.WebLink.Should().BeNull();
             show.ImageLink.Should().BeNull();
@@ -51,7 +51,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Title.Should().Be("#JustSayin");
             show.WebLink.Should().Be("https://justsayinpodcast.wordpress.com");
             show.ImageLink.Should().Be("http://justsayinpodcast.files.wordpress.com/2015/07/cropped-podcast-logo.jpg");
@@ -71,7 +71,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Author.Should().Be("CBC Radio");
         }
 
@@ -84,7 +84,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Subtitle.Should().StartWith("CBC Radio's Leigh");
         }
 
@@ -97,7 +97,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Subtitle.Should().NotBeEmpty();
         }
 
@@ -110,7 +110,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Subtitle.Should().StartWith("Storytelling im Radio");
         }
 
@@ -123,7 +123,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Description.Should().StartWith("\nWatch award-winning documentary videos");
         }
 
@@ -136,7 +136,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Description.Should().StartWith("Storytelling im Radio");
         }
 
@@ -149,7 +149,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Description.Should().StartWith("#justSayin");
         }
 
@@ -162,7 +162,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.ImageLink.Should().Be("http://www.abc.net.au/cm/rimage/7950252-1x1-large.jpg?v=4");
         }
 
@@ -175,7 +175,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.ImageLink.Should().Be("http://www.blogtalkradio.com/img/btrbetalogo.gif");
         }
 
@@ -188,7 +188,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.ImageLink.Should().Be("http://www.abc.net.au/cm/rimage/7950252-1x1-large.jpg?v=4");
         }
 
@@ -201,7 +201,7 @@ namespace PodcastFeedReader.Tests.Parsers
 
             parser.ParseFromXml(doc);
 
-            var show = parser.GetContent();
+            var show = parser.Content;
             show.Tags.Should().BeEquivalentTo(new List<string>(new[] { "iTunes U", "Business", "Finance" }));
         }
     }

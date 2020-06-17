@@ -19,7 +19,7 @@ namespace PodcastFeedReader.Parsers
             NamespaceStrings = namespaceBuilder.ToString();
         }
 
-        public static string PreParseCleanUp(string initialText)
+        public static string? PreParseCleanUp(string initialText)
         {
             var textBuilder = new StringBuilder(initialText);
             int startIndex;

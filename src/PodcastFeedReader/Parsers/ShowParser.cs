@@ -3,48 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using PodcastFeedReader.Model.Parsed;
+using PodcastFeedReader.Readers;
 
 namespace PodcastFeedReader.Parsers
 {
     public class ShowParser : BaseParser, IContentParser<ParsedShow>
     {
-        private ParsedShow _content;
+        private ParsedShow _content = null!;
+
+        public ParsedShow Content
+        {
+            get => _content == null ? throw new InvalidOperationException("Content has not been parsed") : _content;
+            set => _content = value;
+        }
 
         public void ParseFromXml(XElement element)
         {
             if (element == null)
                 throw new ArgumentNullException(nameof(element));
 
-            _content = new ParsedShow
+            var title = GetTitle(element);
+            var parsedTags = GetTags(element).Select(x => new ParsedTag(x)).ToList();
+            Content = new ParsedShow(title, parsedTags)
             {
-                Title = GetTitle(element),
                 WebLink = GetWebLink(element),
                 ImageLink = GetImageLink(element),
                 Subtitle = GetSubtitle(element),
                 Description = GetDescription(element),
                 Author = GetAuthor(element),
                 Language = GetLanguage(element),
-                Tags = GetTags(element).Select(x => new ParsedTag(x)).ToList()
             };
-        }
-
-        public ParsedShow GetContent()
-        {
-            if (_content == null)
-                throw new InvalidOperationException("Content has not been parsed");
-
-            return _content;
         }
 
         private static string GetTitle(XElement doc)
         {
             var title = doc.Descendants("title").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(title))
-                return null;
+                throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.NoShowTitle);
             return title;
         }
 
-        private static string GetWebLink(XElement doc)
+        private static string? GetWebLink(XElement doc)
         {
             var webUrl = doc.Descendants("link").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(webUrl))
@@ -53,7 +52,7 @@ namespace PodcastFeedReader.Parsers
             return webUrl;
         }
 
-        private static string GetImageLink(XElement doc)
+        private static string? GetImageLink(XElement doc)
         {
             var imageUrl = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "image").Attributes("href").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(imageUrl))
@@ -66,7 +65,7 @@ namespace PodcastFeedReader.Parsers
             return imageUrl;
         }
 
-        private static string GetSubtitle(XElement doc)
+        private static string? GetSubtitle(XElement doc)
         {
             var summary = doc.Descendants("description").Select(x => x.Value).FirstOrDefault();
             if (!String.IsNullOrWhiteSpace(summary))
@@ -79,7 +78,7 @@ namespace PodcastFeedReader.Parsers
             return summary;
         }
 
-        private static string GetDescription(XElement doc)
+        private static string? GetDescription(XElement doc)
         {
             var description = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "summary").Select(x => x.Value).FirstOrDefault();
             if (!String.IsNullOrWhiteSpace(description))
@@ -96,7 +95,7 @@ namespace PodcastFeedReader.Parsers
             return description;
         }
 
-        private static string GetAuthor(XElement doc)
+        private static string? GetAuthor(XElement doc)
         {
             var author = DescendantsCaseInsensitive(doc, Namespaces.ITunesNamespace + "author").Select(x => x.Value).FirstOrDefault();
             if (String.IsNullOrWhiteSpace(author))
@@ -104,7 +103,7 @@ namespace PodcastFeedReader.Parsers
             return author;
         }
 
-        private static string GetLanguage(XElement doc)
+        private static string? GetLanguage(XElement doc)
         {
             var language = doc.Descendants("language").Select(x => x.Value).FirstOrDefault();
             if (!String.IsNullOrWhiteSpace(language))
@@ -121,7 +120,7 @@ namespace PodcastFeedReader.Parsers
         {
             var channelElement = doc.Descendants("channel").FirstOrDefault();
             if (channelElement == null)
-                return null;
+                return new List<string>(0);
 
             var keywords = ElementsCaseInsensitive(channelElement, Namespaces.ITunesNamespace + "keywords").Select(x => x.Value).FirstOrDefault()?.Split(',')
                            ?? new string[0];

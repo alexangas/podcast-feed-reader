@@ -5,7 +5,7 @@ namespace PodcastFeedReader.Readers
     [Serializable]
     public class InvalidPodcastFeedException : Exception
     {
-        public string Contents { get; set; }
+        public string? Contents { get; set; }
 
         public enum InvalidPodcastFeedReason : short
         {
@@ -18,6 +18,7 @@ namespace PodcastFeedReader.Readers
             EpisodeStartNotFound = 5,
             ShowContentTooLong = 7,
             EpisodeContentTooLong = 7,
+            NoShowTitle = 8
         }
 
         public InvalidPodcastFeedException(InvalidPodcastFeedReason reason) : base($"{reason}")

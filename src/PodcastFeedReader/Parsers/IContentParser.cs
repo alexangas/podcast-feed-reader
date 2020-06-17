@@ -6,6 +6,6 @@ namespace PodcastFeedReader.Parsers
     {
         void ParseFromXml(XElement element);
 
-        TParsedContent GetContent();
+        TParsedContent Content { get; }
     }
 }
