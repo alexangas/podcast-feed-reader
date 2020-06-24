@@ -7,6 +7,7 @@ using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using PodcastFeedReader.Readers;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace PodcastFeedReader.Tests.Readers
 {
@@ -15,12 +16,31 @@ namespace PodcastFeedReader.Tests.Readers
         private const string TestDataRoot = @"TestData\";
 
         private readonly ILogger<FeedReader> _logger;
+        private readonly ITestOutputHelper _output;
 
-        public FeedReaderTests()
+        public FeedReaderTests(ITestOutputHelper output)
         {
             _logger = A.Fake<ILogger<FeedReader>>();
+            _output = output;
         }
 
+        [Fact]
+        public async Task Test()
+        {
+            var input = File.ReadAllText($@"{TestDataRoot}Valid\samplefeed1.xml");
+
+            FeedReader feedReader;
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
+            {
+                feedReader = new FeedReader(stream, A.Fake<ILogger<FeedReader>>());
+                _output.WriteLine("FIRST READ");
+                await feedReader.SkipPreheader();
+                _output.WriteLine("SECOND READ");
+            }
+        }
+
+
+        /*
         [Fact]
         public async Task SkipPreheader_Empty_Throws()
         {
@@ -406,5 +426,6 @@ namespace PodcastFeedReader.Tests.Readers
                 await act.Should().ThrowAsync<InvalidPodcastFeedException>();
             }
         }
+        */
     }
 }

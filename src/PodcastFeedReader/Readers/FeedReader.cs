@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Buffers;
 using System.IO;
+using System.IO.Pipelines;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -9,7 +12,7 @@ using PodcastFeedReader.Helpers;
 
 namespace PodcastFeedReader.Readers
 {
-    public class FeedReader
+    public class FeedReader : IDisposable
     {
         private const short BufferSize = 4096;
         private const int MaxShowLength = 8192;
@@ -17,7 +20,7 @@ namespace PodcastFeedReader.Readers
 
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
 
-        private readonly StreamReader _baseReader;
+        private PipeReader _pipeReader;
         private readonly ILogger<FeedReader> _logger;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
@@ -28,14 +31,12 @@ namespace PodcastFeedReader.Readers
         private string _stringBuffer;
         private string _header;
 
-        public FeedReader(StreamReader baseReader, ILogger<FeedReader> logger)
+        public FeedReader(Stream stream, ILogger<FeedReader> logger)
         {
-            if (baseReader == null)
-                throw new ArgumentNullException(nameof(baseReader));
             if (logger == null)
                 throw new ArgumentNullException(nameof(logger));
 
-            _baseReader = baseReader;
+            _pipeReader = PipeReader.Create(stream, new StreamPipeReaderOptions(bufferSize: 64));
             _logger = logger;
 
             _streamBuffer = new char[BufferSize];
@@ -43,6 +44,26 @@ namespace PodcastFeedReader.Readers
             _posEpisodeItemEndIndex = -1;
         }
 
+        public async Task SkipPreheader(CancellationToken cancellationToken = default)
+        {
+            var readResult = await _pipeReader.ReadAsync(cancellationToken);
+            if (readResult.IsCanceled)
+                return;
+            var buffer = readResult.Buffer;
+            if (buffer.IsEmpty)
+                throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.UnexpectedEmptyBuffer);
+
+            SkipTo(ref buffer, '<');
+        }
+
+        private void SkipTo(ref ReadOnlySequence<byte> buffer, char ch)
+        {
+            var reader = new SequenceReader<byte>(buffer);
+            if (!reader.TryAdvanceTo((byte) ch, advancePastDelimiter: false))
+                throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.FeedStartNotFound);
+        }
+
+        /*
         public async Task SkipPreheader()
         {
             if (_baseReader.EndOfStream)
@@ -239,6 +260,12 @@ namespace PodcastFeedReader.Readers
                     }
                 }
             }
+        }
+        */
+
+        public void Dispose()
+        {
+            _pipeReader.Complete();
         }
     }
 }

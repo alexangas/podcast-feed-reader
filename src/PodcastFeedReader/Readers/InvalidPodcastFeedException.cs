@@ -18,7 +18,8 @@ namespace PodcastFeedReader.Readers
             EpisodeStartNotFound = 5,
             ShowContentTooLong = 7,
             EpisodeContentTooLong = 7,
-            NoShowTitle = 8
+            NoShowTitle = 8,
+            UnexpectedEmptyBuffer = 9
         }
 
         public InvalidPodcastFeedException(InvalidPodcastFeedReason reason) : base($"{reason}")
