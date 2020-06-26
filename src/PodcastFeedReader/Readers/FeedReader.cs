@@ -2,6 +2,8 @@
 using System.Buffers;
 using System.IO;
 using System.IO.Pipelines;
+using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -19,9 +21,12 @@ namespace PodcastFeedReader.Readers
         private const int MaxEpisodeLength = 128 * 1024;
 
         private static readonly string[] FeedStartStrings = { "<?xml", "<rss", "<feed" };
+        private const string HeaderStartString = "<?xml";
+        private const string ShowStartString = "<channel";
 
         private PipeReader _pipeReader;
         private readonly ILogger<FeedReader> _logger;
+        private StringBuilder _headerBuilder;
         private readonly char[] _streamBuffer;
         private StringBuilder _bufferBuilder;
         private StringBuilder _contentBuilder;
@@ -36,32 +41,96 @@ namespace PodcastFeedReader.Readers
             if (logger == null)
                 throw new ArgumentNullException(nameof(logger));
 
-            _pipeReader = PipeReader.Create(stream, new StreamPipeReaderOptions(bufferSize: 64));
+            _pipeReader = PipeReader.Create(stream);
             _logger = logger;
+            _headerBuilder = new StringBuilder();
 
             _streamBuffer = new char[BufferSize];
 
             _posEpisodeItemEndIndex = -1;
         }
 
-        public async Task SkipPreheader(CancellationToken cancellationToken = default)
+        public async Task<StringBuilder?> ReadHeader(CancellationToken cancellationToken = default)
         {
-            var readResult = await _pipeReader.ReadAsync(cancellationToken);
-            if (readResult.IsCanceled)
-                return;
-            var buffer = readResult.Buffer;
-            if (buffer.IsEmpty)
-                throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.UnexpectedEmptyBuffer);
+            while (true)
+            {
+                var result = await _pipeReader.ReadAsync(cancellationToken);
+                var buffer = result.Buffer;
+                
+                while (TryParseLine(ref buffer, out var line))
+                {
+                    if (_headerBuilder.Length == 0)
+                    {
+                        var headerStart = SequenceExtensions.IndexOf(line, HeaderStartString);
 
-            SkipTo(ref buffer, '<');
+                        if (headerStart != null)
+                        {
+                            var showStartOnHeaderStartLine = SequenceExtensions.IndexOf(line, ShowStartString);
+                            var lineLength = showStartOnHeaderStartLine == null
+                                ? line.Length - headerStart.Value.GetInteger()
+                                : (line.Length - headerStart.Value.GetInteger()) - (line.Length - showStartOnHeaderStartLine.Value.GetInteger());
+                            var restOfLineSequence = line.Slice(headerStart.Value, lineLength);
+                            var restOfLineString = Encoding.UTF8.GetString(restOfLineSequence);
+                            _headerBuilder.AppendLine(restOfLineString);
+
+                            if (showStartOnHeaderStartLine != null)
+                            {
+                                _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+                                return _headerBuilder;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        var showStart = SequenceExtensions.IndexOf(line, ShowStartString);
+                        if (showStart == null)
+                        {
+                            var restOfLineString = Encoding.UTF8.GetString(line);
+                            var cleanedUpString = restOfLineString.Trim();
+                            if (cleanedUpString.Length > 0)
+                                _headerBuilder.AppendLine(cleanedUpString);
+                        }
+                        else
+                        {
+                            _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+                            return _headerBuilder;
+                        }
+                    }
+                }
+
+                if (result.IsCompleted)
+                {
+                    if (buffer.Length > 0)
+                    {
+                        throw new InvalidDataException("Incomplete message.");
+                    }
+
+                    break;
+                }
+
+                _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+            }
+
+            return null;
         }
-
-        private void SkipTo(ref ReadOnlySequence<byte> buffer, char ch)
+        
+        private static bool TryParseLine(ref ReadOnlySequence<byte> buffer, out ReadOnlySequence<byte> line)
         {
             var reader = new SequenceReader<byte>(buffer);
-            if (!reader.TryAdvanceTo((byte) ch, advancePastDelimiter: false))
-                throw new InvalidPodcastFeedException(InvalidPodcastFeedException.InvalidPodcastFeedReason.FeedStartNotFound);
+            if (reader.TryReadToAny(out line, NewLineDelimiters, advancePastDelimiter: false))
+            {
+                reader.IsNext((byte) '\r', advancePast: true);
+                reader.IsNext((byte) '\n', advancePast: true);
+
+                buffer = buffer.Slice(reader.Position);
+                return true;
+            }
+
+            line = default;
+            return false;
         }
+
+        private static ReadOnlySpan<byte> NewLineDelimiters => new[] {(byte) '\r', (byte) '\n'};
 
         /*
         public async Task SkipPreheader()

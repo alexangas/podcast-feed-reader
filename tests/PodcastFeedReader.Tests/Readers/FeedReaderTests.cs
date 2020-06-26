@@ -24,19 +24,29 @@ namespace PodcastFeedReader.Tests.Readers
             _output = output;
         }
 
-        [Fact]
-        public async Task Test()
+        [Theory]
+        [InlineData(@"Valid\samplefeed1\samplefeed1.xml", @"Valid\samplefeed1\samplefeed1.header.xml")]
+        [InlineData(@"Valid\samplefeed2\samplefeed2.xml", @"Valid\samplefeed2\samplefeed2.header.xml")]
+        [InlineData(@"Valid\samplefeed3\samplefeed3.xml", @"Valid\samplefeed3\samplefeed3.header.xml")]
+        [InlineData(@"Valid\samplefeed4\samplefeed4.xml", @"Valid\samplefeed4\samplefeed4.header.xml")]
+        [InlineData(@"Valid\samplefeed5\samplefeed5.xml", @"Valid\samplefeed5\samplefeed5.header.xml")]
+        [InlineData(@"Valid\samplefeed7\samplefeed7.xml", @"Valid\samplefeed7\samplefeed7.header.xml")]
+        [InlineData(@"Valid\samplefeed8\samplefeed8.xml", @"Valid\samplefeed8\samplefeed8.header.xml")]
+        public async Task ReadHeader_Valid_ReturnsHeader(string inputFilename, string expectedFilename)
         {
-            var input = File.ReadAllText($@"{TestDataRoot}Valid\samplefeed1.xml");
+            var input = File.ReadAllText($@"{TestDataRoot}{inputFilename}");
+            var expected = File.ReadAllText($@"{TestDataRoot}{expectedFilename}");
 
+            StringBuilder? header;
             FeedReader feedReader;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
             {
-                feedReader = new FeedReader(stream, A.Fake<ILogger<FeedReader>>());
-                _output.WriteLine("FIRST READ");
-                await feedReader.SkipPreheader();
-                _output.WriteLine("SECOND READ");
+                feedReader = new FeedReader(stream, _logger);
+                header = await feedReader.ReadHeader();
             }
+
+            var headerString = header?.ToString();
+            headerString.Should().Be(expected);
         }
 
 
