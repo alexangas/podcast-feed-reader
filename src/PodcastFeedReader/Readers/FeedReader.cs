@@ -15,6 +15,8 @@ namespace PodcastFeedReader.Readers
         private const string ShowStartString = "<channel";
         private const string ShowEndString = "</channel>";
         private const string EpisodeStartString = "<item";
+        private const string CDataStartString = "<![CDATA[";
+        private const string CDataEndString = "]]>";
 
         private readonly PipeReader _pipeReader;
 
@@ -97,6 +99,8 @@ namespace PodcastFeedReader.Readers
             var showBuilder = new StringBuilder(ShowStartString);
             showBuilder.AppendLine(">");
 
+            var inCData = false;
+
             while (true)
             {
                 var result = await _pipeReader.ReadAsync(cancellationToken);
@@ -108,9 +112,29 @@ namespace PodcastFeedReader.Readers
                     if (episodeStart == null)
                     {
                         var restOfLineString = Encoding.UTF8.GetString(line);
-                        var cleanedUpString = restOfLineString.Trim();
-                        if (cleanedUpString.Length > 0)
-                            showBuilder.AppendLine(cleanedUpString);
+                        if (!inCData)
+                        {
+                            var cleanedUpString = restOfLineString.Trim();
+                            if (cleanedUpString.Length > 0)
+                                showBuilder.AppendLine(cleanedUpString);
+                        }
+                        else
+                        {
+                            showBuilder.AppendLine(restOfLineString);
+                        }
+
+                        if (!inCData)
+                        {
+                            var foundCDataStart = SequenceExtensions.IndexOf(line, CDataStartString);
+                            if (foundCDataStart != null)
+                                inCData = true;
+                        }
+                        if (inCData)
+                        {
+                            var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);   // TODO: Add start position parameter
+                            if (foundCDataEnd != null)
+                                inCData = false;
+                        }
                     }
                     else
                     {
