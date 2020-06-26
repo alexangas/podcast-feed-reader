@@ -115,10 +115,16 @@
     <None Update="TestData\Valid\samplefeed1\samplefeed1.header.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="TestData\Valid\samplefeed1\samplefeed1.show.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\Valid\samplefeed1\samplefeed1.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed2\samplefeed2.header.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\Valid\samplefeed2\samplefeed2.show.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed2\samplefeed2.xml">
@@ -127,16 +133,25 @@
     <None Update="TestData\Valid\samplefeed3\samplefeed3.header.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="TestData\Valid\samplefeed3\samplefeed3.show.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\Valid\samplefeed3\samplefeed3.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed4\samplefeed4.header.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="TestData\Valid\samplefeed4\samplefeed4.show.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\Valid\samplefeed4\samplefeed4.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed5\samplefeed5.header.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TestData\Valid\samplefeed5\samplefeed5.show.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed5\samplefeed5.xml">
@@ -148,16 +163,19 @@
     <None Update="TestData\Valid\samplefeed7\samplefeed7.header.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="TestData\Valid\samplefeed7\samplefeed7.show.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\Valid\samplefeed7\samplefeed7.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="TestData\Valid\samplefeed8\samplefeed8.header.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="TestData\Valid\samplefeed8\samplefeed8.xml">
+    <None Update="TestData\Valid\samplefeed8\samplefeed8.show.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="TestData\Valid\samplefeed9.xml">
+    <None Update="TestData\Valid\samplefeed8\samplefeed8.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

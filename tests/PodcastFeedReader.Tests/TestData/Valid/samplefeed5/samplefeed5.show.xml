@@ -1,0 +1,17 @@
+<channel>
+<itunes:type>episodic</itunes:type>
+<language>en-ca</language>
+<title>q: The Podcast from CBC Radio</title>
+<link>http://www.cbc.ca/radio/podcasts/arts-culture/q-the-podcast/</link>
+<description>Get ready to meet the artists you&apos;re talking about, and the ones you&apos;ll soon love. Whatever you&apos;re into — be it music, TV, film, visual art, theatre or comedy — q is there. Expect deep insight, and big surprises. Because on q, arts and entertainment get personal.</description>
+<itunes:summary>Get ready to meet the artists you&apos;re talking about, and the ones you&apos;ll soon love. Whatever you&apos;re into — be it music, TV, film, visual art, theatre or comedy — q is there. Expect deep insight, and big surprises. Because on q, arts and entertainment get personal.</itunes:summary>
+<itunes:owner>
+<itunes:name>CBC</itunes:name>
+<itunes:email>podcasting@cbc.ca</itunes:email>
+</itunes:owner>
+<copyright>Copyright © CBC 2020</copyright>
+<itunes:category text="Arts" />
+<itunes:author>CBC Radio</itunes:author>
+<itunes:image href="https://www.cbc.ca/radio/podcasts/images/promo-qpodcast.jpg"/>
+<itunes:explicit>No</itunes:explicit>
+</channel>

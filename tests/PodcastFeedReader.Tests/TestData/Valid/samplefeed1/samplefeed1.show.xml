@@ -1,0 +1,27 @@
+<channel>
+<title>#JustSayin</title>
+<atom:link href="https://justsayinpodcast.wordpress.com/category/comedy/feed/" rel="self" type="application/rss+xml" />
+<link>https://justsayinpodcast.wordpress.com</link>
+<description>A Comedy Podcast</description>
+<lastBuildDate>Mon, 23 Nov 2015 21:33:36 +0000</lastBuildDate>
+<language>en</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://wordpress.com/</generator>
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://justsayinpodcast.wordpress.com/osd.xml" title="#JustSayin - The Podcast" />
+<atom:link rel='hub' href='https://justsayinpodcast.wordpress.com/?pushpress=hub'/>
+<itunes:subtitle>A Comedy Podcast</itunes:subtitle>
+<itunes:summary>#justSayin is a random comedy podcast, with Boston accents and a variety of subjects.</itunes:summary>
+<itunes:author>Ryan &amp; Tara</itunes:author>
+<copyright>Copyright 2015</copyright>
+<itunes:explicit>yes</itunes:explicit>
+<itunes:image href='http://justsayinpodcast.files.wordpress.com/2015/07/cropped-podcast-logo.jpg' />
+<itunes:keywords>Comedy, Entertainment, Boston, Massachusetts, Random</itunes:keywords>
+<itunes:category text='Comedy' />
+<itunes:category text='Arts'>
+<itunes:category text='Performing Arts' />
+</itunes:category>
+<itunes:category text='Games &amp; Hobbies'>
+<itunes:category text='Video Games' />
+</itunes:category>
+</channel>

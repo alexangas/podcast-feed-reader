@@ -1,28 +1,15 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using FakeItEasy;
 using FluentAssertions;
-using Microsoft.Extensions.Logging;
 using PodcastFeedReader.Readers;
 using Xunit;
-using Xunit.Abstractions;
 
 namespace PodcastFeedReader.Tests.Readers
 {
     public class FeedReaderTests
     {
         private const string TestDataRoot = @"TestData\";
-
-        private readonly ILogger<FeedReader> _logger;
-        private readonly ITestOutputHelper _output;
-
-        public FeedReaderTests(ITestOutputHelper output)
-        {
-            _logger = A.Fake<ILogger<FeedReader>>();
-            _output = output;
-        }
 
         [Theory]
         [InlineData(@"Valid\samplefeed1\samplefeed1.xml", @"Valid\samplefeed1\samplefeed1.header.xml")]
@@ -37,16 +24,38 @@ namespace PodcastFeedReader.Tests.Readers
             var input = File.ReadAllText($@"{TestDataRoot}{inputFilename}");
             var expected = File.ReadAllText($@"{TestDataRoot}{expectedFilename}");
 
-            StringBuilder? header;
-            FeedReader feedReader;
+            string? header;
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
+            using (var feedReader = new FeedReader(stream))
             {
-                feedReader = new FeedReader(stream, _logger);
                 header = await feedReader.ReadHeader();
             }
 
-            var headerString = header?.ToString();
-            headerString.Should().Be(expected);
+            header.Should().Be(expected);
+        }
+
+        [Theory]
+        [InlineData(@"Valid\samplefeed1\samplefeed1.xml", @"Valid\samplefeed1\samplefeed1.show.xml")]
+        [InlineData(@"Valid\samplefeed2\samplefeed2.xml", @"Valid\samplefeed2\samplefeed2.show.xml")]
+        [InlineData(@"Valid\samplefeed3\samplefeed3.xml", @"Valid\samplefeed3\samplefeed3.show.xml")]
+        [InlineData(@"Valid\samplefeed4\samplefeed4.xml", @"Valid\samplefeed4\samplefeed4.show.xml")]
+        [InlineData(@"Valid\samplefeed5\samplefeed5.xml", @"Valid\samplefeed5\samplefeed5.show.xml")]
+        [InlineData(@"Valid\samplefeed7\samplefeed7.xml", @"Valid\samplefeed7\samplefeed7.show.xml")]
+        [InlineData(@"Valid\samplefeed8\samplefeed8.xml", @"Valid\samplefeed8\samplefeed8.show.xml")]
+        public async Task ReadShow_Valid_ReturnsShow(string inputFilename, string expectedFilename)
+        {
+            var input = File.ReadAllText($@"{TestDataRoot}{inputFilename}");
+            var expected = File.ReadAllText($@"{TestDataRoot}{expectedFilename}");
+
+            string? show;
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(input)))
+            using (var feedReader = new FeedReader(stream))
+            {
+                await feedReader.ReadHeader();
+                show = await feedReader.ReadShow();
+            }
+
+            show.Should().Be(expected);
         }
 
 

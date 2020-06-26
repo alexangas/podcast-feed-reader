@@ -1,0 +1,35 @@
+<channel>
+<title>JavaScript Jabber</title>
+<description>
+<![CDATA[Weekly podcast discussion about Javascript on the front and back ends. Also discuss programming practices, coding environments, and the communities related to the technology.]]>
+</description>
+<link>http://javascriptjabber.com</link>
+<language>en</language>
+<managingEditor>Charles Max Wood (chuck@devchat.tv)</managingEditor>
+<webMaster>Charles Max Wood (chuck@devchat.tv)</webMaster>
+<copyright>2012-2014 Intentional Excellence Productions, LLC</copyright>
+<pubdate>Wed, 18 Nov 2015 09:00:00 -0700</pubdate>
+<lastBuildDate>Wed, 18 Nov 2015 11:46:34 -0500</lastBuildDate>
+<image>
+<link>http://javascriptjabber.com</link>
+<url>https://s3.amazonaws.com/devchat.tv/javascript_jabber_thumb.jpg</url>
+<title>JavaScript Jabber</title>
+</image>
+<itunes:subtitle>Your Prototype for Great Code</itunes:subtitle>
+<itunes:author>DevChat.tv</itunes:author>
+<itunes:summary>
+<![CDATA[Weekly podcast discussion about Javascript on the front and back ends. Also discuss programming practices, coding environments, and the communities related to the technology.]]>
+</itunes:summary>
+<itunes:keywords></itunes:keywords>
+<itunes:owner>
+<itunes:name>Charles Max Wood</itunes:name>
+<itunes:email>chuck@devchat.tv</itunes:email>
+</itunes:owner>
+<itunes:image href="https://s3.amazonaws.com/devchat.tv/javascript_jabber_thumb.jpg"/>
+<itunes:category text="Education">
+<itunes:category text="Training"/>
+</itunes:category>
+<itunes:category text="Technology">
+<itunes:category text="Software How-To"/>
+</itunes:category>
+</channel>
