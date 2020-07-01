@@ -12,9 +12,9 @@ namespace PodcastFeedReader.Readers
     public class FeedReader : IDisposable
     {
         private const string HeaderStartString = "<?xml";
-        private const string ShowStartString = "<channel";
+        private const string ShowStartString = "<channel>";
         private const string ShowEndString = "</channel>";
-        private const string EpisodeStartString = "<item";
+        private const string EpisodeStartString = "<item>";
         private const string CDataStartString = "<![CDATA[";
         private const string CDataEndString = "]]>";
 
@@ -55,7 +55,8 @@ namespace PodcastFeedReader.Readers
 
                             if (showStartOnHeaderStartLine != null)
                             {
-                                _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+                                var matchPosition = showStartOnHeaderStartLine.Value;
+                                _pipeReader.AdvanceTo(buffer.Start, new SequencePosition(matchPosition.GetObject(), matchPosition.GetInteger() + 1));
                                 _header = headerBuilder.ToString();
                                 return _header;
                             }
@@ -73,7 +74,7 @@ namespace PodcastFeedReader.Readers
                         }
                         else
                         {
-                            _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+                            _pipeReader.AdvanceTo(buffer.Start, showStart.Value);
                             _header = headerBuilder.ToString();
                             return _header;
                         }
@@ -96,9 +97,7 @@ namespace PodcastFeedReader.Readers
 
         public async Task<string?> ReadShow(CancellationToken cancellationToken = default)
         {
-            var showBuilder = new StringBuilder(ShowStartString);
-            showBuilder.AppendLine(">");
-
+            var showBuilder = new StringBuilder();
             var inCData = false;
 
             while (true)
@@ -138,7 +137,7 @@ namespace PodcastFeedReader.Readers
                     }
                     else
                     {
-                        _pipeReader.AdvanceTo(buffer.Start, buffer.End);
+                        _pipeReader.AdvanceTo(buffer.Start, episodeStart.Value);
                         showBuilder.AppendLine(ShowEndString);
                         var show = showBuilder.ToString();
                         return show;
