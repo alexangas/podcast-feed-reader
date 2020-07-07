@@ -168,6 +168,13 @@ namespace PodcastFeedReader.Readers
                 return true;
             }
 
+            if (buffer.Start.GetInteger() == 0)
+            {
+                line = reader.UnreadSequence;
+                reader.AdvanceToEnd();
+                return true;
+            }
+
             line = default;
             return false;
         }
