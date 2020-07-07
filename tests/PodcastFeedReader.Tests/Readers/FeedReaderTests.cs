@@ -17,6 +17,7 @@ namespace PodcastFeedReader.Tests.Readers
         [InlineData(@"Valid\samplefeed3\samplefeed3.xml", @"Valid\samplefeed3\samplefeed3.header.xml")]
         [InlineData(@"Valid\samplefeed4\samplefeed4.xml", @"Valid\samplefeed4\samplefeed4.header.xml")]
         [InlineData(@"Valid\samplefeed5\samplefeed5.xml", @"Valid\samplefeed5\samplefeed5.header.xml")]
+        [InlineData(@"Valid\samplefeed6\samplefeed6.xml", @"Valid\samplefeed6\samplefeed6.header.xml")]
         [InlineData(@"Valid\samplefeed7\samplefeed7.xml", @"Valid\samplefeed7\samplefeed7.header.xml")]
         [InlineData(@"Valid\samplefeed8\samplefeed8.xml", @"Valid\samplefeed8\samplefeed8.header.xml")]
         public async Task ReadHeader_Valid_ReturnsHeader(string inputFilename, string expectedFilename)
@@ -40,6 +41,7 @@ namespace PodcastFeedReader.Tests.Readers
         [InlineData(@"Valid\samplefeed3\samplefeed3.xml", @"Valid\samplefeed3\samplefeed3.show.xml")]
         [InlineData(@"Valid\samplefeed4\samplefeed4.xml", @"Valid\samplefeed4\samplefeed4.show.xml")]
         [InlineData(@"Valid\samplefeed5\samplefeed5.xml", @"Valid\samplefeed5\samplefeed5.show.xml")]
+        [InlineData(@"Valid\samplefeed6\samplefeed6.xml", @"Valid\samplefeed6\samplefeed6.show.xml")]
         [InlineData(@"Valid\samplefeed7\samplefeed7.xml", @"Valid\samplefeed7\samplefeed7.show.xml")]
         [InlineData(@"Valid\samplefeed8\samplefeed8.xml", @"Valid\samplefeed8\samplefeed8.show.xml")]
         public async Task ReadShow_Valid_ReturnsShow(string inputFilename, string expectedFilename)

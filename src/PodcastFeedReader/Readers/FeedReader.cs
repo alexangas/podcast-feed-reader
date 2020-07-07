@@ -36,7 +36,7 @@ namespace PodcastFeedReader.Readers
             {
                 var result = await _pipeReader.ReadAsync(cancellationToken);
                 var buffer = result.Buffer;
-                
+
                 while (TryParseLine(ref buffer, out var line))
                 {
                     if (headerBuilder.Length == 0)
@@ -45,18 +45,15 @@ namespace PodcastFeedReader.Readers
 
                         if (headerStart != null)
                         {
-                            var showStartOnHeaderStartLine = SequenceExtensions.IndexOf(line, ShowStartString);
-                            var lineLength = showStartOnHeaderStartLine == null
-                                ? line.Length - headerStart.Value.GetInteger()
-                                : (line.Length - headerStart.Value.GetInteger()) - (line.Length - showStartOnHeaderStartLine.Value.GetInteger());
-                            var restOfLineSequence = line.Slice(headerStart.Value, lineLength);
+                            var restOfLineSequence = GetLineSequence(line, headerStart.Value, ShowStartString,
+                                out var showStartOnHeaderStartLine);
                             var restOfLineString = Encoding.UTF8.GetString(restOfLineSequence);
                             headerBuilder.AppendLine(restOfLineString);
 
                             if (showStartOnHeaderStartLine != null)
                             {
                                 var matchPosition = showStartOnHeaderStartLine.Value;
-                                _pipeReader.AdvanceTo(buffer.Start, new SequencePosition(matchPosition.GetObject(), matchPosition.GetInteger() + 1));
+                                _pipeReader.AdvanceTo(matchPosition);
                                 _header = headerBuilder.ToString();
                                 return _header;
                             }
@@ -74,7 +71,7 @@ namespace PodcastFeedReader.Readers
                         }
                         else
                         {
-                            _pipeReader.AdvanceTo(buffer.Start, showStart.Value);
+                            _pipeReader.AdvanceTo(showStart.Value);
                             _header = headerBuilder.ToString();
                             return _header;
                         }
@@ -128,16 +125,18 @@ namespace PodcastFeedReader.Readers
                             if (foundCDataStart != null)
                                 inCData = true;
                         }
+
                         if (inCData)
                         {
-                            var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);   // TODO: Add start position parameter
+                            // TODO: Add start position parameter
+                            var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);
                             if (foundCDataEnd != null)
                                 inCData = false;
                         }
                     }
                     else
                     {
-                        _pipeReader.AdvanceTo(buffer.Start, episodeStart.Value);
+                        _pipeReader.AdvanceTo(episodeStart.Value);
                         showBuilder.AppendLine(ShowEndString);
                         var show = showBuilder.ToString();
                         return show;
@@ -165,7 +164,6 @@ namespace PodcastFeedReader.Readers
             {
                 reader.IsNext((byte) '\r', advancePast: true);
                 reader.IsNext((byte) '\n', advancePast: true);
-
                 buffer = buffer.Slice(reader.Position);
                 return true;
             }
@@ -175,6 +173,36 @@ namespace PodcastFeedReader.Readers
         }
 
         private static ReadOnlySpan<byte> NewLineDelimiters => new[] {(byte) '\r', (byte) '\n'};
+
+        private static ReadOnlySequence<byte> GetLineSequence(
+            ReadOnlySequence<byte> line,
+            SequencePosition startPosition,
+            string? nextStartString,
+            out SequencePosition? nextStartPosition)
+        {
+            long lineLength;
+            if (nextStartString == null)
+            {
+                nextStartPosition = null;
+                lineLength = line.Length - startPosition.GetInteger();
+            }
+            else
+            {
+                nextStartPosition = SequenceExtensions.IndexOf(line, nextStartString);
+                if (nextStartPosition == null)
+                {
+                    lineLength = line.Length - startPosition.GetInteger();
+                }
+                else
+                {
+                    lineLength = line.Length - startPosition.GetInteger() -
+                                 (line.Length - nextStartPosition.Value.GetInteger());
+                }
+            }
+
+            var restOfLineSequence = line.Slice(startPosition, lineLength);
+            return restOfLineSequence;
+        }
 
         /*
         public async Task<XDocument> GetShowXmlAsync()
