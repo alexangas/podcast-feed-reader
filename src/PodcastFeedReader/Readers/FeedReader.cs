@@ -15,6 +15,7 @@ namespace PodcastFeedReader.Readers
         private const string ShowStartString = "<channel>";
         private const string ShowEndString = "</channel>";
         private const string EpisodeStartString = "<item>";
+        private const string EpisodeEndString = "</item>";
         private const string CDataStartString = "<![CDATA[";
         private const string CDataEndString = "]]>";
 
@@ -69,13 +70,13 @@ namespace PodcastFeedReader.Readers
                             else
                             {
                                 // Line sequence from show start to show end (or end of line if show end not found)
-                                lineSequence = GetLineSequence(line, showStart.Value, ShowEndString, out _);
+                                lineSequence = GetLineSequence(line, showStart.Value, EpisodeStartString, out _);
                             }
                         }
 
                         // Add line to header if it is not blank
-                        string restOfLineString = Encoding.UTF8.GetString(lineSequence.Value);
-                        var cleanedUpString = restOfLineString.Trim();
+                        string lineString = Encoding.UTF8.GetString(lineSequence.Value);
+                        var cleanedUpString = lineString.Trim();
                         if (cleanedUpString.Length > 0)
                             headerBuilder.AppendLine(cleanedUpString);
 
@@ -115,37 +116,45 @@ namespace PodcastFeedReader.Readers
 
                 while (TryParseLine(ref buffer, out var line))
                 {
+                    ReadOnlySequence<byte>? lineSequence;
                     var episodeStart = SequenceExtensions.IndexOf(line, EpisodeStartString);
                     if (episodeStart == null)
                     {
-                        var restOfLineString = Encoding.UTF8.GetString(line);
-                        if (!inCData)
-                        {
-                            var cleanedUpString = restOfLineString.Trim();
-                            if (cleanedUpString.Length > 0)
-                                showBuilder.AppendLine(cleanedUpString);
-                        }
-                        else
-                        {
-                            showBuilder.AppendLine(restOfLineString);
-                        }
-
-                        if (!inCData)
-                        {
-                            var foundCDataStart = SequenceExtensions.IndexOf(line, CDataStartString);
-                            if (foundCDataStart != null)
-                                inCData = true;
-                        }
-
-                        if (inCData)
-                        {
-                            // TODO: Add start position parameter
-                            var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);
-                            if (foundCDataEnd != null)
-                                inCData = false;
-                        }
+                        lineSequence = line;
                     }
                     else
+                    {
+                        lineSequence = line.Slice(0, episodeStart.Value);
+                    }
+
+                    string lineString = Encoding.UTF8.GetString(lineSequence.Value);
+                    if (!inCData)
+                    {
+                        var cleanedUpString = lineString.Trim();
+                        if (cleanedUpString.Length > 0)
+                            showBuilder.AppendLine(cleanedUpString);
+                    }
+                    else
+                    {
+                        showBuilder.AppendLine(lineString);
+                    }
+
+                    if (!inCData)
+                    {
+                        var foundCDataStart = SequenceExtensions.IndexOf(line, CDataStartString);
+                        if (foundCDataStart != null)
+                            inCData = true;
+                    }
+
+                    if (inCData)
+                    {
+                        // TODO: Add start position parameter
+                        var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);
+                        if (foundCDataEnd != null)
+                            inCData = false;
+                    }
+
+                    if (episodeStart != null)
                     {
                         _pipeReader.AdvanceTo(episodeStart.Value);
                         showBuilder.AppendLine(ShowEndString);

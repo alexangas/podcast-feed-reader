@@ -7,6 +7,9 @@ namespace PodcastFeedReader.Helpers
     {
         public static SequencePosition? IndexOf(in ReadOnlySequence<byte> buffer, string str, StringComparison stringComparison = StringComparison.Ordinal)
         {
+            if (buffer.IsEmpty)
+                return null;
+
             var reader = new SequenceReader<byte>(buffer);
             var strMatchIndex = 0;
             SequencePosition? matchStartPosition = null;
