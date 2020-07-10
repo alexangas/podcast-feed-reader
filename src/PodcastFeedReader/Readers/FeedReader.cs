@@ -38,7 +38,7 @@ namespace PodcastFeedReader.Readers
                 var result = await _pipeReader.ReadAsync(cancellationToken);
                 var buffer = result.Buffer;
 
-                while (TryParseLine(ref buffer, out var line))
+                while (TryParseLine(ref buffer, headerBuilder == null, out var line))
                 {
                     ReadOnlySequence<byte>? lineSequence = null;
                     SequencePosition? showStart = null;
@@ -69,13 +69,14 @@ namespace PodcastFeedReader.Readers
                             }
                             else
                             {
-                                // Line sequence from show start to show end (or end of line if show end not found)
-                                lineSequence = GetLineSequence(line, showStart.Value, EpisodeStartString, out _);
+                                // Line sequence to show start
+                                lineSequence = line.Slice(0, showStart.Value);
                             }
                         }
 
-                        // Add line to header if it is not blank
                         string lineString = Encoding.UTF8.GetString(lineSequence.Value);
+
+                        // Add line to header if it is not blank
                         var cleanedUpString = lineString.Trim();
                         if (cleanedUpString.Length > 0)
                             headerBuilder.AppendLine(cleanedUpString);
@@ -114,28 +115,32 @@ namespace PodcastFeedReader.Readers
                 var result = await _pipeReader.ReadAsync(cancellationToken);
                 var buffer = result.Buffer;
 
-                while (TryParseLine(ref buffer, out var line))
+                while (TryParseLine(ref buffer, showBuilder.Length == 0, out var line))
                 {
                     ReadOnlySequence<byte>? lineSequence;
                     var episodeStart = SequenceExtensions.IndexOf(line, EpisodeStartString);
                     if (episodeStart == null)
                     {
+                        // Show line that does not include episode start
                         lineSequence = line;
                     }
                     else
                     {
+                        // Line sequence to episode start
                         lineSequence = line.Slice(0, episodeStart.Value);
                     }
 
                     string lineString = Encoding.UTF8.GetString(lineSequence.Value);
                     if (!inCData)
                     {
+                        // Add line to show if it is not blank
                         var cleanedUpString = lineString.Trim();
                         if (cleanedUpString.Length > 0)
                             showBuilder.AppendLine(cleanedUpString);
                     }
                     else
                     {
+                        // Add CDATA line as-is
                         showBuilder.AppendLine(lineString);
                     }
 
@@ -148,7 +153,7 @@ namespace PodcastFeedReader.Readers
 
                     if (inCData)
                     {
-                        // TODO: Add start position parameter
+                        // TODO: Add start position parameter (from CDATA start if not null?)
                         var foundCDataEnd = SequenceExtensions.IndexOf(line, CDataEndString);
                         if (foundCDataEnd != null)
                             inCData = false;
@@ -177,7 +182,7 @@ namespace PodcastFeedReader.Readers
             return null;
         }
 
-        private static bool TryParseLine(ref ReadOnlySequence<byte> buffer, out ReadOnlySequence<byte> line)
+        private static bool TryParseLine(ref ReadOnlySequence<byte> buffer, bool firstRead, out ReadOnlySequence<byte> line)
         {
             var reader = new SequenceReader<byte>(buffer);
             if (reader.TryReadToAny(out line, NewLineDelimiters, advancePastDelimiter: false))
@@ -188,7 +193,7 @@ namespace PodcastFeedReader.Readers
                 return true;
             }
 
-            if (buffer.Start.GetInteger() == 0)
+            if (firstRead)
             {
                 line = reader.UnreadSequence;
                 reader.AdvanceToEnd();
