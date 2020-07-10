@@ -30,7 +30,7 @@ namespace PodcastFeedReader.Readers
 
         public async Task<string?> ReadHeader(CancellationToken cancellationToken = default)
         {
-            var headerBuilder = new StringBuilder();
+            StringBuilder? headerBuilder = null;
 
             while (true)
             {
@@ -39,37 +39,48 @@ namespace PodcastFeedReader.Readers
 
                 while (TryParseLine(ref buffer, out var line))
                 {
-                    if (headerBuilder.Length == 0)
+                    ReadOnlySequence<byte>? lineSequence = null;
+                    SequencePosition? showStart = null;
+
+                    // Have not found header start yet
+                    if (headerBuilder == null)
                     {
                         var headerStart = SequenceExtensions.IndexOf(line, HeaderStartString);
-
                         if (headerStart != null)
                         {
-                            var restOfLineSequence = GetLineSequence(line, headerStart.Value, ShowStartString,
-                                out var showStartOnHeaderStartLine);
-                            var restOfLineString = Encoding.UTF8.GetString(restOfLineSequence);
-                            headerBuilder.AppendLine(restOfLineString);
-
-                            if (showStartOnHeaderStartLine != null)
-                            {
-                                var matchPosition = showStartOnHeaderStartLine.Value;
-                                _pipeReader.AdvanceTo(matchPosition);
-                                _header = headerBuilder.ToString();
-                                return _header;
-                            }
+                            // Line sequence from header start to show start (or end of line if show start not found)
+                            lineSequence = GetLineSequence(line, headerStart.Value, ShowStartString, out showStart);
+                            headerBuilder = new StringBuilder();
                         }
                     }
-                    else
+
+                    // Found header start
+                    if (headerBuilder != null)
                     {
-                        var showStart = SequenceExtensions.IndexOf(line, ShowStartString);
-                        if (showStart == null)
+                        // Have not already prepared a line sequence in previous block
+                        if (lineSequence == null)
                         {
-                            var restOfLineString = Encoding.UTF8.GetString(line);
-                            var cleanedUpString = restOfLineString.Trim();
-                            if (cleanedUpString.Length > 0)
-                                headerBuilder.AppendLine(cleanedUpString);
+                            showStart = SequenceExtensions.IndexOf(line, ShowStartString);
+                            if (showStart == null)
+                            {
+                                // Header line that does not include show start
+                                lineSequence = line;
+                            }
+                            else
+                            {
+                                // Line sequence from show start to show end (or end of line if show end not found)
+                                lineSequence = GetLineSequence(line, showStart.Value, ShowEndString, out _);
+                            }
                         }
-                        else
+
+                        // Add line to header if it is not blank
+                        string restOfLineString = Encoding.UTF8.GetString(lineSequence.Value);
+                        var cleanedUpString = restOfLineString.Trim();
+                        if (cleanedUpString.Length > 0)
+                            headerBuilder.AppendLine(cleanedUpString);
+
+                        // Advance pipe reader to start of show and return header we have found
+                        if (showStart != null)
                         {
                             _pipeReader.AdvanceTo(showStart.Value);
                             _header = headerBuilder.ToString();
@@ -205,6 +216,11 @@ namespace PodcastFeedReader.Readers
                     lineLength = line.Length - startPosition.GetInteger() -
                                  (line.Length - nextStartPosition.Value.GetInteger());
                 }
+            }
+
+            if (lineLength < 0)
+            {
+                return ReadOnlySequence<byte>.Empty;
             }
 
             var restOfLineSequence = line.Slice(startPosition, lineLength);
