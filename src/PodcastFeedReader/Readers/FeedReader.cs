@@ -2,6 +2,7 @@
 using System.Buffers;
 using System.IO;
 using System.IO.Pipelines;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -77,9 +78,7 @@ namespace PodcastFeedReader.Readers
                         string lineString = Encoding.UTF8.GetString(lineSequence.Value);
 
                         // Add line to header if it is not blank
-                        var cleanedUpString = lineString.Trim();
-                        if (cleanedUpString.Length > 0)
-                            headerBuilder.AppendLine(cleanedUpString);
+                        AppendCleanedString(lineString, headerBuilder);
 
                         // Advance pipe reader to start of show and return header we have found
                         if (showStart != null)
@@ -134,9 +133,7 @@ namespace PodcastFeedReader.Readers
                     if (!inCData)
                     {
                         // Add line to show if it is not blank
-                        var cleanedUpString = lineString.Trim();
-                        if (cleanedUpString.Length > 0)
-                            showBuilder.AppendLine(cleanedUpString);
+                        AppendCleanedString(lineString, showBuilder);
                     }
                     else
                     {
@@ -144,6 +141,7 @@ namespace PodcastFeedReader.Readers
                         showBuilder.AppendLine(lineString);
                     }
 
+                    // If not in CDATA, check for start of CDATA
                     if (!inCData)
                     {
                         var foundCDataStart = SequenceExtensions.IndexOf(line, CDataStartString);
@@ -151,6 +149,7 @@ namespace PodcastFeedReader.Readers
                             inCData = true;
                     }
 
+                    // If in CDATA, check for end of CDATA
                     if (inCData)
                     {
                         // TODO: Add start position parameter (from CDATA start if not null?)
@@ -239,6 +238,14 @@ namespace PodcastFeedReader.Readers
 
             var restOfLineSequence = line.Slice(startPosition, lineLength);
             return restOfLineSequence;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static void AppendCleanedString(string lineString, StringBuilder builder)
+        {
+            var cleanedUpString = lineString.Trim();
+            if (cleanedUpString.Length > 0)
+                builder.AppendLine(cleanedUpString);
         }
 
         /*
